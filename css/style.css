@@ -1971,6 +1971,39 @@ div .titIns{
     }
 }
 
+@media (max-width:350px){
+    footer div .redesSociales{
+        gap: 85px;
+        top: 20%;
+        left: 25.5%;
+    }
+    .redesSociales li a img{
+        width: 10px;
+        height: 10px;
+    }
+    .fit h2{
+        font-size: 28px;
+        width: 95%;
+    }
+    .musc h1{
+        font-size: 30px;
+        width: 85%;
+    }
+    .redesSocialesg{
+        gap: 85px;
+    }
+    .logos{
+        grid-column: 7 / 13;
+        justify-items: flex-end;
+    }
+    .logos a img{
+        width: 100%;
+    }
+    .logos a{
+        width: 84%;
+    }
+}
+
 
 
 
