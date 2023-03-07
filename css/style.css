@@ -43,6 +43,8 @@ body{
     left: 58.35%;
     top: 0%;
     align-items: center;
+    padding: 0%;
+    margin: 0%;
 }
 .navegador li a{
     text-decoration: none;
@@ -117,6 +119,11 @@ footer div .redesSociales{
     position: absolute;
 }
 
+.redesSociales{
+    padding: 0%;
+    margin: 0%;
+}
+
 .redesSociales li a img{
     display: flex;
     width: 20px;
@@ -130,6 +137,7 @@ footer .copy p{
     top: 17px;
     right: 36px;
     position: absolute;
+    margin: 0%;
 }
 
 .copy{
@@ -1670,7 +1678,6 @@ div .titIns{
 }
 
 .musc{
-    background-image: url(../assets/img/11.jpg);
     box-sizing: border-box;
     position: absolute;
     width: 95%;
@@ -1678,11 +1685,9 @@ div .titIns{
     top: 16px;
     left: 1%;
     border: 2px solid #000000;
-    background-position: 50% 50%;
-    background-size: cover;
 }
 
-.musc h1{
+.carousel-item h1{
     position: absolute;
     width: 45%;
     height: 20%;
@@ -1736,7 +1741,6 @@ div .titIns{
 }
 
 .fit{
-    background-image: url(../assets/img/12.jpg);
     box-sizing: border-box;
     position: absolute;
     width: 95%;
@@ -1744,11 +1748,9 @@ div .titIns{
     left: 2.5%;
     top: 400px;
     border: 2px solid #000000;
-    background-position: 50% 50%;
-    background-size: cover;
 }
 
-.fit h2{
+.carousel-item h2{
     position: absolute;
     width: 45%;
     height: 20%;
@@ -1802,7 +1804,6 @@ div .titIns{
 }
 
 .boxe{
-    background-image: url(../assets/img/13.jpg);
     box-sizing: border-box;
     position: absolute;
     width: 95%;
@@ -1810,11 +1811,9 @@ div .titIns{
     left: 3.5%;
     top: 785px;
     border: 2px solid #000000;
-    background-position: 50% 50%;
-    background-size: cover;
 }
 
-.boxe h2{
+.carousel-item h3{
     position: absolute;
     width: 35%;
     height: 20%;
@@ -1867,6 +1866,41 @@ div .titIns{
     }
 }
 
+#carouselExampleIndicators1{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#carouselExampleIndicators2{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#carouselExampleIndicators3{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item img{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+}
+
 @media (max-width:1253px){
     .secTres .horaUno .tithn{
         font-size: 120%;
@@ -1896,8 +1930,7 @@ div .titIns{
         top: 85%;
         left: 38%;
     }
-
-    .fit h2{
+    .carousel-item h2{
         width: 75%;
         left: 12%;
     }
@@ -1992,7 +2025,7 @@ div .titIns{
         left: 46%;
         width: 50%;
     }
-    .musc h1{
+    .carousel-item h1{
         width: 70%;
         left: 15%;
     }
@@ -2210,7 +2243,7 @@ div .titIns{
         width: 80%;
         left: 10%;
     }
-    .musc h1{
+    .carousel-item h1{
         width: 70%;
         height: 20%;
         left: 15%;
@@ -2220,7 +2253,7 @@ div .titIns{
         width: 80%;
         left: 10%;
     }
-    .fit h2{
+    .carousel-item h2{
         width: 75%;
         left: 12%;
         font-size: 200%;
@@ -2229,11 +2262,11 @@ div .titIns{
         width: 80%;
         left: 10%;
     }
-    .boxe h2{
+    .carousel-item h3{
         width: 50%;
         left: 25%;
         font-size: 200%;
-        }
+    }
 }
 
 @media (max-width:650px){
@@ -2258,13 +2291,13 @@ div .titIns{
     nav .navegador #inscribite{
         width: 22%;
     }
-    .musc h1{
+    .carousel-item h1{
         font-size: 150%;
     }
-    .fit h2{
+    .carousel-item h2{
         font-size: 150%;
     }
-    .boxe h2{
+    .carousel-item h3{
         font-size: 150%;
     }
 }
@@ -2474,7 +2507,7 @@ div .titIns{
         left: 0%;
         height: 400px;
     }
-    .musc h1{
+    .carousel-item h1{
         width: 100%;
         height: 20%;
         font-size: 250%;
@@ -2487,7 +2520,7 @@ div .titIns{
         top:400px;
         height: 400px;
     }
-    .fit h2{
+    .carousel-item h2{
         width: 100%;
         left: 0%;
         font-size: 210%;
@@ -2499,12 +2532,15 @@ div .titIns{
         top: 800px;
         height: 400px;
     }
-    .boxe h2{
+    .carousel-item h3{
         width: 100%;
         left: 0%;
         font-size: 300%;
         top: 180px;
-        }
+    }
+    .carousel-item img{
+        height: 400px;
+    }
 }
 
 @media (max-width:410px){
@@ -2538,13 +2574,13 @@ div .titIns{
     .secCuatro a .nosUno{
         font-size: 350%;
     }
-    .musc h1{
+    .carousel-item h1{
         font-size: 200%;
     }
-    .fit h2{
+    .carousel-item h2{
         font-size: 160%;
     }
-    .boxe h2{
+    .carousel-item h3{
         font-size: 250%;
     }
 }
