@@ -100,7 +100,7 @@ nav .navegador #inscribite{
     width: 100%;
     height: 46.16px;
     left: 0%;
-    top: 974.23px;
+    top: 1234.22px;
     display: flex;
     position: absolute;
     justify-content: space-between;
@@ -308,9 +308,9 @@ footer .copy p{
     background-size: cover;
     box-sizing: border-box;
     width: 27.2%;
-    height: 300px;
+    height: 350px;
     left: 36.5%;
-    top: 8%;
+    top: 2.5%;
     background-blend-mode: luminosity, normal;
     opacity: 0.8;
     border: 2px solid #000000;
@@ -322,7 +322,7 @@ footer .copy p{
     width: 45%;
     height: 35%;
     left: 25%;
-    top: 27%;
+    top: 30%;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -478,9 +478,9 @@ footer .copy p{
     text-decoration: none;
     box-sizing: border-box;
     width: 51%;
-    height: 300px;
+    height: 350px;
     left: 24.5%;
-    top: 2.5%;
+    top: 0%;
     background-blend-mode: luminosity, normal;
     opacity: 0.9;
     background-position: 50% 50%;
@@ -602,7 +602,7 @@ footer .copy p{
     box-sizing: border-box;
     position: absolute;
     width: 93%;
-    height: 300px;
+    height: 350px;
     left: 3.6%;
     top: 74.8%;
     background: url(../assets/img/09.jpg);
@@ -1660,144 +1660,42 @@ div .titIns{
     color: #000000;
 }
 
-.hero{
-    display: grid;
+.secClas{
+    position: absolute;
     width: 100%;
-    height: 1020.38px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    height: 1150px;
+    left: 0px;
+    top: 84.22px;
+    background: #50577A;
 }
-
-.headg{
-    background-image: url(../assets/img/01.jpg);
-    width: 100%;
-    height: 84.22px;
-    background-position: 50% 50%;
-    background-size: cover;
-    display: grid;
-    grid-column: 1/ 13;
-    grid-row: 1 / 2;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 84px;
-}
-
-.maing{
-    background-color: #50577A;
-    width: 100%;
-    height: 890px;
-    display: grid;
-    grid-column: 1 / 13;
-    grid-row: 2 / 12;
-}
-
-.footg{
-    background: #6B728E;
-    width: 100%;
-    height: 46.16px;
-    display: grid;
-    grid-column: 1 / 13;
-    grid-row: 12 / 13;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 50px;
-}
-
-.logos{
-    grid-column: 1 / 4;
-    grid-template-rows: 1 / 2;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-}
-
-.logos a img{
-    width: 190px;
-    height: 37.2px;
-}
-
-.navg{
-    grid-column: 8 / 13;
-    grid-template-rows: 1/ 2;
-    display: grid;
-}
-
-.navegadorg{
-    display: flex;
-    list-style: none;
-    gap: 4.4%;
-    width: 84%;
-    height: 95%;
-    justify-items: center;
-    align-items: center;
-}
-
-.navegadorg li a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 139%;
-    line-height: 100%;
-    text-align: center;
-}
-
-.navg .navegadorg #inscribiteg{
-    grid-column: 11 / 13;
-    grid-template-rows: 1/ 2;
-    display: grid;
-    width: 132px;
-    height: 41.3%;
-    justify-items: center;
-    align-items: center;
-}
-
-#inscribiteg {
-    box-sizing: border-box;
-    background: #50577A ;
-    border: 5px solid #000000;
-    border-radius: 20px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-}
-
-#inscribiteg :hover{
-    color: black;
-}
-
-.gridMain{
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 295px 300px 295px;
-    }
 
 .musc{
-    grid-column: 1 / 12;
-    grid-row: 1 / 2;
     background-image: url(../assets/img/11.jpg);
-    display: grid;
-    width: 99%;
-    height: 270px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 95%;
+    height: 350px;
+    top: 16px;
+    left: 1%;
+    border: 2px solid #000000;
     background-position: 50% 50%;
     background-size: cover;
-    border: 2px solid #000000;
-    justify-self: center;
-    align-self: center;
-    justify-items: center;
-    align-items: center;
 }
 
 .musc h1{
-    width: 327px;
-    height: 42px;
+    position: absolute;
+    width: 45%;
+    height: 20%;
+    left: 25%;
+    top: 150px;
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 300%;
+    line-height: 100%;
     letter-spacing: 0.2em;
     color: #FFFFFF;
+    text-align: center;
     -webkit-animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -1838,31 +1736,32 @@ div .titIns{
 }
 
 .fit{
-    grid-column: 1 / 13;
-    grid-row: 2 / 3;
     background-image: url(../assets/img/12.jpg);
-    display: grid;
-    width: 90%;
-    height: 280px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 95%;
+    height: 350px;
+    left: 2.5%;
+    top: 400px;
+    border: 2px solid #000000;
     background-position: 50% 50%;
     background-size: cover;
-    border: 2px solid #000000;
-    justify-self: center;
-    justify-items: center;
-    align-items: center;
-    align-self: center;
 }
 
 .fit h2{
-    width: 382px;
-    height: 42px;
+    position: absolute;
+    width: 45%;
+    height: 20%;
+    left: 28%;
+    top: 150px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 300%;
+    line-height: 100%;
     letter-spacing: 0.2em;
     color: #FFFFFF;
+    text-align: center;
     -webkit-animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -1903,31 +1802,32 @@ div .titIns{
 }
 
 .boxe{
-    grid-column: 2 / 13;
-    grid-row: 3 / 4;
     background-image: url(../assets/img/13.jpg);
-    display: grid;
-    width: 99%;
-    height: 270px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 95%;
+    height: 350px;
+    left: 3.5%;
+    top: 785px;
+    border: 2px solid #000000;
     background-position: 50% 50%;
     background-size: cover;
-    border: 2px solid #000000;
-    justify-self: center;
-    justify-items: center;
-    align-items: center;
-    align-self: center;
 }
 
 .boxe h2{
-    width: 145px;
-    height: 42px;
+    position: absolute;
+    width: 35%;
+    height: 20%;
+    left: 33%;
+    top: 150px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 300%;
+    line-height: 100%;
     letter-spacing: 0.2em;
     color: #FFFFFF;
+    text-align: center;
     -webkit-animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -1967,46 +1867,6 @@ div .titIns{
     }
 }
 
-.food{
-    grid-column: 5 / 9;
-    grid-row: 1 / 2;
-    justify-self: center;
-    align-self: center;
-}
-
-.redesSocialesg{
-    display: flex;
-    list-style: none;
-    gap: 30px;
-}
-
-.redesSocialesg li a img{
-    width: 20px;
-    height: 20px;
-    justify-items: center;
-    align-items: center;
-}
-
-.footg .copyg p{
-    width: 104px;
-    height: 18px;
-    justify-items: center;
-}
-
-.copyg{
-    grid-column: 11 / 13;
-    grid-row: 1 / 2;
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    text-align: center;
-    justify-self: center;
-    align-self: center;
-}
-
 @media (max-width:1253px){
     .secTres .horaUno .tithn{
         font-size: 120%;
@@ -2036,6 +1896,11 @@ div .titIns{
         top: 85%;
         left: 38%;
     }
+
+    .fit h2{
+        width: 75%;
+        left: 12%;
+    }
 }
 
 @media (max-width:1124px){
@@ -2050,10 +1915,6 @@ div .titIns{
     .secCuatro a .nosUno{
         width: 70%;
         left: 14%;
-    }
-    .navg{
-        grid-column: 7 / 13;
-        justify-items: center;
     }
 }
 
@@ -2124,10 +1985,6 @@ div .titIns{
         top: 80%;
         left: 38%;
     }
-    .navg{
-        grid-column: 7 / 13;
-        justify-items: flex-start;
-    }
 }
 
 @media (max-width:950px){
@@ -2135,9 +1992,9 @@ div .titIns{
         left: 46%;
         width: 50%;
     }
-    .navg{
-        grid-column: 6 / 13;
-        justify-items: center;
+    .musc h1{
+        width: 70%;
+        left: 15%;
     }
 }
 
@@ -2163,15 +2020,6 @@ div .titIns{
     }
     .secTres .horaDos a .tith{
         left: 14%;
-    }
-    .navg{
-        grid-column: 6 / 13;
-        justify-items: flex-start;
-    }
-    .logos{
-        grid-column: 1 / 5;
-        justify-items: center;
-    
     }
 }
 
@@ -2212,10 +2060,6 @@ div .titIns{
     .secTres .horaDos a .tith{
         left: 14%;
     }
-    .navg{
-        grid-column: 5 / 13;
-        justify-self: center;
-    }
 }
 
 @media (max-width:768px){
@@ -2246,24 +2090,24 @@ div .titIns{
         top: 30%;
     }
     #mainUno{
-        height: 940px;
+        height: 1320px;
         left: 0px;
         top: 60px;
     }
     .secUno{
         width: 97%;
-        height: 180px;
+        height: 300px;
         left: 1.4%;
         top: 2.5%;
     }
     .secUno .secImguno a img{
         width: 58%;
-        height: 55%;
+        height: 30%;
         left: 21%;
-        top: 22%;
+        top: 35%;
         }
     .secUno .secTit h1{
-        font-size: 80%;
+        font-size: 100%;
         line-height: 100%;
         width: 35%;
         height: 15%;
@@ -2272,41 +2116,42 @@ div .titIns{
     }
     .secDos{
         width: 100%;
-        height: 220px;
+        height: 300px;
         left: 0px;
-        top: 23%;
+        top: 28%;
     }
     .secDos .clasUno{
-        height: 150px;
+        height: 250px;
     }
     .secDos .clasDos{
-        height: 180px;
+        height: 300px;
+        top: 0%;
     }
     .secDos .clasDos a .titc{
         width: 60%;
         height: 30%;
         left: 20%;
-        top: 35%;
+        top: 40%;
         font-size: 190%;
         line-height: 200%;
     }
     .secDos .clasTres{
-        height: 150px;
+        height: 250px;
     }
     .secTres{
         width: 100%;
-        height: 220px;
+        height: 250px;
         left: 0px;
-        top: 47.5%;
+        top: 53%;
     }
     .secTres .horaUno{
         display: none;
     }
     .secTres .horaDos{
         width: 90%;
-        height: 200px;
+        height: 250px;
         left: 5%;
-        top: 2.5%;
+        top: 0%;
     }
     .secTres .horaDos a .tith{
         width: 25%;
@@ -2321,9 +2166,9 @@ div .titIns{
     }
     .secCuatro{
         width: 95%;
-        height: 220px;
+        height: 300px;
         left: 2.5%;
-        top: 73%;
+        top: 75%;
     }
     .secCuatro a .nosUno{
         width: 25%;
@@ -2335,7 +2180,7 @@ div .titIns{
     }
     #footUno{
         height: 30px;
-        top: 997px;
+        top: 1376px;
     }
     footer div .redesSociales{
         gap: 25px;
@@ -2352,95 +2197,57 @@ div .titIns{
         font-size: 10px;
         line-height: 15px;
     }
-    .hero{
-        height: 1030px;
-    }
-    .headg{
-        height: 60px;
-        grid-column: 1/ 13;
-        grid-row: 1 / 2;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: 60px;
-    }
-    .maing{
-        height: 940px;
-    }
-    .footg{
-        height: 30px;
-        grid-template-rows: 30px;
-    }
-    .logos{
-        grid-column: 1 / 4;
-    }
-    .logos a img{
-        width: 138px;
-        height: 20px;
-    }
-    .navg{
-        grid-column: 4 / 11;
-        justify-self: flex-start;
-    }
-    .navegadorg{
-        align-items: center;
-        width: 145%;
-        height: 60px;
-        gap: 7.2%;
-    }
-    .navegadorg li a{
-        font-size: 95%;
-    }
-    .navg .navegadorg #inscribiteg{
-        grid-column: none;
-        width: 21%;
+    .footerr{
+        top: 1210px;
         height: 30px;
     }
-    #inscribiteg {
-        border: 2.5px solid #000000;
+    .secClas{
+        height: 1150px;
+        left: 0px;
+        top: 60px;
     }
-    .gridMain{
-        grid-template-rows: 310px 320px 310px;
-        }
     .musc{
-        grid-column: 2 / 13;
+        width: 80%;
+        left: 10%;
+    }
+    .musc h1{
+        width: 70%;
+        height: 20%;
+        left: 15%;
+        font-size: 200%;
+    }
+    .fit{
+        width: 80%;
+        left: 10%;
+    }
+    .fit h2{
+        width: 75%;
+        left: 12%;
+        font-size: 200%;
     }
     .boxe{
-        grid-column: 1 / 12;
+        width: 80%;
+        left: 10%;
+    }
+    .boxe h2{
+        width: 50%;
+        left: 25%;
+        font-size: 200%;
         }
-    .food{
-        grid-column: 6 / 8;
-    }
-    .redesSocialesg{
-        gap: 5px;
-    }
-    .footg .copyg p{
-        width: 90px;
-    }
-    .copyg{
-        justify-self: flex-start;
-        font-size: 10px;
-        line-height: 15px;
-    }
 }
 
 @media (max-width:650px){
     .navegador{
         gap: 5%;
     }
+    .secUno .secImguno a img{
+        height: 26%;
+        }
+    .secUno .secTit h1{
+        font-size: 110%;
+    }
     .secDos .clasDos a .titc{
         left: 14.5%;
-    }
-    .logos a img{
-        width: 117px;
-    }
-    .navg{
-        grid-column: 4 / 11;
-        justify-self: flex-start;
-    }
-    .navegadorg{
-        align-items: center;
-        width: 145%;
-        height: 60px;
-        gap: 4.6%;
     }
 }
 
@@ -2451,21 +2258,14 @@ div .titIns{
     nav .navegador #inscribite{
         width: 22%;
     }
-    .logos{
-        grid-column: 1 / 4;
+    .musc h1{
+        font-size: 150%;
     }
-    .logos a img{
-        width: 108px;
+    .fit h2{
+        font-size: 150%;
     }
-    .navg{
-        grid-column: 4 / 11;
-        justify-self: flex-start;
-    }
-    .navegadorg{
-        align-items: center;
-        width: 145%;
-        height: 60px;
-        gap: 3.4%;
+    .boxe h2{
+        font-size: 150%;
     }
 }
 
@@ -2477,33 +2277,11 @@ div .titIns{
     nav .navegador #inscribite{
         width: 22%;
     }
-    .secUno .secImguno a img{
-        width: 50%;
-        height: 40%;
-        left: 25%;
-        top: 30%;
-    }
     .secUno .secTit h1{
-        font-size: 60%;
-        line-height: 100%;
-        width: 30%;
-        height: 15%;
-        top: 75%;
-        left: 35%;
-        }
+        font-size: 105%;
+    }
     .secDos .clasDos a .titc{
         left: 10%;
-    }
-    .copyg{
-        grid-column: 10 / 13;
-        justify-self: center;
-    }
-    .logos a img{
-        width: 100.8px;
-    }
-    .navegadorg{
-        gap: 2.5%;
-        width: 125%;
     }
 }
 
@@ -2523,10 +2301,12 @@ div .titIns{
         left: 26.5%;
     }
     .secUno .secImguno a img{
-        height: 35%;
+        height: 25%;
     }
     .secUno .secTit h1{
-        top: 70%;
+        top: 80%;
+        font-size: 90%;
+        width: 40%;
         }
     .secCuatro a .nosUno{
         width: 45%;
@@ -2535,19 +2315,15 @@ div .titIns{
     footer .copy p{
         left: 78%;
     }
-    .navegadorg{
-        gap: 2.5%;
-        width: 115%;
-    }
 }
 
 @media (max-width:425px){
     .headerr{
-        height: 30px;
+        height: 60px;
     }
     .navegador{
         width: 65%;
-        height: 30px;
+        height: 60px;
         left: 1%;
         gap: 3%;
     }
@@ -2568,44 +2344,44 @@ div .titIns{
         width: 35%;
         height: 28px;
         left: 65%;
-        top: 0%;
+        top: 15px;
     }
     #mainUno{
-        height: 580px;
+        height: 1350px;
         left: 0px;
-        top: 30px;
+        top: 60px;
     }
     .secUno{
         width: 100%;
-        height: 130px;
+        height: 300px;
         left: 0px;
         top: 0px;
     }
     .secUno .secImguno a img{
-        width: 58%;
-        height: 55%;
-        left: 21%;
-        top: 22%;
+        width: 95%;
+        height: 25%;
+        left: 2.5%;
+        top: 32%;
         }
     .secUno .secTit h1{
-        font-size: 85%;
+        font-size: 120%;
         line-height: 100%;
-        width: 40%;
+        width: 60%;
         height: 15%;
         top: 80%;
-        left: 30%;
+        left: 20%;
     }
     .secDos{
         width: 100%;
-        height: 150px;
+        height: 350px;
         left: 0px;
-        top: 130px;
+        top: 300px;
     }
     .secDos .clasUno{
         display: none;
     }
     .secDos .clasDos{
-        height: 150px;
+        height: 350px;
         width: 100%;
         top: 0px;
         left: 0px;
@@ -2614,7 +2390,7 @@ div .titIns{
         width: 100%;
         height: 50%;
         left: 0%;
-        top: 12%;
+        top: 35%;
         font-size: 600%;
         line-height: 100%;
     }
@@ -2623,16 +2399,16 @@ div .titIns{
     }
     .secTres{
         width: 100%;
-        height: 150px;
+        height: 350px;
         left: 0px;
-        top: 280px;
+        top: 650px;
     }
     .secTres .horaUno{
         display: none;
     }
     .secTres .horaDos{
         width: 100%;
-        height: 150px;
+        height: 350px;
         left: 0%;
         top: 0%;
     }
@@ -2640,7 +2416,7 @@ div .titIns{
         width: 100%;
         height: 50%;
         left: 0%;
-        top: 25%;
+        top: 40%;
         font-size: 450%;
         line-height: 100%;
     }
@@ -2649,21 +2425,21 @@ div .titIns{
     }
     .secCuatro{
         width: 100%;
-        height: 150px;
+        height: 350px;
         left: 0%;
-        top: 430px;
+        top: 1000px;
     }
     .secCuatro a .nosUno{
         width: 100%;
         height: 50%;
         left: 0%;
-        top: 25%;
+        top: 42%;
         font-size: 450%;
         line-height: 100%;
     }
     #footUno{
         height: 20px;
-        top: 610px;
+        top: 1410px;
     }
     footer div .redesSociales{
         gap: 100px;
@@ -2684,102 +2460,63 @@ div .titIns{
         font-size: 5px;
         line-height: 10px;
     }
-    .hero{
-        height: 630px;
-    }
-    .headg{
-        height: 30px;
-        grid-column: 1/ 13;
-        grid-row: 1 / 2;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: 0px;
-    }
-    .maing{
-        height: 580px;
-    }
-    .footg{
+    .footerr{
+        top: 1260px;
         height: 20px;
-        grid-template-rows: 20px;
     }
-    .logos{
-        grid-column: 7 / 13;
-        justify-self: flex-end;
+    .secClas{
+        height: 1200px;
+        top: 60px;
     }
-    .logos a img{
-        width: 96.5%;
-        height: 28px;
-    }
-    .navg{
-        grid-column: 1 / 7;
-        justify-self: center;
-        align-self: flex-start;
-    }
-    .navegadorg{
-        align-items: center;
-        width: 120%;
-        height: 30px;
-        gap: 3%;
-    }
-    .navegadorg li a{
-        font-size: 70%;
-        line-height: 50%;
-    }
-    .navg .navegadorg #inscribiteg{
-        grid-column: none;
-        width: 20%;
-        height: 15px;
-    }
-    #inscribiteg {
-        border: 1.5px solid #000000;
-        border-radius: 10px;
-    }
-    .gridMain{
-        grid-template-rows: 190px 200px 190px;
-        }
     .musc{
-        grid-column: 1 / 13;
         width: 100%;
-        height: 190px;
+        top: 0%;
+        left: 0%;
+        height: 400px;
+    }
+    .musc h1{
+        width: 100%;
+        height: 20%;
+        font-size: 250%;
+        left: 0%;
+        top: 180px;
     }
     .fit{
-        grid-column: 1 / 13;
         width: 100%;
-        height: 200px;
+        left: 0%;
+        top:400px;
+        height: 400px;
+    }
+    .fit h2{
+        width: 100%;
+        left: 0%;
+        font-size: 210%;
+        top: 180px;
     }
     .boxe{
-        grid-column: 1 / 13;
         width: 100%;
-        height: 190px;
+        left: 0%;
+        top: 800px;
+        height: 400px;
+    }
+    .boxe h2{
+        width: 100%;
+        left: 0%;
+        font-size: 300%;
+        top: 180px;
         }
-    .food{
-        grid-column: 6 / 8;
-    }
-    .redesSocialesg{
-        gap: 100px;
-    }
-    .redesSocialesg li a img{
-        width: 10px;
-        height: 10px;
-    }
-    .footg .copyg p{
-        width: 64px;
-        height: 10px;
-    }
-    .copyg{
-        grid-column: 11 / 13;
-        font-size: 5px;
-        line-height: 10px;
-    }
 }
 
 @media (max-width:410px){
-    .navg{
-        grid-column: 1 / 8;
-        justify-self: center;
-    }
-    .fit h2{
-        font-size: 32px;
-        width: 98%;
+    .secUno .secImguno a img{
+        width: 90%;
+        height: 18%;
+        left: 4.5%;
+        top: 40%;
+        }
+    .secUno .secTit h1{
+        font-size: 100%;
+        top: 75%;
     }
 }
 
@@ -2792,16 +2529,6 @@ div .titIns{
         font-size: 60%;
         line-height: 100%;
     }
-    .secUno .secTit h1{
-        font-size: 75%;
-        width: 45%;
-        left: 28%;
-        top: 75%;
-    }
-    .secUno .secImguno a img{
-        height: 40%;
-        top: 30%;
-    }
     .secDos .clasDos a .titc{
         font-size: 500%;
     }
@@ -2811,15 +2538,14 @@ div .titIns{
     .secCuatro a .nosUno{
         font-size: 350%;
     }
-    .navg{
-        grid-column: 1 / 3;
-        justify-self: center;
-        gap: 2%;
-        width: 80%;
+    .musc h1{
+        font-size: 200%;
     }
-    .navegadorg li a{
-        font-size: 60%;
-        line-height: 100%;
+    .fit h2{
+        font-size: 160%;
+    }
+    .boxe h2{
+        font-size: 250%;
     }
 }
 
@@ -2832,27 +2558,6 @@ div .titIns{
     .redesSociales li a img{
         width: 10px;
         height: 10px;
-    }
-    .fit h2{
-        font-size: 28px;
-        width: 95%;
-    }
-    .musc h1{
-        font-size: 30px;
-        width: 85%;
-    }
-    .redesSocialesg{
-        gap: 85px;
-    }
-    .logos{
-        grid-column: 7 / 13;
-        justify-items: flex-end;
-    }
-    .logos a img{
-        width: 100%;
-    }
-    .logos a{
-        width: 84%;
     }
 }
 
