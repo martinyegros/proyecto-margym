@@ -1324,9 +1324,9 @@ div .titIns{
     box-sizing: border-box;
     position: absolute;
     width: 100%;
-    height: 420px;
+    height: 500px;
     left: 0px;
-    top: 84.23px;
+    top: 84.22px;
     border: 2px solid #000000;
     background-position: 50% 50%;
     background-size: cover;
@@ -1334,17 +1334,18 @@ div .titIns{
 
 .secNosu h1{
     position: absolute;
-    width: 15%;
+    width: 100%;
     height: 10%;
-    left: 45%;
+    left: 0%;
     top: 12%;
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 190%;
+    font-size: 200%;
     line-height: 150%;
     letter-spacing: 0.2em;
     color: #FFFFFF;
+    text-align: center;
     -webkit-animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
@@ -1385,8 +1386,8 @@ div .titIns{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 120%;
+    line-height: 200%;
     text-align: center;
     letter-spacing: 0.2em;
     color: #FFFFFF;
@@ -1424,9 +1425,9 @@ div .titIns{
     box-sizing: border-box;
     position: absolute;
     width: 100%;
-    height: 470px;
+    height: 650px;
     left: 0px;
-    top: 504.23px;
+    top: 584.22px;
     border: 2px solid #000000;
     background-position: 50% 50%;
     background-size: cover;
@@ -1434,9 +1435,9 @@ div .titIns{
 
 .secNosd h2{
     position: absolute;
-    width: 32%;
-    height: 10%;
-    left: 40%;
+    width: 100%;
+    height: 7%;
+    left: 0%;
     top: 5%;
     font-family: 'Roboto',sans-serif;
     font-style: normal;
@@ -1445,6 +1446,7 @@ div .titIns{
     line-height: 150%;
     letter-spacing: 0.2em;
     color: #FFFFFF;
+    text-align: center;
     -webkit-animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
@@ -1681,30 +1683,30 @@ div .titIns{
 
 .parUno{
     position: absolute;
-    width: 20%;
+    width: 15%;
     height: 5%;
     left: 80%;
-    top: 90%;
+    top: 92%;
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 120%;
     line-height: 100%;
-    color: #000000;
+    color: black;
 }
 
 .parDos{
     position: absolute;
-    width: 24%;
+    width: 23%;
     height: 5%;
     left: 76%;
-    top: 94%;
+    top: 96%;
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 120%;
     line-height: 100%;
-    color: #000000;
+    color: black;
 }
 
 .secClas{
@@ -1973,6 +1975,16 @@ div .titIns{
         width: 75%;
         left: 12%;
     }
+    .parUno{
+        font-size: 100%;
+
+    }
+    .parDos{
+        font-size: 100%;
+    }
+    .secNosu p{
+        font-size: 110%;
+    }
 }
 
 @media (max-width:1124px){
@@ -1990,6 +2002,13 @@ div .titIns{
     }
     .envIns{
         height: 4%;
+    }
+    .secNosu p{
+        font-size: 100%;
+        top: 35%;
+    }
+    .envNos{
+        height: 7.5%;
     }
 }
 
@@ -2022,12 +2041,33 @@ div .titIns{
         left: 15%;
         width: 65%;
     }
+    .secNosu p{
+        font-size: 90%;
+        top: 35%;
+        width:65%;
+        left: 17.5%;
+    }
 }
 
 @media (max-width:1024px){
     .navegador{
         left: 50%;
         width: 48%;
+    }
+    .secNosd h2{
+        top: 12%;
+    }
+    .formNos{
+        width: 50%;
+        height: 55%;
+        left: 4%;
+        top: 30%;
+    }
+    .youtNos{
+        width: 38%;
+        height: 55%;
+        right: 4%;
+        top: 30%;
     }
 }
 
@@ -2060,6 +2100,12 @@ div .titIns{
         height: 15%;
         top: 80%;
         left: 38%;
+    }
+    .parUno{
+        font-size: 85%;
+    }
+    .parDos{
+        font-size: 85%;
     }
 }
 
@@ -2096,6 +2142,9 @@ div .titIns{
     .envIns{
         height: 3.5%;
     }
+    .envNos{
+        height: 6%;
+    }
 }
 
 @media (max-width:885px){
@@ -2120,6 +2169,27 @@ div .titIns{
     }
     .secTres .horaDos a .tith{
         left: 14%;
+    }
+    .parUno{
+        font-size: 75%;
+    }
+    .parDos{
+        font-size: 75%;
+    }
+    .secNosd h2{
+        top: 15%;
+    }
+    .formNos{
+        width: 45%;
+        height: 48%;
+        left: 7%;
+        top: 35%;
+    }
+    .youtNos{
+        width: 33%;
+        height: 48%;
+        right: 7%;
+        top: 35%;
     }
 }
 
@@ -2386,6 +2456,7 @@ div .titIns{
         }
     }
     #titHor{
+        font-size: 300%;
         color: #000000;
     }
     .tabHor{
@@ -2533,6 +2604,64 @@ div .titIns{
         top: 95%;
         font-size: 15px;
     }
+    .secNosu{
+        top: 60px;
+        height: 400px;
+    }
+    .secNosu h1{
+        font-size: 150%;
+    }
+    .secNosu p{
+        width: 60%;
+        height: 55%;
+        left: 20%;
+        font-size: 75%;
+    }
+    .secNosd{
+        top: 460px;
+        height: 750px;
+    }
+    .secNosd h2{
+        font-size: 150%;
+        top: 4%;
+        height: 4%;
+    }
+    .formNos{
+        top: 12%;
+        width: 75%;
+        height: 40%;
+        left: 12.5%;
+    }
+    .envNos{
+        top: 55%;
+        left: 45.5%;
+        height: 3%;
+        -webkit-animation: none;
+	    animation: none;
+        font-size: 100%;
+    }
+    .youtNos{
+        width: 60%;
+        height: 30%;
+        top: 60%;
+        left: 20.5%;
+    }
+    .parUno{
+        text-align: center;
+        width: 100%;
+        top: 92%;
+        left: 0%;
+        height: 2%;
+        font-size: 100%;
+    }
+    .parDos{
+        text-align: center;
+        width: 100%;
+        left: 0%;
+        top: 96%;
+        height: 2%;
+        font-size: 100%;
+    }
 }
 
 @media (max-width:650px){
@@ -2577,6 +2706,9 @@ div .titIns{
     .envIns{
         font-size: 15px;
     }
+    .secNosu p{
+        font-size: 65%;
+    }
 }
 
 @media (max-width:600px){
@@ -2598,6 +2730,15 @@ div .titIns{
     .tabHor{
         left: 6.5%;
     }
+    .envNos{
+        font-size: 80%;
+    }
+    .parUno{
+        font-size: 80%;
+    }
+    .parDos{
+        font-size: 80%;
+    }
 }
 
 @media (max-width:560px){
@@ -2616,6 +2757,9 @@ div .titIns{
     }
     .tabHor{
         left: 6%;
+    }
+    .secNosu p{
+        font-size: 60%;
     }
 }
 
@@ -2759,8 +2903,8 @@ div .titIns{
         width: 100%;
         height: 50%;
         left: 0%;
-        top: 35%;
-        font-size: 600%;
+        top: 42%;
+        font-size: 300%;
         line-height: 100%;
     }
     .secDos .clasTres{
@@ -2785,8 +2929,8 @@ div .titIns{
         width: 100%;
         height: 50%;
         left: 0%;
-        top: 40%;
-        font-size: 450%;
+        top: 42%;
+        font-size: 300%;
         line-height: 100%;
     }
     .secTres .horaTres{
@@ -2803,7 +2947,7 @@ div .titIns{
         height: 50%;
         left: 0%;
         top: 42%;
-        font-size: 450%;
+        font-size: 300%;
         line-height: 100%;
     }
     #footUno{
@@ -2846,7 +2990,7 @@ div .titIns{
     .carousel-item h1{
         width: 100%;
         height: 20%;
-        font-size: 250%;
+        font-size: 150%;
         left: 0%;
         top: 180px;
     }
@@ -2859,7 +3003,7 @@ div .titIns{
     .carousel-item h2{
         width: 100%;
         left: 0%;
-        font-size: 210%;
+        font-size: 150%;
         top: 180px;
     }
     .boxe{
@@ -2871,7 +3015,7 @@ div .titIns{
     .carousel-item h3{
         width: 100%;
         left: 0%;
-        font-size: 300%;
+        font-size: 150%;
         top: 180px;
     }
     .carousel-item img{
@@ -2893,7 +3037,7 @@ div .titIns{
         color: white;
         width: 100%;
         left: 0%;
-        font-size: 350%;
+        font-size: 180%;
     }
     .tabHor{
         width: 90%;
@@ -2943,7 +3087,7 @@ div .titIns{
         height: 1200px;
     }
     div .titIns{
-        font-size: 300%;
+        font-size: 130%;
         letter-spacing: 0.25em;
         color: white;
         top: 2.5%;
@@ -2957,7 +3101,7 @@ div .titIns{
     }
     .card{
         margin: 7px;
-        left: 20%;
+        left: 18%;
         width: 60%;
         height: 200px;
         -webkit-animation: heartbeat 2s ease-in-out infinite both;
@@ -3070,6 +3214,120 @@ div .titIns{
         top: 96.8%;
         font-size: 65%;
     }
+    .secNosu{
+        height: 400px;
+    }
+    .secNosu h1{
+        font-size: 120%;
+    }
+    .secNosu p{
+        top: 26%;
+        font-size: 65%;
+    }
+    .secNosd{
+        top: 460px;
+        height: 800px;
+    }
+    .secNosd h2{
+        font-size: 120%;
+        top: 6%;
+        height: 4%;
+    }
+    .youtNos{
+        width: 90%;
+        height: 40%;
+        top: 15%;
+        left: 5%;
+    }
+    .formNos{
+        top: 58%;
+        width: 90%;
+        height: 30%;
+        left: 5%;
+    }
+    .envNos{
+        top: 90%;
+        left: 45.5%;
+        height: 2%;
+        font-size: 60%;
+        line-height: 50%;
+        -webkit-animation: shake-bottom 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	    animation: shake-bottom 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    }
+    @-webkit-keyframes shake-bottom {
+        0%,
+        100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        }
+        10% {
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg);
+        }
+        20%,
+        40%,
+        60% {
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg);
+        }
+        30%,
+        50%,
+        70% {
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg);
+        }
+        80% {
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+        }
+        90% {
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg);
+        }
+    }
+    @keyframes shake-bottom {
+        0%,
+        100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        }
+        10% {
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg);
+        }
+        20%,
+        40%,
+        60% {
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg);
+        }
+        30%,
+        50%,
+        70% {
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg);
+        }
+        80% {
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+        }
+        90% {
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg);
+        }
+    }
+    .parUno{
+        top: 94%;
+        font-size: 70%;
+    }
+    .parDos{
+        top: 96%;
+        font-size: 70%;
+    }
 }
 
 @media (max-width:410px){
@@ -3083,6 +3341,12 @@ div .titIns{
         font-size: 100%;
         top: 75%;
     }
+    .parUno{
+        font-size: 65%;
+    }
+    .parDos{
+        font-size: 65%;
+    }
 }
 
 @media (max-width:375px){
@@ -3095,25 +3359,28 @@ div .titIns{
         line-height: 100%;
     }
     .secDos .clasDos a .titc{
-        font-size: 500%;
+        font-size: 250%;
+        top: 44%;
     }
     .secTres .horaDos a .tith{
-        font-size: 350%;
+        font-size: 250%;
+        top: 44%;
     }
     .secCuatro a .nosUno{
-        font-size: 350%;
-    }
-    .carousel-item h1{
-        font-size: 200%;
-    }
-    .carousel-item h2{
-        font-size: 160%;
-    }
-    .carousel-item h3{
         font-size: 250%;
+        top: 44%;
     }
-    #titHor{
-        font-size: 325%;
+    .secNosu p{
+        font-size: 60%;
+    }
+    .envNos{
+        font-size: 45%;
+    }
+    .parUno{
+        font-size: 60%;
+    }
+    .parDos{
+        font-size: 60%;
     }
 }
 
@@ -3127,19 +3394,19 @@ div .titIns{
         width: 10px;
         height: 10px;
     }
-    #titHor{
-        font-size: 300%;
-    }
     .tabHor{
         width: 40%;
         left: 1%;
     }
-    div .titIns{
-        font-size: 250%;
-    }
     .envIns{
         font-size: 10px;
         height: 1.5%;
+    }
+    .parUno{
+        font-size: 50%;
+    }
+    .parDos{
+        font-size: 50%;
     }
 }
 
