@@ -1,0 +1,76 @@
+@media (max-width:810px){
+    .headerr{
+        nav{
+            .navegador{
+                left: 38%;
+                width: 50%;
+            }
+        }
+    }
+    #mainUno{
+        .secUno{
+            .secTit{
+                h1{
+                    font-size: 82%;
+                    line-height: 100%;
+                    width: 25%;
+                    height: 15%;
+                    top: 75%;
+                }
+            }
+            .secImguno{
+                a{
+                    img{
+                        height: 35%;
+                        top: 32%;
+                    }
+                }
+            }
+        }
+        .secDos{
+            .clasDos{
+                a{
+                    .titc{
+                        left: 10%;
+                    }
+                }
+            }
+        }
+        .secTres{
+            .horaUno{
+                @include positionl(15%,45%,3%,42%);
+            }
+            .horaDos{
+                a{
+                    .tith{
+                        left: 14%;
+                    }
+                }
+            }
+            .horaTres{
+                @include positionr(14%,45%,4%,42%);
+            }
+        }
+    }
+    .secHor{
+        .tabHor{
+            left: 8%;
+        }
+    }
+    .secIns{
+        .card-container{
+            .card{
+                .listIns{
+                    font-size: 90%;
+                }
+            }
+        }
+        div{
+            form{
+                .envIns{
+                    height: 3%;
+                }
+            }
+        }
+    }
+}

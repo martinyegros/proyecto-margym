@@ -1,0 +1,41 @@
+@mixin positionl($wid,$hei,$lef,$top){
+    position: absolute;
+    width: $wid;
+    height: $hei;
+    left: $lef;
+    top: $top;
+}
+
+@mixin positionr($wid,$hei,$rig,$top){
+    position: absolute;
+    width: $wid;
+    height: $hei;
+    right: $rig;
+    top: $top;
+}
+
+@mixin back($pos,$size){
+    background-position: $pos;
+    background-size: $size;
+}
+
+@mixin gap($gap,$list){
+    display: flex;
+    gap: $gap;
+    list-style: $list;
+}
+
+@mixin textst($fst,$fw,$fsz,$lh,$txa,$col){
+    font-style: $fst;
+    font-weight: $fw;
+    font-size: $fsz;
+    line-height: $lh;
+    text-align: $txa;
+    color: $col;
+}
+
+@mixin box($bord,$borr){
+    box-sizing: border-box;
+    border: $bord;
+    border-radius: $borr;
+}

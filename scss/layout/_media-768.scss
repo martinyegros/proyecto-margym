@@ -1,0 +1,409 @@
+@media (max-width:768px){
+    .headerr{
+        height: 60px;
+        nav{
+            .navegador{
+                @include positionl(55%,60px,25%,0px);
+                gap: 6.9%;
+                li{
+                    a{
+                        font-size: 95%;
+                        line-height: 100%;
+                    }
+                }
+                #inscribite{
+                    height: 30px;
+                    width: 20%;
+                    border: 2.5px solid #000000;
+                }
+            }
+        }
+        .logo{
+            a{
+                img{
+                    @include positionl(18%,20px,3.5%,30%);
+                }
+            }
+        }
+    }
+    #mainUno{
+        @include positionl(100%,1320px,0px,60px);
+        .secUno{
+            @include positionl(97%,300px,1.4%,2.5%);
+            .secImguno{
+                a{
+                    img{
+                        @include positionl(58%,30%,21%,35%);
+                    }
+                }
+            }
+            .secTit{
+                h1{
+                    font-size: 100%;
+                    line-height: 100%;
+                    @include positionl(35%,15%,32.5%,80%);
+                }
+            }
+        }
+        .secDos{
+            @include positionl(100%,300px,0px,28%);
+            .clasUno{
+                height: 250px;
+            }
+            .clasDos{
+                height: 300px;
+                top: 0%;
+                a{
+                    .titc{
+                        @include positionl(60%,30%,20%,40%);
+                        font-size: 190%;
+                        line-height: 200%;
+                    }
+                }
+            }
+            .clasTres{
+                height: 250px;
+            }
+        }
+        .secTres{
+            @include positionl(100%,250px,0px,53%);
+            .horaUno{
+                display: none;
+            }
+            .horaDos{
+                @include positionl(90%,250px,5%,0%);
+                a{
+                    .tith{
+                        @include positionl(25%,30%,37%,35%);
+                        font-size: 190%;
+                        line-height: 200%;
+                    }
+                }
+            }
+            .horaTres{
+                display: none;
+            }
+        }
+        .secCuatro{
+            @include positionl(95%,300px,2.5%,75%);
+            a{
+                .nosUno{
+                    @include positionl(25%,30%,36%,35%);
+                    font-size: 190%;
+                    line-height: 200%;
+                }
+            }
+        }
+    }
+    #footUno{
+        height: 30px;
+        top: 1376px;
+    }
+    .footerr{
+        top: 1210px;
+        height: 30px;
+    }
+    footer{
+        div{
+            .redesSociales{
+                gap: 25px;
+                top: 15%;
+                left: 45.5%;
+            }
+        }
+        .copy{
+            font-size: 10px;
+            line-height: 15px;
+            p{
+                @include positionl(90px,18px,83.3%,15%);
+            }
+        }
+    }
+    main{
+        .secClas{
+            @include positionl(100%,1150px,0px,60px);
+            .musc{
+                width: 80%;
+                left: 10%;
+                #carouselExampleIndicators1{
+                    .carousel-inner{
+                        .carousel-item{
+                            h1{
+                                width: 70%;
+                                height: 20%;
+                                left: 15%;
+                                font-size: 200%;
+                            }
+                        }
+                    }
+                }
+            }
+            .fit{
+                width: 80%;
+                left: 10%;
+                #carouselExampleIndicators2{
+                    .carousel-inner{
+                        .carousel-item{
+                            h2{
+                                width: 75%;
+                                left: 12%;
+                                font-size: 200%;
+                            }
+                        }
+                    }
+                }
+            }
+            .boxe{
+                width: 80%;
+                left: 10%;
+                #carouselExampleIndicators3{
+                    .carousel-inner{
+                        .carousel-item{
+                            h3{
+                                width: 50%;
+                                left: 25%;
+                                font-size: 200%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .secHor{
+        background-image: none;
+        top: 60px;
+        background-position: none;
+        background-size: none;
+        -webkit-animation: color-change-5x 5s linear infinite alternate both;
+	    animation: color-change-5x 5s linear infinite alternate both;
+        @-webkit-keyframes color-change-5x {
+            0% {
+                background: #404258;
+            }
+            25% {
+                background: #474E68;
+            }
+            50% {
+                background: #50577A;
+            }
+            75% {
+                background: #6B728E;
+            }
+            100% {
+                background-color: white;
+            }
+        }
+        @keyframes color-change-5x {
+            0% {
+                background: #404258;
+            }
+            25% {
+                background: #474E68;
+            }
+            50% {
+                background: #50577A;
+            }
+            75% {
+                background: #6B728E;
+            }
+            100% {
+                background-color: white;
+            }
+        }
+        #titHor{
+            font-size: 300%;
+            color: #000000;
+        }
+        .tabHor{
+            @include positionl(85%,75%,7.5%,18%);
+            background: white;
+            border-radius: 10px;
+            font-size: 75%;
+            letter-spacing: 0.1em;
+            color: #404258;
+            text-align: center;
+            -webkit-animation: none;
+            animation:none
+        }
+    }
+    .secIns{
+        top: 60px;
+        height: 1150px;
+        div{
+            .titIns{
+                font-size: 200%;
+                letter-spacing: 0.25em;
+                color: white;
+            }
+        }
+        .card-container{
+            position: absolute;
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            top: 12%;
+            .card{
+                width: 25%;
+                height: 200px;
+                border-radius: 30px;
+                -webkit-animation: color-change-3x 5s linear infinite alternate both;
+                animation: color-change-3x 5s linear infinite alternate both;
+                @-webkit-keyframes color-change-3x {
+                    0% {
+                        background: #404258;
+                    }
+                    50% {
+                        background: #50577A;
+                    }
+                    100% {
+                        background: #6B728E;
+                    }
+                }
+                @keyframes color-change-3x {
+                    0% {
+                        background: #404258;
+                    }
+                    50% {
+                        background: #50577A;
+                    }
+                    100% {
+                        background: #6B728E;
+                    }
+                }
+                h2{
+                    font-size: 120%;
+                }
+                h3{
+                    top: 32%;
+                    font-size: 100%;
+                }
+                .precio{
+                    top: 17%;
+                    font-size: 200%;
+                }
+                .listIns{
+                    top: 43%;
+                    font-size: 84%;
+                    p{
+                        button{
+                            padding: 2.5px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        div{
+            form{
+                .cuadroDos{
+                    @include positionl(80%,28%,10%,33%);
+                    border-radius: 30px;
+                    -webkit-animation: color-change-3x 5s linear infinite alternate both;
+	                animation: color-change-3x 5s linear infinite alternate both;
+                    @-webkit-keyframes color-change-3x {
+                        0% {
+                            background: #404258;
+                        }
+                        50% {
+                            background: #50577A;
+                        }
+                        100% {
+                            background: #6B728E;
+                        }
+                    }
+                    @keyframes color-change-3x {
+                        0% {
+                            background: #404258;
+                        }
+                        50% {
+                            background: #50577A;
+                        }
+                        100% {
+                            background: #6B728E;
+                        }
+                    }
+                }
+                .cuadroTres{
+                    @include positionl(80%,28%,10%,65%);
+                    border-radius: 30px;
+                    -webkit-animation: color-change-3x 5s linear infinite alternate both;
+                    animation: color-change-3x 5s linear infinite alternate both;
+                    @-webkit-keyframes color-change-3x {
+                        0% {
+                            background: #404258;
+                        }
+                        50% {
+                            background: #50577A;
+                        }
+                        100% {
+                            background: #6B728E;
+                        }
+                    }
+                    @keyframes color-change-3x {
+                        0% {
+                            background: #404258;
+                        }
+                        50% {
+                            background: #50577A;
+                        }
+                        100% {
+                            background: #6B728E;
+                        }
+                    }
+                }
+                .envIns{
+                    height: 2.5%;
+                    top: 95%;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    main{
+        .secNosu{
+            top: 60px;
+            height: 400px;
+            h1{
+                font-size: 150%;
+            }
+            p{
+                @include positionl(60%,55%,20%,30%);
+                font-size: 75%;
+            }
+        }
+        .secNosd{
+            top: 460px;
+            height: 750px;
+            h2{
+                font-size: 150%;
+                top: 4%;
+                height: 4%;
+            }
+            form{
+                .formNos{
+                    @include positionl(75%,40%,12.5%,12%);
+                }
+                .envNos{
+                    @include positionl(9%,3%,45.5%,55%);
+                    -webkit-animation: none;
+                    animation: none;
+                    font-size: 100%;
+                }
+            }
+            .youtNos{
+                @include positionl(60%,30%,20.5%,60%);
+            }
+            .parUno{
+                text-align: center;
+                font-size: 100%;
+                @include positionl(100%,2%,0%,92%);
+            }
+            .parDos{
+                text-align: center;
+                font-size: 100%;
+                @include positionl(100%,2%,0%,96%);
+            }
+        }
+    }
+}

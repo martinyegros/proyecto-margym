@@ -1,0 +1,490 @@
+@media (max-width:425px){
+    .headerr{
+        height: 60px;
+    }
+    .headerr{
+        nav{
+            .navegador{
+                @include positionl(65%,60px,1%,0px);
+                gap: 3%;
+                li{
+                    a{
+                        display: list-item;
+                        font-size: 70%;
+                        line-height: 100%;
+                    }
+                }
+                #inscribite{
+                    height: 13px;
+                    width: 20%;
+                    border: 1.5px solid #000000;
+                    border-radius: 10px;
+                    font-size: 94%;
+                }
+            }
+        }
+        .logo{
+            a{
+                img{
+                    @include positionl(35%,28px,65%,15px);
+                }
+            }
+        }
+    }
+    #mainUno{
+        @include positionl(100%,1350px,0px,60px);
+        .secUno{
+            @include positionl(100%,300px,0px,0px);
+            .secImguno{
+                a{
+                    img{
+                        @include positionl(95%,25%,2.5%,32%);
+                    }
+                }
+            }
+            .secTit{
+                h1{
+                    font-size: 120%;
+                    line-height: 100%;
+                    @include positionl(60%,15%,20%,80%);
+                }
+            }
+        }
+        .secDos{
+            @include positionl(100%,350px,0px,300px);
+            .clasUno{
+                display: none;
+            }
+            .clasDos{
+                @include positionl(100%,350px,0px,0px);
+                a{
+                    .titc{
+                        @include positionl(100%,50%,0%,42%);
+                        font-size: 300%;
+                        line-height: 100%;
+                    }
+                }
+            }
+            .clasTres{
+                display: none;
+            }
+        }
+        .secTres{
+            @include positionl(100%,350px,0px,650px);
+            .horaUno{
+                display: none;
+            }
+            .horaDos{
+                @include positionl(100%,350px,0%,0%);
+                a{
+                    .tith{
+                        @include positionl(100%,50%,0%,42%);
+                        font-size: 300%;
+                        line-height: 100%;
+                    }
+                }
+            }
+            .horaTres{
+                display: none;
+            }
+        }
+        .secCuatro{
+            @include positionl(100%,350px,0%,1000px);
+            a{
+                .nosUno{
+                    @include positionl(100%,50%,0%,42%);
+                    font-size: 300%;
+                    line-height: 100%;
+                }
+            }
+        }
+    }
+    #footUno{
+        height: 20px;
+        top: 1410px;
+    }
+    .footerr{
+        top: 1260px;
+        height: 20px;
+    }
+    footer{
+        div{
+            .redesSociales{
+                gap: 100px;
+                top: 20%;
+                left: 25.5%;
+                li{
+                    a{
+                        img{
+                            width: 10px;
+                            height: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        .copy{
+            font-size: 5px;
+            line-height: 10px;
+            p{
+                @include positionl(15%,35%,85%,20%);
+            }
+        }
+    }
+    main{
+        .secClas{
+            height: 1200px;
+            top: 60px;
+            .musc{
+                @include positionl(100%,400px,0%,0%);
+                #carouselExampleIndicators1{
+                    .carousel-inner{
+                        .carousel-item{
+                            img{
+                                height: 400px;
+                            }
+                            h1{
+                                @include positionl(100%,20%,0%,180px);
+                                font-size: 150%;
+                            }
+                        }
+                    }
+                }
+            }
+            .fit{
+                @include positionl(100%,400px,0%,400px);
+                #carouselExampleIndicators2{
+                    .carousel-inner{
+                        .carousel-item{
+                            img{
+                                height: 400px;
+                            }
+                            h2{
+                                @include positionl(100%,20%,0%,180px);
+                                font-size: 150%;
+                            }
+                        }
+                    }
+                }
+            }
+            .boxe{
+                @include positionl(100%,400px,0%,800px);
+                #carouselExampleIndicators3{
+                    .carousel-inner{
+                        .carousel-item{
+                            img{
+                                height: 400px;
+                            }
+                            h3{
+                                @include positionl(100%,20%,0%,180px);
+                                font-size: 150%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .secHor{
+        @include positionl(100%,1200px,0px,60px);
+        background-image: none;
+        -webkit-animation: none;
+	    animation: none;
+        background-image: url(../assets/img/14.jpg);
+        background-position: 50% 50%;
+        background-size: cover;
+        #titHor{
+            color: white;
+            width: 100%;
+            left: 0%;
+            font-size: 180%;
+        }
+        .tabHor{
+            width: 90%;
+            left: 5%;
+            font-size: 50%;
+            line-height: 100%;
+            letter-spacing: none;
+            color: black;
+            -webkit-animation: color-change-5x 5s linear infinite alternate both;
+            animation: color-change-5x 5s linear infinite alternate both;
+            @-webkit-keyframes color-change-5x {
+                0% {
+                    background: #404258;
+                }
+                25% {
+                    background: #474E68;
+                }
+                50% {
+                    background: #50577A;
+                }
+                75% {
+                    background: #6B728E;
+                }
+                100% {
+                    background-color: white;
+                }
+            }
+            @keyframes color-change-5x {
+                0% {
+                    background: #404258;
+                }
+                25% {
+                    background: #474E68;
+                }
+                50% {
+                    background: #50577A;
+                }
+                75% {
+                    background: #6B728E;
+                }
+                100% {
+                    background-color: white;
+                }
+            }
+        }
+    }
+    .secIns{
+        height: 1200px;
+        div{
+            .titIns{
+                font-size: 130%;
+                letter-spacing: 0.25em;
+                color: white;
+                top: 3.5%;
+            }
+        }
+        .card-container{
+            display: inline;
+            width: 100%;
+            height: 630px;
+            top: 6.2%;
+            left: 0%;
+            .card{
+                margin: 7px;
+                left: 18%;
+                width: 60%;
+                height: 200px;
+                -webkit-animation: heartbeat 2s ease-in-out infinite both;
+                animation: heartbeat 2s ease-in-out infinite both;
+                @-webkit-keyframes heartbeat {
+                    from {
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                    -webkit-transform-origin: center center;
+                    transform-origin: center center;
+                    -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+                    }
+                    10% {
+                    -webkit-transform: scale(0.91);
+                    transform: scale(0.91);
+                    -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+                    }
+                    17% {
+                    -webkit-transform: scale(0.98);
+                    transform: scale(0.98);
+                    -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+                    }
+                    33% {
+                    -webkit-transform: scale(0.87);
+                    transform: scale(0.87);
+                    -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+                    }
+                    45% {
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                    -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+                    }
+                }
+                @keyframes heartbeat {
+                    from {
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                    -webkit-transform-origin: center center;
+                    transform-origin: center center;
+                    -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+                    }
+                    10% {
+                    -webkit-transform: scale(0.91);
+                    transform: scale(0.91);
+                    -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+                    }
+                    17% {
+                    -webkit-transform: scale(0.98);
+                    transform: scale(0.98);
+                    -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+                    }
+                    33% {
+                    -webkit-transform: scale(0.87);
+                    transform: scale(0.87);
+                    -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+                    }
+                    45% {
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                    -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+                    }
+                }
+                h2{
+                    font-size: 120%;
+                    top: 8%;
+                }
+                h3{
+                    top: 34%;
+                    font-size: 100%;
+                }
+                .precio{
+                    top: 19%;
+                    font-size: 200%;
+                }
+                .listIns{
+                    top: 42%;
+                    font-size: 84%;
+                    p{
+                        button{
+                            padding: 2.5px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        div{
+            form{
+                .cuadroDos{
+                    @include positionl(90%,18%,5%,59%);
+                    border-radius: 30px;
+                }
+                .cuadroTres{
+                    @include positionl(90%,18%,5%,78%)
+                }
+                .envIns{
+                    width: 12%;
+                    height: 1.5%;
+                    top: 96.8%;
+                    font-size: 65%;
+                }
+            }
+        }
+    }
+    main{
+        .secNosu{
+            height: 400px;
+            h1{
+                font-size: 120%;
+            }
+            p{
+                top: 26%;
+                font-size: 65%;
+            }
+        }
+        .secNosd{
+            top: 460px;
+            height: 800px;
+            h2{
+                font-size: 120%;
+                top: 6%;
+                height: 4%;
+            }
+            form{
+                .formNos{
+                    @include positionl(90%,30%,5%,58%);
+                }
+                .envNos{
+                    @include positionl(9%,2%,45.5%,90%);
+                    font-size: 60%;
+                    line-height: 50%;
+                    -webkit-animation: shake-bottom 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+                    animation: shake-bottom 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+                    @-webkit-keyframes shake-bottom {
+                        0%,
+                        100% {
+                        -webkit-transform: rotate(0deg);
+                        transform: rotate(0deg);
+                        -webkit-transform-origin: 50% 100%;
+                        transform-origin: 50% 100%;
+                        }
+                        10% {
+                        -webkit-transform: rotate(2deg);
+                        transform: rotate(2deg);
+                        }
+                        20%,
+                        40%,
+                        60% {
+                        -webkit-transform: rotate(-4deg);
+                        transform: rotate(-4deg);
+                        }
+                        30%,
+                        50%,
+                        70% {
+                        -webkit-transform: rotate(4deg);
+                        transform: rotate(4deg);
+                        }
+                        80% {
+                        -webkit-transform: rotate(-2deg);
+                        transform: rotate(-2deg);
+                        }
+                        90% {
+                        -webkit-transform: rotate(2deg);
+                        transform: rotate(2deg);
+                        }
+                    }
+                    @keyframes shake-bottom {
+                        0%,
+                        100% {
+                        -webkit-transform: rotate(0deg);
+                        transform: rotate(0deg);
+                        -webkit-transform-origin: 50% 100%;
+                        transform-origin: 50% 100%;
+                        }
+                        10% {
+                        -webkit-transform: rotate(2deg);
+                        transform: rotate(2deg);
+                        }
+                        20%,
+                        40%,
+                        60% {
+                        -webkit-transform: rotate(-4deg);
+                        transform: rotate(-4deg);
+                        }
+                        30%,
+                        50%,
+                        70% {
+                        -webkit-transform: rotate(4deg);
+                        transform: rotate(4deg);
+                        }
+                        80% {
+                        -webkit-transform: rotate(-2deg);
+                        transform: rotate(-2deg);
+                        }
+                        90% {
+                        -webkit-transform: rotate(2deg);
+                        transform: rotate(2deg);
+                        }
+                    }
+                }
+            }
+            .youtNos{
+                @include positionl(90%,40%,5%,15%);
+            }
+            .parUno{
+                top: 94%;
+                font-size: 70%;
+            }
+            .parDos{
+                top: 96%;
+                font-size: 70%;
+            }
+        }
+    }
+}

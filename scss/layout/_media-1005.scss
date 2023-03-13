@@ -1,0 +1,47 @@
+@media (max-width:1005px){
+    #mainUno{
+        .secUno{
+            .secTit{
+                h1{
+                    font-size: 95%;
+                    line-height: 100%;
+                    @include positionl(25%,15%,38%,80%);
+                }
+            }
+            .secImguno{
+                a{
+                    img{
+                        @include positionl(48%,40%,26%,30%);
+                    }
+                }
+            }
+        }
+        .secDos{
+            .clasDos{
+                a{
+                    .titc{
+                        left: 15%;
+                    }
+                }
+            }
+        }
+        .secTres{
+            .horaUno{
+                @include positionl(14%,45%,5%,30%);
+            }
+            .horaTres{
+                @include positionr(12%,45%,6%,30%);
+            }
+        }
+    }
+    main{
+        .secNosd{
+            .parUno{
+                font-size: 85%;
+            }
+            .parDos{
+                font-size: 85%;
+            }
+        }
+    }
+}

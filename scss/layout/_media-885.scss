@@ -1,0 +1,48 @@
+@media (max-width:885px){
+    .headerr{
+        nav{
+            .navegador{
+                left: 41%;
+                width: 45%;
+            }
+        }
+    }
+    #mainUno{
+        .secTres{
+            .horaUno{
+                @include positionl(15%,45%,3%,32%);
+            }
+            .horaTres{
+                @include positionr(13%,45%,4%,32%);
+            }
+            .horaDos{
+                a{
+                    .tith{
+                        left: 14%;
+                    }
+                }
+            }
+        }
+    }
+    main{
+        .secNosd{
+            h2{
+                top: 15%;
+            }
+            form{
+                .formNos{
+                    @include positionl(45%,48%,7%,35%);
+                }
+            }
+            .youtNos{
+                @include positionr(33%,48%,7%,35%);
+            }
+            .parUno{
+                font-size: 75%;
+            }
+            .parDos{
+                font-size: 75%;
+            }
+        }
+    }
+}

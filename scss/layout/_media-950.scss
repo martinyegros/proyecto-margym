@@ -1,0 +1,75 @@
+@media (max-width:950px){
+    .headerr{
+        nav{
+            .navegador{
+                left: 46%;
+                width: 50%;
+            }
+        }
+    }
+    main{
+        .secClas{
+            .musc{
+                #carouselExampleIndicators1{
+                    .carousel-inner{
+                        .carousel-item{
+                            h1{
+                                width: 70%;
+                                left: 15%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .secHor{
+        .tabHor{
+            font-size: 95%;
+        }
+    }
+    .secIns{
+        .card-container{
+            .card{
+                h2{
+                    font-size: 150%;
+                }
+                h3{
+                    font-size: 100%;
+                }
+                .precio{
+                    font-size: 230%;
+                }
+                .listIns{
+                    font-size: 100%;
+                }
+            }
+        }
+        div{
+            form{
+                .cuadroDos{
+                    .titInfo{
+                        font-size: 180%;
+                    }
+                }
+                .cuadroTres{
+                    .titPago{
+                        font-size: 180%;
+                    }
+                }
+                .envIns{
+                    height: 3.5%;
+                }
+            }
+        }
+    }
+    main{
+        .secNosd{
+            form{
+                .envNos{
+                    height: 6%;
+                }
+            }
+        }
+    }
+}

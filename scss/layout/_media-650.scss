@@ -1,0 +1,82 @@
+@media (max-width:650px){
+    .headerr{
+        nav{
+            .navegador{
+                gap: 5%;
+            }
+        }
+    }
+    #mainUno{
+        .secUno{
+            .secImguno{
+                a{
+                    img{
+                        height: 26%;
+                    }
+                }
+            }
+            .secTit{
+                h1{
+                    font-size: 110%;
+                }
+            }
+        }
+        .secDos{
+            .clasDos{
+                a{
+                    .titc{
+                        left: 14.5%;
+                    }
+                }
+            }
+        }
+    }
+    .secHor{
+        .tabHor{
+            left: 7%;
+        }
+    }
+    .secIns{
+        .card-container{
+            .card{
+                height: 165px;
+                h2{
+                    font-size: 100%;
+                }
+                h3{
+                    top: 35%;
+                    font-size: 80%;
+                }
+                .precio{
+                    top: 17%;
+                    font-size: 180%;
+                }
+                .listIns{
+                    top: 43%;
+                    font-size: 64%;
+                    p{
+                        button{
+                            padding: 2px;
+                            font-size: 12px;
+                            width: 40%;
+                        }
+                    }
+                }
+            }
+        }
+        div{
+            form{
+                .envIns{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    main{
+        .secNosu{
+            p{
+                font-size: 65%;
+            }
+        }
+    }
+}

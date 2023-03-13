@@ -1,42 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 /*colores
 #404258
 #474E68
 #50577A
 #6B728E*/
+body {
+  position: relative; }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    position: relative;
-}
-
-.headerr{
-    background-image: url(../assets/img/01.jpg);
-    width: 100%;
-    height: 84.23px;
-    left: 0%;
-    top: 0%;
-    background-position: 50% 50%;
-    background-size: cover;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+.headerr {
+  background-image: url(../assets/img/01.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 84.22px;
+  left: 0%;
+  top: 0%;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+  .headerr .logo a img {
     position: absolute;
-}
-
-.navegador{
+    width: 13.195%;
+    height: 37.19px;
+    left: 5%;
+    top: 25%; }
+  .headerr nav .navegador {
     display: flex;
-    list-style: none;
     gap: 5%;
+    list-style: none;
     position: absolute;
     width: 35%;
     height: 79.8px;
@@ -44,570 +44,461 @@ body{
     top: 0%;
     align-items: center;
     padding: 0%;
-    margin: 0%;
-}
-.navegador li a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 139%;
-    line-height: 100%;
-    text-align: center;
-}
+    margin: 0%; }
+    .headerr nav .navegador li a {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 139%;
+      line-height: 100%;
+      text-align: center;
+      color: white;
+      font-family: "Roboto", sans-serif;
+      text-decoration: none; }
+    .headerr nav .navegador #inscribite {
+      width: 25%;
+      height: 32.96px;
+      box-sizing: border-box;
+      border: 5px solid black;
+      border-radius: 20px;
+      background: #50577A;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      font-style: normal; }
+      .headerr nav .navegador #inscribite :hover {
+        color: black; }
 
-.logo a img{
-    position: absolute;
-    width: 13.195%;
-    height: 37.19px;
-    left: 5%;
-    top: 25%;
-}
+#footUno {
+  position: absolute;
+  width: 100%;
+  height: 46.16px;
+  left: 0%;
+  top: 1580px;
+  display: flex;
+  background: #6B728E;
+  justify-content: space-between; }
 
-nav .navegador #inscribite{
-    width: 25%;
-    height: 32.96px;
-}
+.footerr {
+  position: absolute;
+  width: 100%;
+  height: 46.16px;
+  left: 0%;
+  top: 1234.22px;
+  display: flex;
+  background: #6B728E;
+  justify-content: space-between; }
 
-#inscribite {
-    box-sizing: border-box;
-    background: #50577A ;
-    border: 5px solid #000000;
-    border-radius: 20px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-}
-
-#inscribite :hover{
-    color: black;
-}
-
-#footUno{
-    display: flex;
-    background: #6B728E;
-    width: 100%;
-    height: 46.16px;
-    left: 0%;
-    top: 1580px;
-    display: flex;
-    position: absolute;
-    justify-content: space-between;
-}
-
-.footerr{
-    display: flex;
-    background: #6B728E;
-    width: 100%;
-    height: 46.16px;
-    left: 0%;
-    top: 1234.22px;
-    display: flex;
-    position: absolute;
-    justify-content: space-between;
-}
-
-footer div .redesSociales{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
-    gap: 50px;
-    top: 30%;
-    left: 45.2%;
-    position: absolute;
-}
-
-.redesSociales{
-    padding: 0%;
-    margin: 0%;
-}
-
-.redesSociales li a img{
+footer div .redesSociales {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  top: 30%;
+  left: 45.2%;
+  position: absolute;
+  padding: 0%;
+  margin: 0%; }
+  footer div .redesSociales li a img {
     display: flex;
     width: 20px;
     height: 20px;
-    position: absolute;
-}
+    position: absolute; }
 
-footer .copy p{
+footer .copy {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: black;
+  font-family: "Poppins", sans-serif; }
+  footer .copy p {
+    position: absolute;
     width: 104px;
     height: 18px;
-    top: 17px;
     right: 36px;
-    position: absolute;
-    margin: 0%;
-}
+    top: 17px;
+    margin: 0%; }
 
-.copy{
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    text-align: center;
-}
-
-#mainUno{
-    background-image: url(../assets/img/Fondo.png);
-    position: absolute;
-    width: 100%;
-    height: 1500px;
-    left: 0px;
-    top: 84.22px;
-    background-position: 50% 50%;
-    background-size: cover;
-}
-
-.secUno{
+#mainUno {
+  background-image: url(../assets/img/Fondo.png);
+  position: absolute;
+  width: 100%;
+  height: 1500px;
+  left: 0px;
+  top: 84.22px;
+  background-position: 50% 50%;
+  background-size: cover; }
+  #mainUno .secUno {
     box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: none;
     background-image: url(../assets/img/02.jpg);
     position: absolute;
     width: 97%;
     height: 280px;
     left: 1.4%;
     top: 0.5%;
+    display: flex;
     background-position: 50% 50%;
-    background-size: cover;
-    border: 2px solid #000000;
-    display: flex;
-}
-
-.secUno .secImguno a img{
-    width: 58%;
-    height: 55%;
-    left: 21%;
-    top: 22%;
-    position: absolute;
-    opacity: none;
-    display: flex;
-}
-
-.secImguno a img{
-    -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-}
+    background-size: cover; }
+    #mainUno .secUno .secImguno a img {
+      position: absolute;
+      width: 58%;
+      height: 55%;
+      left: 21%;
+      top: 22%;
+      opacity: none;
+      display: flex;
+      -webkit-animation: text-focus-in 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+      animation: text-focus-in 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
 
 @-webkit-keyframes text-focus-in {
-    0% {
+  0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
-    opacity: 0;
-    }
-    100% {
+    opacity: 0; }
+  100% {
     -webkit-filter: blur(0px);
     filter: blur(0px);
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
+
 @keyframes text-focus-in {
-    0% {
+  0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
-    opacity: 0;
-    }
-    100% {
+    opacity: 0; }
+  100% {
     -webkit-filter: blur(0px);
     filter: blur(0px);
-    opacity: 1;
-    }
-}
-
-.secUno .secTit h1{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 125%;
-    line-height: 100%;
-    color: white;
-    text-align: center;
-    position: absolute;
-    width: 25%;
-    height: 10%;
-    left: 37.5%;
-    top: 85%;
-}
-
-.secTit h1{
-    -webkit-animation: focus-in-expand 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: focus-in-expand 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
+    opacity: 1; } }
+    #mainUno .secUno .secTit h1 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 125%;
+      line-height: 100%;
+      text-align: center;
+      color: white;
+      font-family: "Poppins", sans-serif;
+      position: absolute;
+      width: 25%;
+      height: 10%;
+      left: 37.5%;
+      top: 85%;
+      -webkit-animation: focus-in-expand 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      animation: focus-in-expand 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
 @-webkit-keyframes focus-in-expand {
-    0% {
+  0% {
     letter-spacing: -0.5em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
-    opacity: 0;
-    }
-    100% {
+    opacity: 0; }
+  100% {
     -webkit-filter: blur(0px);
     filter: blur(0px);
-    opacity: 1;
-    }
-}
-@keyframes focus-in-expand {
-    0% {
-    letter-spacing: -0.5em;
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0;
-    }
-    100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
 
-.secDos{
-    display: flex;
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1; } }
+  #mainUno .secDos {
     position: absolute;
     width: 100%;
     height: 363px;
     left: 0px;
     top: 21.4%;
-}
-
-.secDos .clasUno{
-    background-image: url(../assets/img/03.jpg);
-    box-sizing: border-box;
-    position: absolute;
-    width: 27.2%;
-    height: 300px;
-    left: 0%;
-    top: 14%;
-    border: 2px solid #000000;
-    background-blend-mode: luminosity, normal;
-    opacity: 0.75;
-    background-position: 50% 50%;
-    background-size: cover;
-    -webkit-animation: slide-right 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: slide-right 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
+    display: flex; }
+    #mainUno .secDos .clasUno {
+      background-image: url(../assets/img/03.jpg);
+      box-sizing: border-box;
+      border: 2px solid black;
+      border-radius: none;
+      position: absolute;
+      width: 27.2%;
+      height: 300px;
+      left: 0%;
+      top: 14%;
+      background-blend-mode: luminosity, normal;
+      opacity: 0.75;
+      background-position: 50% 50%;
+      background-size: cover;
+      -webkit-animation: slide-right 6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      animation: slide-right 6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
 @-webkit-keyframes slide-right {
-    0% {
+  0% {
     -webkit-transform: translateX(0);
-    transform: translateX(0);
-    }
-    100% {
+    transform: translateX(0); }
+  100% {
     -webkit-transform: translateX(40px);
-    transform: translateX(40px);
-    }
-}
+    transform: translateX(40px); } }
+
 @keyframes slide-right {
-    0% {
+  0% {
     -webkit-transform: translateX(0);
-    transform: translateX(0);
-    }
-    100% {
+    transform: translateX(0); }
+  100% {
     -webkit-transform: translateX(40px);
-    transform: translateX(40px);
-    }
-}
-
-.secDos .clasDos{
-    background-image: url(../assets/img/04.jpg);
-    text-decoration: none;
-    background-position: 50% 50%;
-    background-size: cover;
-    box-sizing: border-box;
-    width: 27.2%;
-    height: 350px;
-    left: 36.5%;
-    top: 2.5%;
-    background-blend-mode: luminosity, normal;
-    opacity: 0.8;
-    border: 2px solid #000000;
-    position: absolute;
-}
-
-.secDos .clasDos a .titc{
-    position: absolute;
-    width: 45%;
-    height: 35%;
-    left: 25%;
-    top: 30%;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 290%;
-    line-height: 300%;
-    text-align: center;
-    color: white;
-    -webkit-animation: tracking-in-expand-fwd 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	animation: tracking-in-expand-fwd 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
+    transform: translateX(40px); } }
+    #mainUno .secDos .clasDos {
+      background-image: url(../assets/img/04.jpg);
+      background-position: 50% 50%;
+      background-size: cover;
+      text-decoration: none;
+      box-sizing: border-box;
+      border: 2px solid black;
+      border-radius: none;
+      position: absolute;
+      width: 27.2%;
+      height: 350px;
+      left: 36.5%;
+      top: 2.5%;
+      background-blend-mode: luminosity, normal;
+      opacity: 0.8; }
+      #mainUno .secDos .clasDos a .titc {
+        position: absolute;
+        width: 45%;
+        height: 35%;
+        left: 25%;
+        top: 30%;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 290%;
+        line-height: 300%;
+        text-align: center;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        -webkit-animation: tracking-in-expand-fwd 4s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+        animation: tracking-in-expand-fwd 4s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
 
 @-webkit-keyframes tracking-in-expand-fwd {
-    0% {
+  0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-700px);
     transform: translateZ(-700px);
-    opacity: 0;
-    }
-    40% {
-    opacity: 0.6;
-    }
-    100% {
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    opacity: 1;
-    }
-}
-@keyframes tracking-in-expand-fwd {
-    0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-700px);
-    transform: translateZ(-700px);
-    opacity: 0;
-    }
-    40% {
-    opacity: 0.6;
-    }
-    100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
 
-.secDos .clasTres{
-    background-image: url(../assets/img/05.jpg);
-    background-position: 50% 50%;
-    background-size: cover;
-    box-sizing: border-box;
-    width: 27.2%;
-    height: 300px;
-    right: 0px;
-    top: 14%;
-    background-blend-mode: luminosity, normal;
-    opacity: 0.75;
-    border: 2px solid #000000;
-    position: absolute;
-    -webkit-animation: slide-left 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: slide-left 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1; } }
+    #mainUno .secDos .clasTres {
+      background-image: url(../assets/img/05.jpg);
+      background-position: 50% 50%;
+      background-size: cover;
+      box-sizing: border-box;
+      border: 2px solid black;
+      border-radius: none;
+      position: absolute;
+      width: 27.2%;
+      height: 300px;
+      left: 72.8%;
+      top: 14%;
+      background-blend-mode: luminosity, normal;
+      opacity: 0.75;
+      -webkit-animation: slide-left 6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      animation: slide-left 6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
 @-webkit-keyframes slide-left {
-    0% {
+  0% {
     -webkit-transform: translateX(0);
-    transform: translateX(0);
-    }
-    100% {
+    transform: translateX(0); }
+  100% {
     -webkit-transform: translateX(-40px);
-    transform: translateX(-40px);
-    }
-}
-@keyframes slide-left {
-    0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    }
-    100% {
-    -webkit-transform: translateX(-40px);
-    transform: translateX(-40px);
-    }
-}
+    transform: translateX(-40px); } }
 
-.secTres{
-    display: flex;
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  100% {
+    -webkit-transform: translateX(-40px);
+    transform: translateX(-40px); } }
+  #mainUno .secTres {
     position: absolute;
     width: 100%;
     height: 350px;
     left: 0px;
     top: 48.5%;
-}
-
-.secTres .horaUno{
-    background-image: url(../assets/img/06.png);
-    border-radius: 50%;
-    width: 24%;
-    height: 90%;
-    left: 0%;
-    top: 0%;
-    background-blend-mode: luminosity, normal;
-    background-position: 50% 50%;
-    background-size: cover;
-    position: absolute;
-    -webkit-animation: pulsate-bck 0.5s ease-in-out infinite both;
-	animation: pulsate-bck 0.5s ease-in-out infinite both;
-}
+    display: flex; }
+    #mainUno .secTres .horaUno {
+      background-image: url(../assets/img/06.png);
+      border-radius: 50%;
+      position: absolute;
+      width: 24%;
+      height: 90%;
+      left: 0%;
+      top: 0%;
+      background-blend-mode: luminosity, normal;
+      background-position: 50% 50%;
+      background-size: cover;
+      -webkit-animation: pulsate-bck 0.5s ease-in-out infinite both;
+      animation: pulsate-bck 0.5s ease-in-out infinite both; }
 
 @-webkit-keyframes pulsate-bck {
-    0% {
+  0% {
     -webkit-transform: scale(1);
-    transform: scale(1);
-    }
-    50% {
+    transform: scale(1); }
+  50% {
     -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-    }
-    100% {
+    transform: scale(0.9); }
+  100% {
     -webkit-transform: scale(1);
-    transform: scale(1);
-    }
-}
+    transform: scale(1); } }
+
 @keyframes pulsate-bck {
-    0% {
+  0% {
     -webkit-transform: scale(1);
-    transform: scale(1);
-    }
-    50% {
+    transform: scale(1); }
+  50% {
     -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-    }
-    100% {
+    transform: scale(0.9); }
+  100% {
     -webkit-transform: scale(1);
-    transform: scale(1);
-    }
-}
-
-.secTres .horaUno .tithn{
-    position: absolute;
-    width: 60%;
-    height: 15%;
-    left: 20%;
-    top: 47%;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 180%;
-    line-height: 50%;
-    text-align: center;
-    color: white;
-}
-
-.secTres .horaDos{
-    background-image: url(../assets/img/07.jpg);
-    text-decoration: none;
-    box-sizing: border-box;
-    width: 51%;
-    height: 350px;
-    left: 24.5%;
-    top: 0%;
-    background-blend-mode: luminosity, normal;
-    opacity: 0.9;
-    background-position: 50% 50%;
-    background-size: cover;
-    border: 2px solid #000000;
-    position: absolute;
-}
-
-.secTres .horaDos a .tith{
-    position: absolute;
-    width: 40%;
-    height: 15%;
-    left: 30%;
-    top: 42%;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 280%;
-    line-height: 100%;
-    text-align: center;
-    color: white;
-    -webkit-animation: tracking-in-expand-fwd 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	animation: tracking-in-expand-fwd 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
+    transform: scale(1); } }
+      #mainUno .secTres .horaUno .tithn {
+        position: absolute;
+        width: 60%;
+        height: 15%;
+        left: 20%;
+        top: 47%;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 180%;
+        line-height: 50%;
+        text-align: center;
+        color: white;
+        font-family: "Poppins", sans-serif; }
+    #mainUno .secTres .horaDos {
+      background-image: url(../assets/img/07.jpg);
+      text-decoration: none;
+      box-sizing: border-box;
+      border: 2px solid black;
+      border-radius: none;
+      position: absolute;
+      width: 51%;
+      height: 350px;
+      left: 24.5%;
+      top: 0%;
+      background-blend-mode: luminosity, normal;
+      opacity: 0.9;
+      background-position: 50% 50%;
+      background-size: cover; }
+      #mainUno .secTres .horaDos a .tith {
+        position: absolute;
+        width: 40%;
+        height: 15%;
+        left: 30%;
+        top: 42%;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 280%;
+        line-height: 100%;
+        text-align: center;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        -webkit-animation: tracking-in-expand-fwd 4s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+        animation: tracking-in-expand-fwd 4s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
 
 @-webkit-keyframes tracking-in-expand-fwd {
-    0% {
+  0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-700px);
     transform: translateZ(-700px);
-    opacity: 0;
-    }
-    40% {
-    opacity: 0.6;
-    }
-    100% {
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    opacity: 1;
-    }
-}
-@keyframes tracking-in-expand-fwd {
-    0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-700px);
-    transform: translateZ(-700px);
-    opacity: 0;
-    }
-    40% {
-    opacity: 0.6;
-    }
-    100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
 
-.secTres .horaTres{
-    background-image: url(../assets/img/08.png);
-    border-radius: 50%;
-    width: 24%;
-    height: 90%;
-    right: 0%;
-    top: 0px;
-    background-blend-mode: luminosity, normal;
-    background-position: 50% 50%;
-    background-size: cover;
-    position: absolute;
-    -webkit-animation: pulsate-bck 0.5s ease-in-out infinite both;
-	animation: pulsate-bck 0.5s ease-in-out infinite both;
-}
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1; } }
+    #mainUno .secTres .horaTres {
+      background-image: url(../assets/img/08.png);
+      border-radius: 50%;
+      position: absolute;
+      width: 24%;
+      height: 90%;
+      right: 0%;
+      top: 0px;
+      background-blend-mode: luminosity, normal;
+      background-position: 50% 50%;
+      background-size: cover;
+      -webkit-animation: pulsate-bck 0.5s ease-in-out infinite both;
+      animation: pulsate-bck 0.5s ease-in-out infinite both; }
 
 @-webkit-keyframes pulsate-bck {
-    0% {
+  0% {
     -webkit-transform: scale(1);
-    transform: scale(1);
-    }
-    50% {
+    transform: scale(1); }
+  50% {
     -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-    }
-    100% {
+    transform: scale(0.9); }
+  100% {
     -webkit-transform: scale(1);
-    transform: scale(1);
-    }
-}
+    transform: scale(1); } }
+
 @keyframes pulsate-bck {
-    0% {
+  0% {
     -webkit-transform: scale(1);
-    transform: scale(1);
-    }
-    50% {
+    transform: scale(1); }
+  50% {
     -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-    }
-    100% {
+    transform: scale(0.9); }
+  100% {
     -webkit-transform: scale(1);
-    transform: scale(1);
-    }
-}
-
-.secTres .horaTres .tithd{
-    position: absolute;
-    width: 60%;
-    height: 15%;
-    right: 20%;
-    top: 47%;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 180%;
-    line-height: 50%;
-    text-align: center;
-    color: white;
-}
-
-.secCuatro{
+    transform: scale(1); } }
+      #mainUno .secTres .horaTres .tithd {
+        position: absolute;
+        width: 60%;
+        height: 15%;
+        right: 20%;
+        top: 47%;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 180%;
+        line-height: 50%;
+        text-align: center;
+        color: white;
+        font-family: "Poppins", sans-serif; }
+  #mainUno .secCuatro {
     box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: none;
     position: absolute;
     width: 93%;
     height: 350px;
@@ -615,632 +506,531 @@ footer .copy p{
     top: 74.8%;
     background: url(../assets/img/09.jpg);
     background-blend-mode: luminosity, normal;
-    border: 2px solid #000000;
     background-position: 50% 50%;
-    background-size: cover;
-}
-
-.secCuatro a .nosUno{
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 39%;
-    top: 40%;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 250%;
-    line-height: 150%;
-    text-align: center;
-    color: white;
-    -webkit-animation: tracking-in-expand-fwd 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	animation: tracking-in-expand-fwd 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
+    background-size: cover; }
+    #mainUno .secCuatro a .nosUno {
+      position: absolute;
+      width: 20%;
+      height: 20%;
+      left: 39%;
+      top: 40%;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 250%;
+      line-height: 150%;
+      text-align: center;
+      color: white;
+      font-family: "Roboto", sans-serif;
+      -webkit-animation: tracking-in-expand-fwd 4s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+      animation: tracking-in-expand-fwd 4s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
 
 @-webkit-keyframes tracking-in-expand-fwd {
-    0% {
+  0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-700px);
     transform: translateZ(-700px);
-    opacity: 0;
-    }
-    40% {
-    opacity: 0.6;
-    }
-    100% {
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
+
 @keyframes tracking-in-expand-fwd {
-    0% {
+  0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-700px);
     transform: translateZ(-700px);
-    opacity: 0;
-    }
-    40% {
-    opacity: 0.6;
-    }
-    100% {
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
 
-.secIns{
-    background-image: url(../assets/img/10.jpg);
-    position: relative;
-    width: 100%;
-    height: 1150px;
-    left: 0px;
-    top: 84.22px;
-    background-position: 50% 50%;
-    background-size: cover;
-    display: flex;
-}
-
-
-div .titIns{
+.secIns {
+  background-image: url(../assets/img/10.jpg);
+  width: 100%;
+  height: 1150px;
+  left: 0px;
+  top: 84.22px;
+  position: relative;
+  display: flex;
+  background-position: 50% 50%;
+  background-size: cover; }
+  .secIns div .titIns {
     position: absolute;
     width: 100%;
     top: 5%;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 250%;
     line-height: 50%;
     text-align: center;
+    color: black;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 0.5em;
-    color: #000000;
-    -webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
+    -webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: focus-in-contract-bck 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
 @-webkit-keyframes focus-in-contract-bck {
-    0% {
+  0% {
     letter-spacing: 1em;
     -webkit-transform: translateZ(300px);
     transform: translateZ(300px);
     -webkit-filter: blur(12px);
     filter: blur(12px);
-    opacity: 0;
-    }
-    100% {
+    opacity: 0; }
+  100% {
     -webkit-transform: translateZ(12px);
     transform: translateZ(12px);
     -webkit-filter: blur(0);
     filter: blur(0);
-    opacity: 1;
-    }
-}
-@keyframes focus-in-contract-bck {
-    0% {
-    letter-spacing: 1em;
-    -webkit-transform: translateZ(300px);
-    transform: translateZ(300px);
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0;
-    }
-    100% {
-    -webkit-transform: translateZ(12px);
-    transform: translateZ(12px);
-    -webkit-filter: blur(0);
-    filter: blur(0);
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
 
-.card-container{
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+    transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateZ(12px);
+    transform: translateZ(12px);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1; } }
+  .secIns .card-container {
     display: flex;
     position: absolute;
     justify-content: space-evenly;
     width: 100%;
-    top: 12%;
-}
-
-.card{
-    width: 25%;
-    height: 280px;
-    background: #50577A;
-    position: relative;
-    border-radius: 30px;
-    -webkit-animation: heartbeat 2s ease-in-out infinite both;
-	animation: heartbeat 2s ease-in-out infinite both;
-}
+    top: 12%; }
+    .secIns .card-container .card {
+      width: 25%;
+      height: 280px;
+      background: #50577A;
+      box-sizing: border-box;
+      border: 2px solid black;
+      border-radius: none;
+      position: relative;
+      border-radius: 30px;
+      -webkit-animation: heartbeat 2s ease-in-out infinite both;
+      animation: heartbeat 2s ease-in-out infinite both; }
 
 @-webkit-keyframes heartbeat {
-    from {
+  from {
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transform-origin: center center;
     transform-origin: center center;
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-    }
-    10% {
+    animation-timing-function: ease-out; }
+  10% {
     -webkit-transform: scale(0.91);
     transform: scale(0.91);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    }
-    17% {
+    animation-timing-function: ease-in; }
+  17% {
     -webkit-transform: scale(0.98);
     transform: scale(0.98);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-    }
-    33% {
+    animation-timing-function: ease-out; }
+  33% {
     -webkit-transform: scale(0.87);
     transform: scale(0.87);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    }
-    45% {
+    animation-timing-function: ease-in; }
+  45% {
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-    }
-}
+    animation-timing-function: ease-out; } }
+
 @keyframes heartbeat {
-    from {
+  from {
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transform-origin: center center;
     transform-origin: center center;
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-    }
-    10% {
+    animation-timing-function: ease-out; }
+  10% {
     -webkit-transform: scale(0.91);
     transform: scale(0.91);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    }
-    17% {
+    animation-timing-function: ease-in; }
+  17% {
     -webkit-transform: scale(0.98);
     transform: scale(0.98);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-    }
-    33% {
+    animation-timing-function: ease-out; }
+  33% {
     -webkit-transform: scale(0.87);
     transform: scale(0.87);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    }
-    45% {
+    animation-timing-function: ease-in; }
+  45% {
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-    }
-}
-
-.card h2{
-    width: 90%;
-    height: 10%;
-    left: 5%;
-    top: 5%;
-    position: absolute;
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 200%;
-    line-height: 50%;
-    text-align: center;
-    color: #000000;
-}
-
-.card .precio{
-    width: 100%;
-    height: 15%;
-    left: 0%;
-    top: 20%;
-    position: absolute;
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 280%;
-    line-height: 50%;
-    text-align: center;
-    color: #000000;
-}
-
-.card h3{
-    position: absolute;
-    width: 100%;
-    height: 10%;
-    left: 0%;
-    top: 35%;
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 140%;
-    line-height: 30%;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.card .listIns{
-    position: absolute;
-    width: 100%;
-    height: 50%;
-    left: 0%;
-    top: 45%;
-    list-style: none;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 120%;
-    line-height: 150%;
-    color: #000000;
-    text-align: center;
-}
-
-.listIns p button{
-    border: none;
-    outline: 0;
-    padding: 5px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 50%;
-    font-size: 18px;
-    border-radius: 30px;
-}
-
-.card button:hover {
-    opacity: 0.7;
-}
-
-.cuadroDos{
+    animation-timing-function: ease-out; } }
+      .secIns .card-container .card h2 {
+        position: absolute;
+        width: 90%;
+        height: 10%;
+        left: 5%;
+        top: 5%;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 200%;
+        line-height: 50%;
+        text-align: center;
+        color: black;
+        font-family: "Roboto", sans-serif; }
+      .secIns .card-container .card .precio {
+        position: absolute;
+        width: 100%;
+        height: 15%;
+        left: 0%;
+        top: 20%;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 280%;
+        line-height: 50%;
+        text-align: center;
+        color: black;
+        font-family: "Roboto", sans-serif; }
+      .secIns .card-container .card h3 {
+        position: absolute;
+        width: 100%;
+        height: 10%;
+        left: 0%;
+        top: 35%;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 140%;
+        line-height: 30%;
+        text-align: center;
+        color: white;
+        font-family: "Roboto", sans-serif; }
+      .secIns .card-container .card .listIns {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        left: 0%;
+        top: 45%;
+        list-style: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 120%;
+        line-height: 150%;
+        text-align: center;
+        color: black;
+        font-family: "Poppins", sans-serif; }
+        .secIns .card-container .card .listIns p button {
+          border: none;
+          outline: 0;
+          padding: 5px;
+          color: white;
+          background-color: black;
+          text-align: center;
+          cursor: pointer;
+          width: 50%;
+          font-size: 18px;
+          border-radius: 30px; }
+          .secIns .card-container .card .listIns p button :hover {
+            opacity: 0.7; }
+  .secIns div form .cuadroDos {
     position: absolute;
     width: 40%;
     height: 47%;
     left: 5%;
     top: 42.7%;
     background: #474E68;
-    border-radius: 30px;
-}
-
-.titInfo{
-    position: absolute;
-    width: 100%;
-    height: 10%;
-    top: 8%;
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 220%;
-    line-height: 120%;
-    color: #000000;
-    text-align: center;  
-}
-
-.cheUno{
-    position: absolute;
-    width: 88%;
-    height: 0px;
-    left: 6%;
-    top: 21%;
-    border: 1px solid #000000;
-}
-
-.formUno{
-    position: absolute;
-    width: 35%;
-    height: 12%;
-    left: 10%;
-    top: 31.5%;
-    background: white ;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.formDos{
-    position: absolute;
-    width: 35%;
-    height: 12%;
-    right: 10%;
-    top: 31.5%;
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.formTres{
-    position: absolute;
-    width: 35%;
-    height: 12%;
-    left: 10%;
-    top: 55.5%;
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.formCuatro{
-    position: absolute;
-    width: 35%;
-    height: 12%;
-    right: 10%;
-    top: 55.5%;
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.formCinco{
-    position: absolute;
-    width: 35%;
-    height: 12%;
-    left: 10%;
-    top: 79.5%;
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.formSeis{
-    position: absolute;
-    width: 35%;
-    height: 12%;
-    right: 10%;
-    top: 79.5%;
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.cuadroTres{
+    border-radius: 30px; }
+    .secIns div form .cuadroDos .titInfo {
+      position: absolute;
+      width: 100%;
+      height: 10%;
+      left: 0%;
+      top: 8%;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 220%;
+      line-height: 120%;
+      text-align: center;
+      color: black;
+      font-family: "Roboto", sans-serif; }
+    .secIns div form .cuadroDos .cheUno {
+      position: absolute;
+      width: 88%;
+      height: 0%;
+      left: 6%;
+      top: 21%;
+      border: 1px solid black; }
+    .secIns div form .cuadroDos .formUno {
+      position: absolute;
+      width: 35%;
+      height: 12%;
+      left: 10%;
+      top: 31.5%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+    .secIns div form .cuadroDos .formDos {
+      position: absolute;
+      width: 35%;
+      height: 12%;
+      right: 10%;
+      top: 31.5%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+    .secIns div form .cuadroDos .formTres {
+      position: absolute;
+      width: 35%;
+      height: 12%;
+      left: 10%;
+      top: 55.5%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+    .secIns div form .cuadroDos .formCuatro {
+      position: absolute;
+      width: 35%;
+      height: 12%;
+      right: 10%;
+      top: 55.5%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+    .secIns div form .cuadroDos .formCinco {
+      position: absolute;
+      width: 35%;
+      height: 12%;
+      left: 10%;
+      top: 79.5%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+    .secIns div form .cuadroDos .formSeis {
+      position: absolute;
+      width: 35%;
+      height: 12%;
+      right: 10%;
+      top: 79.5%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+  .secIns div form .cuadroTres {
     position: absolute;
     width: 40%;
     height: 47%;
     right: 5%;
     top: 42.7%;
     background: #474E68;
-    border-radius: 30px;
-}
-
-.titPago{
-    position: absolute;
-    width: 100%;
-    height: 10%;
-    top: 8%;
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 220%;
-    line-height: 120%;
-    color: #000000;
-    text-align: center;
-}
-
-.cheDos{
-    position: absolute;
-    width: 88%;
-    height: 0px;
-    left: 6%;
-    top: 21%;
-    border: 1px solid #000000;
-}
-
-.formSiete{
-    position: absolute;
-    width: 35%;
-    height: 12%;
-    left: 10%;
-    top: 31.5%;
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.formOcho{
-    position: absolute;
-    width: 35%;
-    height: 12%;
-    right: 10%;
-    top: 31.5%;
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.formNueve{
-    position: absolute;
-    width: 35%;
-    height: 12%;
-    left: 10%;
-    top: 55.5%;
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.formDiez{
-    position: absolute;
-    width: 35%;
-    height: 12%;
-    right: 10%;
-    top: 55.5%;
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.formOnce{
-    position: absolute;
-    width: 35%;
-    height: 12%;
-    left: 10%;
-    top: 79.5%;
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.formDoce{
-    position: absolute;
-    width:35%;
-    height: 12%;
-    right: 10%;
-    top: 79.5%;
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.envIns{
+    border-radius: 30px; }
+    .secIns div form .cuadroTres .titPago {
+      position: absolute;
+      width: 100%;
+      height: 10%;
+      left: 0%;
+      top: 8%;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 220%;
+      line-height: 120%;
+      text-align: center;
+      color: black;
+      font-family: "Roboto", sans-serif; }
+    .secIns div form .cuadroTres .cheDos {
+      position: absolute;
+      width: 88%;
+      height: 0px;
+      left: 6%;
+      top: 21%;
+      border: 1px solid black; }
+    .secIns div form .cuadroTres .formSiete {
+      position: absolute;
+      width: 35%;
+      height: 12%;
+      left: 10%;
+      top: 31.5%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+    .secIns div form .cuadroTres .formOcho {
+      position: absolute;
+      width: 35%;
+      height: 12%;
+      right: 10%;
+      top: 31.5%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+    .secIns div form .cuadroTres .formNueve {
+      position: absolute;
+      width: 35%;
+      height: 12%;
+      left: 10%;
+      top: 55.5%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+    .secIns div form .cuadroTres .formDiez {
+      position: absolute;
+      width: 35%;
+      height: 12%;
+      right: 10%;
+      top: 55.5%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+    .secIns div form .cuadroTres .formOnce {
+      position: absolute;
+      width: 35%;
+      height: 12%;
+      left: 10%;
+      top: 79.5%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+    .secIns div form .cuadroTres .formDoce {
+      position: absolute;
+      width: 35%;
+      height: 12%;
+      right: 10%;
+      top: 79.5%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+  .secIns div form .envIns {
     box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 30px;
     position: absolute;
     width: 10%;
     height: 5%;
     left: 45%;
     top: 90%;
     background: #6B728E;
-    border: 2px solid #000000;
-    border-radius: 30px;
-    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
-    color: #000000;
-    -webkit-animation: shake-bottom 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-	animation: shake-bottom 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-}
+    text-align: center;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    -webkit-animation: shake-bottom 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
+    animation: shake-bottom 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both; }
 
 @-webkit-keyframes shake-bottom {
-    0%,
-    100% {
+  0%,
+  100% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     -webkit-transform-origin: 50% 100%;
-    transform-origin: 50% 100%;
-    }
-    10% {
+    transform-origin: 50% 100%; }
+  10% {
     -webkit-transform: rotate(2deg);
-    transform: rotate(2deg);
-    }
-    20%,
-    40%,
-    60% {
+    transform: rotate(2deg); }
+  20%,
+  40%,
+  60% {
     -webkit-transform: rotate(-4deg);
-    transform: rotate(-4deg);
-    }
-    30%,
-    50%,
-    70% {
+    transform: rotate(-4deg); }
+  30%,
+  50%,
+  70% {
     -webkit-transform: rotate(4deg);
-    transform: rotate(4deg);
-    }
-    80% {
+    transform: rotate(4deg); }
+  80% {
     -webkit-transform: rotate(-2deg);
-    transform: rotate(-2deg);
-    }
-    90% {
+    transform: rotate(-2deg); }
+  90% {
     -webkit-transform: rotate(2deg);
-    transform: rotate(2deg);
-    }
-}
+    transform: rotate(2deg); } }
+
 @keyframes shake-bottom {
-    0%,
-    100% {
+  0%,
+  100% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     -webkit-transform-origin: 50% 100%;
-    transform-origin: 50% 100%;
-    }
-    10% {
+    transform-origin: 50% 100%; }
+  10% {
     -webkit-transform: rotate(2deg);
-    transform: rotate(2deg);
-    }
-    20%,
-    40%,
-    60% {
+    transform: rotate(2deg); }
+  20%,
+  40%,
+  60% {
     -webkit-transform: rotate(-4deg);
-    transform: rotate(-4deg);
-    }
-    30%,
-    50%,
-    70% {
+    transform: rotate(-4deg); }
+  30%,
+  50%,
+  70% {
     -webkit-transform: rotate(4deg);
-    transform: rotate(4deg);
-    }
-    80% {
+    transform: rotate(4deg); }
+  80% {
     -webkit-transform: rotate(-2deg);
-    transform: rotate(-2deg);
-    }
-    90% {
+    transform: rotate(-2deg); }
+  90% {
     -webkit-transform: rotate(2deg);
-    transform: rotate(2deg);
-    }
-}
+    transform: rotate(2deg); } }
 
-.secHor{
-    background-image: url(../assets/img/14.jpg);
-    position: absolute;
-    width: 100%;
-    height: 1150px;
-    left: 0px;
-    top: 84.22px;
-    background-position: 50% 50%;
-    background-size: cover;
-}
-
-#titHor{
+.secHor {
+  background-image: url(../assets/img/14.jpg);
+  position: absolute;
+  width: 100%;
+  height: 1150px;
+  left: 0px;
+  top: 84.22px;
+  background-position: 50% 50%;
+  background-size: cover; }
+  .secHor #titHor {
     position: absolute;
     width: 100%;
     height: 5%;
     left: 0%;
     top: 10%;
-    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 400%;
     line-height: 50%;
-    letter-spacing: 0.2em;
-    color: white;
     text-align: center;
-    -webkit-animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
+    color: white;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.2em;
+    -webkit-animation: focus-in-contract 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: focus-in-contract 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
 @-webkit-keyframes focus-in-contract {
-    0% {
+  0% {
     letter-spacing: 1em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
-    opacity: 0;
-    }
-    100% {
+    opacity: 0; }
+  100% {
     -webkit-filter: blur(0px);
     filter: blur(0px);
-    opacity: 1;
-    }
-}
-@keyframes focus-in-contract {
-    0% {
-    letter-spacing: 1em;
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0;
-    }
-    100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
 
-.tabHor{
+@keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1; } }
+  .secHor .tabHor {
     position: absolute;
     width: 80%;
     height: 75%;
@@ -1248,2176 +1038,1806 @@ div .titIns{
     top: 20.2%;
     background: #50577A;
     border-radius: 30px;
-    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 100%;
     line-height: 100%;
-    letter-spacing: 0.2em;
-    color: #000000;
     text-align: center;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.2em;
     -webkit-animation: wobble-hor-top 4s both;
-	animation: wobble-hor-top 4s both;
-}
+    animation: wobble-hor-top 4s both; }
 
 @-webkit-keyframes wobble-hor-top {
-    0%,
-    100% {
+  0%,
+  100% {
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
     -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    }
-    15% {
+    transform-origin: 50% 50%; }
+  15% {
     -webkit-transform: translateX(-30px) rotate(6deg);
-    transform: translateX(-30px) rotate(6deg);
-    }
-    30% {
+    transform: translateX(-30px) rotate(6deg); }
+  30% {
     -webkit-transform: translateX(15px) rotate(-6deg);
-    transform: translateX(15px) rotate(-6deg);
-    }
-    45% {
+    transform: translateX(15px) rotate(-6deg); }
+  45% {
     -webkit-transform: translateX(-15px) rotate(3.6deg);
-    transform: translateX(-15px) rotate(3.6deg);
-    }
-    60% {
+    transform: translateX(-15px) rotate(3.6deg); }
+  60% {
     -webkit-transform: translateX(9px) rotate(-2.4deg);
-    transform: translateX(9px) rotate(-2.4deg);
-    }
-    75% {
+    transform: translateX(9px) rotate(-2.4deg); }
+  75% {
     -webkit-transform: translateX(-6px) rotate(1.2deg);
-    transform: translateX(-6px) rotate(1.2deg);
-    }
-}
+    transform: translateX(-6px) rotate(1.2deg); } }
+
 @keyframes wobble-hor-top {
-    0%,
-    100% {
+  0%,
+  100% {
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
     -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    }
-    15% {
+    transform-origin: 50% 50%; }
+  15% {
     -webkit-transform: translateX(-30px) rotate(6deg);
-    transform: translateX(-30px) rotate(6deg);
-    }
-    30% {
+    transform: translateX(-30px) rotate(6deg); }
+  30% {
     -webkit-transform: translateX(15px) rotate(-6deg);
-    transform: translateX(15px) rotate(-6deg);
-    }
-    45% {
+    transform: translateX(15px) rotate(-6deg); }
+  45% {
     -webkit-transform: translateX(-15px) rotate(3.6deg);
-    transform: translateX(-15px) rotate(3.6deg);
-    }
-    60% {
+    transform: translateX(-15px) rotate(3.6deg); }
+  60% {
     -webkit-transform: translateX(9px) rotate(-2.4deg);
-    transform: translateX(9px) rotate(-2.4deg);
-    }
-    75% {
+    transform: translateX(9px) rotate(-2.4deg); }
+  75% {
     -webkit-transform: translateX(-6px) rotate(1.2deg);
-    transform: translateX(-6px) rotate(1.2deg);
-    }
-}
+    transform: translateX(-6px) rotate(1.2deg); } }
 
-.secNosu{
-    background-image: url(../assets/img/15.jpg);
-    box-sizing: border-box;
-    position: absolute;
-    width: 100%;
-    height: 500px;
-    left: 0px;
-    top: 84.22px;
-    border: 2px solid #000000;
-    background-position: 50% 50%;
-    background-size: cover;
-}
-
-.secNosu h1{
+main .secNosu {
+  background-image: url(../assets/img/15.jpg);
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: none;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  left: 0px;
+  top: 84.22px;
+  background-position: 50% 50%;
+  background-size: cover; }
+  main .secNosu h1 {
     position: absolute;
     width: 100%;
     height: 10%;
     left: 0%;
     top: 12%;
-    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 200%;
     line-height: 150%;
-    letter-spacing: 0.2em;
-    color: #FFFFFF;
     text-align: center;
-    -webkit-animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
+    color: white;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.2em;
+    -webkit-animation: tracking-in-contract 3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+    animation: tracking-in-contract 3s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
 
 @-webkit-keyframes tracking-in-contract {
-    0% {
+  0% {
     letter-spacing: 1em;
-    opacity: 0;
-    }
-    40% {
-    opacity: 0.6;
-    }
-    100% {
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
     letter-spacing: 0.2em;
-    opacity: 1;
-    }
-}
-@keyframes tracking-in-contract {
-    0% {
-    letter-spacing: 1em;
-    opacity: 0;
-    }
-    40% {
-    opacity: 0.6;
-    }
-    100% {
-    letter-spacing: 0.2em;
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
 
-.secNosu p{
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    letter-spacing: 0.2em;
+    opacity: 1; } }
+  main .secNosu p {
     position: absolute;
     width: 70%;
     height: 50%;
     left: 15%;
     top: 30%;
-    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 120%;
     line-height: 200%;
     text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
     letter-spacing: 0.2em;
-    color: #FFFFFF;
-    -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-}
+    -webkit-animation: text-focus-in 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    animation: text-focus-in 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
 
 @-webkit-keyframes text-focus-in {
-    0% {
+  0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
-    opacity: 0;
-    }
-    100% {
+    opacity: 0; }
+  100% {
     -webkit-filter: blur(0px);
     filter: blur(0px);
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
+
 @keyframes text-focus-in {
-    0% {
+  0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
-    opacity: 0;
-    }
-    100% {
+    opacity: 0; }
+  100% {
     -webkit-filter: blur(0px);
     filter: blur(0px);
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
 
-.secNosd{
-    background-image: url(../assets/img/16.jpg);
-    box-sizing: border-box;
-    position: absolute;
-    width: 100%;
-    height: 650px;
-    left: 0px;
-    top: 584.22px;
-    border: 2px solid #000000;
-    background-position: 50% 50%;
-    background-size: cover;
-}
-
-.secNosd h2{
+main .secNosd {
+  background-image: url(../assets/img/16.jpg);
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: none;
+  position: absolute;
+  width: 100%;
+  height: 650px;
+  left: 0%;
+  top: 584.22px;
+  background-position: 50% 50%;
+  background-size: cover; }
+  main .secNosd h2 {
     position: absolute;
     width: 100%;
     height: 7%;
     left: 0%;
     top: 5%;
-    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 200%;
     line-height: 150%;
-    letter-spacing: 0.2em;
-    color: #FFFFFF;
     text-align: center;
-    -webkit-animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
+    color: white;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.2em;
+    -webkit-animation: tracking-in-contract 3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+    animation: tracking-in-contract 3s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
 
 @-webkit-keyframes tracking-in-contract {
-    0% {
+  0% {
     letter-spacing: 1em;
-    opacity: 0;
-    }
-    40% {
-    opacity: 0.6;
-    }
-    100% {
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
     letter-spacing: 0.2em;
-    opacity: 1;
-    }
-}
-@keyframes tracking-in-contract {
-    0% {
-    letter-spacing: 1em;
-    opacity: 0;
-    }
-    40% {
-    opacity: 0.6;
-    }
-    100% {
-    letter-spacing: 0.2em;
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
 
-.formNos{
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    letter-spacing: 0.2em;
+    opacity: 1; } }
+  main .secNosd form .formNos {
     position: absolute;
     width: 54%;
     height: 66.5%;
     left: 1%;
     top: 18%;
-    background: #50577A;
+    background: #474E68;
     opacity: 0.5;
-    border-radius: 30px;
-}
-
-.nosUnos{
-    position: absolute;
-    width: 43%;
-    height: 15%;
-    left: 5%;
-    top: 11%;
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.nosDos{
-    position: absolute;
-    width: 43%;
-    height: 15%;
-    right: 5%;
-    top: 11%;
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.nosTres{
-    position: absolute;
-    width: 43%;
-    height: 15%;
-    left: 5%;
-    top: 35.5%;
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.nosCuatro{
-    position: absolute;
-    width: 43%;
-    height: 15%;
-    right: 5%;
-    top: 35.5%;
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.nosCinco{
-    position: absolute;
-    width: 90%;
-    height: 31%;
-    left: 5%;
-    top: 60%;
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.envNos{
+    border-radius: 30px; }
+    main .secNosd form .formNos .nosUnos {
+      position: absolute;
+      width: 43%;
+      height: 15%;
+      left: 5%;
+      top: 11%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+    main .secNosd form .formNos .nosDos {
+      position: absolute;
+      width: 43%;
+      height: 15%;
+      right: 5%;
+      top: 11%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+    main .secNosd form .formNos .nosTres {
+      position: absolute;
+      width: 43%;
+      height: 15%;
+      left: 5%;
+      top: 35.5%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+    main .secNosd form .formNos .nosCuatro {
+      position: absolute;
+      width: 43%;
+      height: 15%;
+      right: 5%;
+      top: 35.5%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+    main .secNosd form .formNos .nosCinco {
+      position: absolute;
+      width: 90%;
+      height: 31%;
+      left: 5%;
+      top: 60%;
+      background: white;
+      border-radius: 10px;
+      text-align: center; }
+  main .secNosd form .envNos {
     box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 30px;
     position: absolute;
     width: 9%;
     height: 8%;
     left: 24%;
     top: 88.5%;
     background: #6B728E;
-    border: 2px solid #000000;
-    border-radius: 30px;
-    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 130%;
     line-height: 10%;
-    color: #000000;
+    text-align: center;
+    color: black;
+    font-family: "Roboto", sans-serif;
     -webkit-animation: bounce-left 6s infinite both;
-	animation: bounce-left 6s infinite both;
-}
+    animation: bounce-left 6s infinite both; }
 
 @-webkit-keyframes bounce-left {
-    0% {
+  0% {
     -webkit-transform: translateX(-48px);
     transform: translateX(-48px);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
-    opacity: 1;
-    }
-    24% {
-    opacity: 1;
-    }
-    40% {
+    opacity: 1; }
+  24% {
+    opacity: 1; }
+  40% {
     -webkit-transform: translateX(-26px);
     transform: translateX(-26px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    }
-    65% {
+    animation-timing-function: ease-in; }
+  65% {
     -webkit-transform: translateX(-13px);
     transform: translateX(-13px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    }
-    82% {
+    animation-timing-function: ease-in; }
+  82% {
     -webkit-transform: translateX(-6.5px);
     transform: translateX(-6.5px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    }
-    93% {
+    animation-timing-function: ease-in; }
+  93% {
     -webkit-transform: translateX(-4px);
     transform: translateX(-4px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    }
-    25%,
-    55%,
-    75%,
-    87%,
-    98% {
+    animation-timing-function: ease-in; }
+  25%,
+  55%,
+  75%,
+  87%,
+  98% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  100% {
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
-    }
-    100% {
-    -webkit-transform: translateX(0px);
-    transform: translateX(0px);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-    opacity: 1;
-    }
-}
-@keyframes bounce-left {
-    0% {
-    -webkit-transform: translateX(-48px);
-    transform: translateX(-48px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    opacity: 1;
-    }
-    24% {
-    opacity: 1;
-    }
-    40% {
-    -webkit-transform: translateX(-26px);
-    transform: translateX(-26px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    }
-    65% {
-    -webkit-transform: translateX(-13px);
-    transform: translateX(-13px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    }
-    82% {
-    -webkit-transform: translateX(-6.5px);
-    transform: translateX(-6.5px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    }
-    93% {
-    -webkit-transform: translateX(-4px);
-    transform: translateX(-4px);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    }
-    25%,
-    55%,
-    75%,
-    87%,
-    98% {
-    -webkit-transform: translateX(0px);
-    transform: translateX(0px);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-    }
-    100% {
-    -webkit-transform: translateX(0px);
-    transform: translateX(0px);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
 
-.youtNos{
+@keyframes bounce-left {
+  0% {
+    -webkit-transform: translateX(-48px);
+    transform: translateX(-48px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 1; }
+  24% {
+    opacity: 1; }
+  40% {
+    -webkit-transform: translateX(-26px);
+    transform: translateX(-26px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  65% {
+    -webkit-transform: translateX(-13px);
+    transform: translateX(-13px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  82% {
+    -webkit-transform: translateX(-6.5px);
+    transform: translateX(-6.5px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  93% {
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  25%,
+  55%,
+  75%,
+  87%,
+  98% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1; } }
+  main .secNosd .youtNos {
     position: absolute;
     width: 42%;
     height: 66.5%;
     right: 1%;
     top: 18%;
     background: #D9D9D9;
-    border-radius: 30px;
-}
-
-.parUno{
+    border-radius: 30px; }
+  main .secNosd .parUno {
     position: absolute;
     width: 15%;
     height: 5%;
     left: 80%;
     top: 92%;
-    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 120%;
     line-height: 100%;
+    text-align: center;
     color: black;
-}
-
-.parDos{
+    font-family: "Roboto", sans-serif; }
+  main .secNosd .parDos {
     position: absolute;
     width: 23%;
     height: 5%;
     left: 76%;
     top: 96%;
-    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 120%;
     line-height: 100%;
+    text-align: center;
     color: black;
-}
+    font-family: "Roboto", sans-serif; }
 
-.secClas{
-    position: absolute;
-    width: 100%;
-    height: 1150px;
-    left: 0px;
-    top: 84.22px;
-    background: #50577A;
-}
-
-.musc{
+main .secClas {
+  position: absolute;
+  width: 100%;
+  height: 1150px;
+  left: 0px;
+  top: 84.22px;
+  background: #50577A; }
+  main .secClas .musc {
     box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: none;
     position: absolute;
     width: 95%;
     height: 350px;
-    top: 16px;
     left: 1%;
-    border: 2px solid #000000;
-}
+    top: 16px; }
+  main .secClas .fit {
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: none;
+    position: absolute;
+    width: 95%;
+    height: 350px;
+    left: 2.5%;
+    top: 400px; }
+  main .secClas .boxe {
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: none;
+    position: absolute;
+    width: 95%;
+    height: 350px;
+    left: 3.5%;
+    top: 785px; }
 
-.carousel-item h1{
+#carouselExampleIndicators1 {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%; }
+
+#carouselExampleIndicators2 {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%; }
+
+#carouselExampleIndicators3 {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%; }
+
+.carousel-inner {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%; }
+  .carousel-inner .carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 350px; }
+  .carousel-inner .carousel-item h1 {
     position: absolute;
     width: 45%;
     height: 20%;
     left: 25%;
     top: 150px;
-    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 300%;
     line-height: 100%;
-    letter-spacing: 0.2em;
-    color: #FFFFFF;
     text-align: center;
-    -webkit-animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
+    color: white;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.2em;
+    -webkit-animation: focus-in-expand-fwd 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: focus-in-expand-fwd 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
 @-webkit-keyframes focus-in-expand-fwd {
-    0% {
+  0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-800px);
     transform: translateZ(-800px);
     -webkit-filter: blur(12px);
     filter: blur(12px);
-    opacity: 0;
-    }
-    100% {
+    opacity: 0; }
+  100% {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-filter: blur(0);
     filter: blur(0);
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
+
 @keyframes focus-in-expand-fwd {
-    0% {
+  0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-800px);
     transform: translateZ(-800px);
     -webkit-filter: blur(12px);
     filter: blur(12px);
-    opacity: 0;
-    }
-    100% {
+    opacity: 0; }
+  100% {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-filter: blur(0);
     filter: blur(0);
-    opacity: 1;
-    }
-}
-
-.fit{
-    box-sizing: border-box;
-    position: absolute;
-    width: 95%;
-    height: 350px;
-    left: 2.5%;
-    top: 400px;
-    border: 2px solid #000000;
-}
-
-.carousel-item h2{
+    opacity: 1; } }
+  .carousel-inner .carousel-item h2 {
     position: absolute;
     width: 45%;
     height: 20%;
     left: 28%;
     top: 150px;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 300%;
     line-height: 100%;
-    letter-spacing: 0.2em;
-    color: #FFFFFF;
     text-align: center;
-    -webkit-animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
+    color: white;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.2em;
+    -webkit-animation: focus-in-expand-fwd 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: focus-in-expand-fwd 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
 @-webkit-keyframes focus-in-expand-fwd {
-    0% {
+  0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-800px);
     transform: translateZ(-800px);
     -webkit-filter: blur(12px);
     filter: blur(12px);
-    opacity: 0;
-    }
-    100% {
+    opacity: 0; }
+  100% {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-filter: blur(0);
     filter: blur(0);
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
+
 @keyframes focus-in-expand-fwd {
-    0% {
+  0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-800px);
     transform: translateZ(-800px);
     -webkit-filter: blur(12px);
     filter: blur(12px);
-    opacity: 0;
-    }
-    100% {
+    opacity: 0; }
+  100% {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-filter: blur(0);
     filter: blur(0);
-    opacity: 1;
-    }
-}
-
-.boxe{
-    box-sizing: border-box;
-    position: absolute;
-    width: 95%;
-    height: 350px;
-    left: 3.5%;
-    top: 785px;
-    border: 2px solid #000000;
-}
-
-.carousel-item h3{
+    opacity: 1; } }
+  .carousel-inner .carousel-item h3 {
     position: absolute;
     width: 35%;
     height: 20%;
     left: 33%;
     top: 150px;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 300%;
     line-height: 100%;
-    letter-spacing: 0.2em;
-    color: #FFFFFF;
     text-align: center;
-    -webkit-animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
+    color: white;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.2em;
+    -webkit-animation: focus-in-expand-fwd 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: focus-in-expand-fwd 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
 @-webkit-keyframes focus-in-expand-fwd {
-    0% {
+  0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-800px);
     transform: translateZ(-800px);
     -webkit-filter: blur(12px);
     filter: blur(12px);
-    opacity: 0;
-    }
-    100% {
+    opacity: 0; }
+  100% {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-filter: blur(0);
     filter: blur(0);
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
+
 @keyframes focus-in-expand-fwd {
-    0% {
+  0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-800px);
     transform: translateZ(-800px);
     -webkit-filter: blur(12px);
     filter: blur(12px);
-    opacity: 0;
-    }
-    100% {
+    opacity: 0; }
+  100% {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-filter: blur(0);
     filter: blur(0);
-    opacity: 1;
-    }
-}
+    opacity: 1; } }
 
-#carouselExampleIndicators1{
+@media (max-width: 1253px) {
+  .headerr nav .navegador #inscribite {
+    font-size: 87%; }
+  #mainUno .secUno .secTit h1 {
+    font-size: 115%;
+    line-height: 100%;
     position: absolute;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-
-#carouselExampleIndicators2{
+    width: 25%;
+    height: 15%;
+    left: 38%;
+    top: 85%; }
+  #mainUno .secTres .horaUno {
     position: absolute;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-
-#carouselExampleIndicators3{
+    width: 19%;
+    height: 80%;
+    left: 1%;
+    top: 10%; }
+    #mainUno .secTres .horaUno .tithn {
+      font-size: 120%;
+      line-height: 100%; }
+  #mainUno .secTres .horaTres {
     position: absolute;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
+    width: 18%;
+    height: 80%;
+    right: 1%;
+    top: 10%; }
+    #mainUno .secTres .horaTres .tithd {
+      font-size: 120%;
+      line-height: 100%; }
+  main .secClas .fit #carouselExampleIndicators2 .carousel-inner .carousel-item div h2 {
+    width: 75%;
+    left: 12%; }
+  main .secNosd .parUno {
+    font-size: 100%; }
+  main .secNosd .parDos {
+    font-size: 100%; }
+  main .secNosu p {
+    font-size: 110%; } }
 
-.carousel-inner{
+@media (max-width: 1124px) {
+  .headerr nav .navegador {
+    left: 53%;
+    width: 45%; }
+  #mainUno .secTres .horaDos a .tith {
+    width: 70%;
+    left: 15%; }
+  #mainUno .secCuatro a .nosUno {
+    width: 70%;
+    left: 14%; }
+  .secIns div form .envIns {
+    height: 4%; }
+  main .secNosu p {
+    font-size: 100%;
+    top: 35%; }
+  main .secNosd form .envNos {
+    height: 7.5%; } }
+
+@media (max-width: 1070px) {
+  .headerr nav .navegador {
+    left: 50%;
+    width: 45%; }
+  #mainUno .secDos .clasDos a .titc {
+    left: 15%;
+    width: 65%; }
+  #mainUno .secTres .horaUno {
     position: absolute;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-
-.carousel-item img{
+    width: 18%;
+    height: 60%;
+    left: 3%;
+    top: 18%; }
+    #mainUno .secTres .horaUno .tithn {
+      top: 40%;
+      height: 30%; }
+  #mainUno .secTres .horaTres {
     position: absolute;
-    object-fit: cover;
-    width: 100%;
-    height: 350px;
-}
+    width: 16%;
+    height: 60%;
+    right: 4%;
+    top: 18%; }
+    #mainUno .secTres .horaTres .tithd {
+      top: 40%;
+      height: 30%; }
+  main .secNosu p {
+    font-size: 90%;
+    top: 35%;
+    width: 65%;
+    left: 17.5%; } }
 
-@media (max-width:1253px){
-    .secTres .horaUno .tithn{
-        font-size: 120%;
-        line-height: 100%;
-    }
-    .secTres .horaTres .tithd{
-        font-size: 120%;
-        line-height: 100%;
-    }
-    .secTres .horaUno{
-        width: 19%;
-        height: 80%;
-        left: 1%;
-        top: 10%;
-    }
-    .secTres .horaTres{
-        width: 18%;
-        height: 80%;
-        right: 1%;
-        top: 10%;
-    }
-    .secUno .secTit h1{
-        font-size: 115%;
-        line-height: 100%;
-        width: 25%;
-        height: 15%;
-        top: 85%;
-        left: 38%;
-    }
-    .carousel-item h2{
-        width: 75%;
-        left: 12%;
-    }
-    .parUno{
-        font-size: 100%;
+@media (max-width: 1024px) {
+  .headerr nav .navegador {
+    left: 50%;
+    width: 48%; }
+  main .secNosd h2 {
+    top: 12%; }
+  main .secNosd form .formNos {
+    position: absolute;
+    width: 50%;
+    height: 55%;
+    left: 4%;
+    top: 30%; }
+  main .secNosd .youtNos {
+    position: absolute;
+    width: 38%;
+    height: 55%;
+    right: 4%;
+    top: 30%; } }
 
-    }
-    .parDos{
-        font-size: 100%;
-    }
-    .secNosu p{
-        font-size: 110%;
-    }
-}
+@media (max-width: 1005px) {
+  #mainUno .secUno .secTit h1 {
+    font-size: 95%;
+    line-height: 100%;
+    position: absolute;
+    width: 25%;
+    height: 15%;
+    left: 38%;
+    top: 80%; }
+  #mainUno .secUno .secImguno a img {
+    position: absolute;
+    width: 48%;
+    height: 40%;
+    left: 26%;
+    top: 30%; }
+  #mainUno .secDos .clasDos a .titc {
+    left: 15%; }
+  #mainUno .secTres .horaUno {
+    position: absolute;
+    width: 14%;
+    height: 45%;
+    left: 5%;
+    top: 30%; }
+  #mainUno .secTres .horaTres {
+    position: absolute;
+    width: 12%;
+    height: 45%;
+    right: 6%;
+    top: 30%; }
+  main .secNosd .parUno {
+    font-size: 85%; }
+  main .secNosd .parDos {
+    font-size: 85%; } }
 
-@media (max-width:1124px){
-    .navegador{
-        left: 53%;
-        width: 45%;
-    }
-    .secTres .horaDos a .tith{
-        width: 70%;
-        left: 15%;
-    }
-    .secCuatro a .nosUno{
-        width: 70%;
-        left: 14%;
-    }
-    .envIns{
-        height: 4%;
-    }
-    .secNosu p{
-        font-size: 100%;
-        top: 35%;
-    }
-    .envNos{
-        height: 7.5%;
-    }
-}
+@media (max-width: 950px) {
+  .headerr nav .navegador {
+    left: 46%;
+    width: 50%; }
+  main .secClas .musc #carouselExampleIndicators1 .carousel-inner .carousel-item h1 {
+    width: 70%;
+    left: 15%; }
+  .secHor .tabHor {
+    font-size: 95%; }
+  .secIns .card-container .card h2 {
+    font-size: 150%; }
+  .secIns .card-container .card h3 {
+    font-size: 100%; }
+  .secIns .card-container .card .precio {
+    font-size: 230%; }
+  .secIns .card-container .card .listIns {
+    font-size: 100%; }
+  .secIns div form .cuadroDos .titInfo {
+    font-size: 180%; }
+  .secIns div form .cuadroTres .titPago {
+    font-size: 180%; }
+  .secIns div form .envIns {
+    height: 3.5%; }
+  main .secNosd form .envNos {
+    height: 6%; } }
 
-@media (max-width:1070px){
-    .navegador{
-        left: 50%;
-        width: 45%;
-    }
-    .secTres .horaUno{
-        width: 18%;
-        height: 60%;
-        top: 18%;
-        left: 3%;
-    }
-    .secTres .horaTres{
-        width: 16%;
-        height: 60%;
-        top: 18%;
-        right: 4%;
-    }
-    .secTres .horaUno .tithn{
-        top: 40%;
-        height: 30%;
-    }
-    .secTres .horaTres .tithd{
-        top: 40%;
-        height: 30%;
-    }
-    .secDos .clasDos a .titc{
-        left: 15%;
-        width: 65%;
-    }
-    .secNosu p{
-        font-size: 90%;
-        top: 35%;
-        width:65%;
-        left: 17.5%;
-    }
-}
+@media (max-width: 885px) {
+  .headerr nav .navegador {
+    left: 41%;
+    width: 45%; }
+  #mainUno .secTres .horaUno {
+    position: absolute;
+    width: 15%;
+    height: 45%;
+    left: 3%;
+    top: 32%; }
+  #mainUno .secTres .horaTres {
+    position: absolute;
+    width: 13%;
+    height: 45%;
+    right: 4%;
+    top: 32%; }
+  #mainUno .secTres .horaDos a .tith {
+    left: 14%; }
+  main .secNosd h2 {
+    top: 15%; }
+  main .secNosd form .formNos {
+    position: absolute;
+    width: 45%;
+    height: 48%;
+    left: 7%;
+    top: 35%; }
+  main .secNosd .youtNos {
+    position: absolute;
+    width: 33%;
+    height: 48%;
+    right: 7%;
+    top: 35%; }
+  main .secNosd .parUno {
+    font-size: 75%; }
+  main .secNosd .parDos {
+    font-size: 75%; } }
 
-@media (max-width:1024px){
-    .navegador{
-        left: 50%;
-        width: 48%;
-    }
-    .secNosd h2{
-        top: 12%;
-    }
-    .formNos{
-        width: 50%;
-        height: 55%;
-        left: 4%;
-        top: 30%;
-    }
-    .youtNos{
-        width: 38%;
-        height: 55%;
-        right: 4%;
-        top: 30%;
-    }
-}
+@media (max-width: 810px) {
+  .headerr nav .navegador {
+    left: 38%;
+    width: 50%; }
+  #mainUno .secUno .secTit h1 {
+    font-size: 82%;
+    line-height: 100%;
+    width: 25%;
+    height: 15%;
+    top: 75%; }
+  #mainUno .secUno .secImguno a img {
+    height: 35%;
+    top: 32%; }
+  #mainUno .secDos .clasDos a .titc {
+    left: 10%; }
+  #mainUno .secTres .horaUno {
+    position: absolute;
+    width: 15%;
+    height: 45%;
+    left: 3%;
+    top: 42%; }
+  #mainUno .secTres .horaDos a .tith {
+    left: 14%; }
+  #mainUno .secTres .horaTres {
+    position: absolute;
+    width: 14%;
+    height: 45%;
+    right: 4%;
+    top: 42%; }
+  .secHor .tabHor {
+    left: 8%; }
+  .secIns .card-container .card .listIns {
+    font-size: 90%; }
+  .secIns div form .envIns {
+    height: 3%; } }
 
-@media (max-width:1005px){
-    .secTres .horaUno{
-        width: 14%;
-        height: 45%;
-        top: 30%;
-        left: 5%;
-    }
-    .secTres .horaTres{
-        width: 12%;
-        height: 45%;
-        top: 30%;
-        right: 6%;
-    }
-    .secDos .clasDos a .titc{
-        left: 15%;
-    }
-    .secUno .secImguno a img{
-        width: 48%;
-        height: 40%;
-        left: 26%;
-        top: 30%;
-    }
-    .secUno .secTit h1{
+@media (max-width: 768px) {
+  .headerr {
+    height: 60px; }
+    .headerr nav .navegador {
+      position: absolute;
+      width: 55%;
+      height: 60px;
+      left: 25%;
+      top: 0px;
+      gap: 6.9%; }
+      .headerr nav .navegador li a {
         font-size: 95%;
-        line-height: 100%;
-        width: 25%;
-        height: 15%;
-        top: 80%;
-        left: 38%;
-    }
-    .parUno{
-        font-size: 85%;
-    }
-    .parDos{
-        font-size: 85%;
-    }
-}
-
-@media (max-width:950px){
-    .navegador{
-        left: 46%;
-        width: 50%;
-    }
-    .carousel-item h1{
-        width: 70%;
-        left: 15%;
-    }
-    .tabHor{
-        font-size: 95%;
-    }
-    .card h2{
-        font-size: 150%;
-    }
-    .precio{
-        font-size: 230%;
-    }
-    .card h3{
-        font-size: 100%;
-    }
-    .card .listIns{
-        font-size: 100%;
-    }
-    .titInfo{
-        font-size: 180%;
-    }
-    .titPago{
-        font-size: 180%;
-    }
-    .envIns{
-        height: 3.5%;
-    }
-    .envNos{
-        height: 6%;
-    }
-}
-
-@media (max-width:885px){
-    .navegador{
-        left: 41%;
-        width: 45%;
-    }
-    .secTres .horaUno{
-        width: 15%;
-        height: 45%;
-        top: 32%;
-        left: 3%;
-    }
-    .secTres .horaTres{
-        width: 13%;
-        height: 45%;
-        top: 32%;
-        right: 4%;
-    }
-    .secTres .horaDos a .tith{
-        left: 25%;
-    }
-    .secTres .horaDos a .tith{
-        left: 14%;
-    }
-    .parUno{
-        font-size: 75%;
-    }
-    .parDos{
-        font-size: 75%;
-    }
-    .secNosd h2{
-        top: 15%;
-    }
-    .formNos{
-        width: 45%;
-        height: 48%;
-        left: 7%;
-        top: 35%;
-    }
-    .youtNos{
-        width: 33%;
-        height: 48%;
-        right: 7%;
-        top: 35%;
-    }
-}
-
-@media (max-width:810px){
-    .navegador{
-        left: 38%;
-        width: 50%;
-    }
-    .secTres .horaUno{
-        width: 15%;
-        height: 45%;
-        top: 42%;
-        left: 3%;
-    }
-    .secTres .horaTres{
-        width: 14%;
-        height: 45%;
-        top: 42%;
-        right: 4%;
-    }
-    .secDos .clasDos a .titc{
-        left: 10%;
-    }
-    .secTres .horaDos a .tith{
-        left: 23%;
-    }
-    .secUno .secImguno a img{
-        height: 35%;
-        top: 32%;
-    }
-    .secUno .secTit h1{
-        font-size: 82%;
-        line-height: 100%;
-        width: 25%;
-        height: 15%;
-        top: 75%;
-    }
-    .secTres .horaDos a .tith{
-        left: 14%;
-    }
-    .tabHor{
-        left: 8%;
-    }
-    .card .listIns{
-        font-size: 90%;
-    }
-    .envIns{
-        height: 3%;
-    }
-}
-
-@media (max-width:768px){
-    .headerr{
-        height: 60px;
-    }
-    .navegador{
-        width: 55%;
-        height: 60px;
-        left: 25%;
-        gap: 6.9%;
-    }
-    .navegador li a{
-        font-size: 95%;
-        line-height: 100%;
-    }
-    nav .navegador #inscribite{
+        line-height: 100%; }
+      .headerr nav .navegador #inscribite {
         height: 30px;
         width: 20%;
-    }
-    #inscribite{
-        border: 2.5px solid #000000;
-    }
-    .logo a img{
-        width: 18%;
-        height: 20px;
-        left: 3.5%;
-        top: 30%;
-    }
-    #mainUno{
-        height: 1320px;
-        left: 0px;
-        top: 60px;
-    }
-    .secUno{
-        width: 97%;
-        height: 300px;
-        left: 1.4%;
-        top: 2.5%;
-    }
-    .secUno .secImguno a img{
+        border: 2.5px solid #000000; }
+    .headerr .logo a img {
+      position: absolute;
+      width: 18%;
+      height: 20px;
+      left: 3.5%;
+      top: 30%; }
+  #mainUno {
+    position: absolute;
+    width: 100%;
+    height: 1320px;
+    left: 0px;
+    top: 60px; }
+    #mainUno .secUno {
+      position: absolute;
+      width: 97%;
+      height: 300px;
+      left: 1.4%;
+      top: 2.5%; }
+      #mainUno .secUno .secImguno a img {
+        position: absolute;
         width: 58%;
         height: 30%;
         left: 21%;
-        top: 35%;
-        }
-    .secUno .secTit h1{
+        top: 35%; }
+      #mainUno .secUno .secTit h1 {
         font-size: 100%;
         line-height: 100%;
+        position: absolute;
         width: 35%;
         height: 15%;
-        top: 80%;
         left: 32.5%;
-    }
-    .secDos{
-        width: 100%;
+        top: 80%; }
+    #mainUno .secDos {
+      position: absolute;
+      width: 100%;
+      height: 300px;
+      left: 0px;
+      top: 28%; }
+      #mainUno .secDos .clasUno {
+        height: 250px; }
+      #mainUno .secDos .clasDos {
         height: 300px;
-        left: 0px;
-        top: 28%;
-    }
-    .secDos .clasUno{
-        height: 250px;
-    }
-    .secDos .clasDos{
-        height: 300px;
-        top: 0%;
-    }
-    .secDos .clasDos a .titc{
-        width: 60%;
-        height: 30%;
-        left: 20%;
-        top: 40%;
-        font-size: 190%;
-        line-height: 200%;
-    }
-    .secDos .clasTres{
-        height: 250px;
-    }
-    .secTres{
-        width: 100%;
-        height: 250px;
-        left: 0px;
-        top: 53%;
-    }
-    .secTres .horaUno{
-        display: none;
-    }
-    .secTres .horaDos{
+        top: 0%; }
+        #mainUno .secDos .clasDos a .titc {
+          position: absolute;
+          width: 60%;
+          height: 30%;
+          left: 20%;
+          top: 40%;
+          font-size: 190%;
+          line-height: 200%; }
+      #mainUno .secDos .clasTres {
+        height: 250px; }
+    #mainUno .secTres {
+      position: absolute;
+      width: 100%;
+      height: 250px;
+      left: 0px;
+      top: 53%; }
+      #mainUno .secTres .horaUno {
+        display: none; }
+      #mainUno .secTres .horaDos {
+        position: absolute;
         width: 90%;
         height: 250px;
         left: 5%;
-        top: 0%;
-    }
-    .secTres .horaDos a .tith{
-        width: 25%;
-        height: 30%;
-        left: 37%;
-        top: 35%;
-        font-size: 190%;
-        line-height: 200%;
-    }
-    .secTres .horaTres{
-        display: none;
-    }
-    .secCuatro{
-        width: 95%;
-        height: 300px;
-        left: 2.5%;
-        top: 75%;
-    }
-    .secCuatro a .nosUno{
+        top: 0%; }
+        #mainUno .secTres .horaDos a .tith {
+          position: absolute;
+          width: 25%;
+          height: 30%;
+          left: 37%;
+          top: 35%;
+          font-size: 190%;
+          line-height: 200%; }
+      #mainUno .secTres .horaTres {
+        display: none; }
+    #mainUno .secCuatro {
+      position: absolute;
+      width: 95%;
+      height: 300px;
+      left: 2.5%;
+      top: 75%; }
+      #mainUno .secCuatro a .nosUno {
+        position: absolute;
         width: 25%;
         height: 30%;
         left: 36%;
         top: 35%;
         font-size: 190%;
-        line-height: 200%;
-    }
-    #footUno{
-        height: 30px;
-        top: 1376px;
-    }
-    footer div .redesSociales{
-        gap: 25px;
-        top: 15%;
-        left: 45.5%;
-    }
-    footer .copy p{
-        top: 15%;
-        left: 83.3%;
-        width: 90px;
-        height: 18px;
-    }
-    .copy{
-        font-size: 10px;
-        line-height: 15px;
-    }
-    .footerr{
-        top: 1210px;
-        height: 30px;
-    }
-    .secClas{
-        height: 1150px;
-        left: 0px;
-        top: 60px;
-    }
-    .musc{
-        width: 80%;
-        left: 10%;
-    }
-    .carousel-item h1{
+        line-height: 200%; }
+  #footUno {
+    height: 30px;
+    top: 1376px; }
+  .footerr {
+    top: 1210px;
+    height: 30px; }
+  footer div .redesSociales {
+    gap: 25px;
+    top: 15%;
+    left: 45.5%; }
+  footer .copy {
+    font-size: 10px;
+    line-height: 15px; }
+    footer .copy p {
+      position: absolute;
+      width: 90px;
+      height: 18px;
+      left: 83.3%;
+      top: 15%; }
+  main .secClas {
+    position: absolute;
+    width: 100%;
+    height: 1150px;
+    left: 0px;
+    top: 60px; }
+    main .secClas .musc {
+      width: 80%;
+      left: 10%; }
+      main .secClas .musc #carouselExampleIndicators1 .carousel-inner .carousel-item h1 {
         width: 70%;
         height: 20%;
         left: 15%;
-        font-size: 200%;
-    }
-    .fit{
-        width: 80%;
-        left: 10%;
-    }
-    .carousel-item h2{
+        font-size: 200%; }
+    main .secClas .fit {
+      width: 80%;
+      left: 10%; }
+      main .secClas .fit #carouselExampleIndicators2 .carousel-inner .carousel-item h2 {
         width: 75%;
         left: 12%;
-        font-size: 200%;
-    }
-    .boxe{
-        width: 80%;
-        left: 10%;
-    }
-    .carousel-item h3{
+        font-size: 200%; }
+    main .secClas .boxe {
+      width: 80%;
+      left: 10%; }
+      main .secClas .boxe #carouselExampleIndicators3 .carousel-inner .carousel-item h3 {
         width: 50%;
         left: 25%;
-        font-size: 200%;
-    }
-    .secHor{
-        background-image: none;
-        top: 60px;
-        background-position: none;
-        background-size: none;
-        -webkit-animation: color-change-5x 5s linear infinite alternate both;
-	    animation: color-change-5x 5s linear infinite alternate both;
-    }
-    @-webkit-keyframes color-change-5x {
-        0% {
-            background: #404258;
-        }
-        25% {
-            background: #474E68;
-        }
-        50% {
-            background: #50577A;
-        }
-        75% {
-            background: #6B728E;
-        }
-        100% {
-            background-color: white;
-        }
-    }
-    @keyframes color-change-5x {
-        0% {
-            background: #404258;
-        }
-        25% {
-            background: #474E68;
-        }
-        50% {
-            background: #50577A;
-        }
-        75% {
-            background: #6B728E;
-        }
-        100% {
-            background-color: white;
-        }
-    }
-    #titHor{
-        font-size: 300%;
-        color: #000000;
-    }
-    .tabHor{
-        width: 85%;
-        height: 75%;
-        left: 7.5%;
-        top: 18%;
-        background: white;
-        border-radius: 10px;
-        font-size: 75%;
-        letter-spacing: 0.1em;
-        color: #404258;
-        text-align: center;
-        -webkit-animation: none;
-	    animation:none
-    }
-    .secIns{
-        top: 60px;
-        height: 1150px;
-    }
-    div .titIns{
-        font-size: 200%;
-        letter-spacing: 0.25em;
-        color: white;
-    }
-    .card-container{
-        position: absolute;
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        top: 12%;
-    }
-    .card{
+        font-size: 200%; }
+  .secHor {
+    background-image: none;
+    top: 60px;
+    background-position: none;
+    background-size: none;
+    -webkit-animation: color-change-5x 5s linear infinite alternate both;
+    animation: color-change-5x 5s linear infinite alternate both; }
+  @-webkit-keyframes color-change-5x {
+    0% {
+      background: #404258; }
+    25% {
+      background: #474E68; }
+    50% {
+      background: #50577A; }
+    75% {
+      background: #6B728E; }
+    100% {
+      background-color: white; } }
+  @keyframes color-change-5x {
+    0% {
+      background: #404258; }
+    25% {
+      background: #474E68; }
+    50% {
+      background: #50577A; }
+    75% {
+      background: #6B728E; }
+    100% {
+      background-color: white; } }
+    .secHor #titHor {
+      font-size: 300%;
+      color: #000000; }
+    .secHor .tabHor {
+      position: absolute;
+      width: 85%;
+      height: 75%;
+      left: 7.5%;
+      top: 18%;
+      background: white;
+      border-radius: 10px;
+      font-size: 75%;
+      letter-spacing: 0.1em;
+      color: #404258;
+      text-align: center;
+      -webkit-animation: none;
+      animation: none; }
+  .secIns {
+    top: 60px;
+    height: 1150px; }
+    .secIns div .titIns {
+      font-size: 200%;
+      letter-spacing: 0.25em;
+      color: white; }
+    .secIns .card-container {
+      position: absolute;
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      top: 12%; }
+      .secIns .card-container .card {
         width: 25%;
         height: 200px;
         border-radius: 30px;
         -webkit-animation: color-change-3x 5s linear infinite alternate both;
-	    animation: color-change-3x 5s linear infinite alternate both;
-    }
-    @-webkit-keyframes color-change-3x {
-        0% {
-            background: #404258;
-        }
-        50% {
-            background: #50577A;
-        }
-        100% {
-            background: #6B728E;
-        }
-    }
-    @keyframes color-change-3x {
-        0% {
-            background: #404258;
-        }
-        50% {
-            background: #50577A;
-        }
-        100% {
-            background: #6B728E;
-        }
-    }
-    .card h2{
-        font-size: 120%;
-    }
-    .card .precio{
-        top: 17%;
-        font-size: 200%;
-    }
-    .card h3{
-        top: 32%;
-        font-size: 100%;
-    }
-    .card .listIns{
-        top: 43%;
-        font-size: 84%;
-    }
-    .listIns p button{
-        padding: 2.5px;
-        font-size: 15px;
-    }
-    .cuadroDos{
-        width: 80%;
-        height: 28%;
-        left: 10%;
-        top: 33%;
-        border-radius: 30px;
-        -webkit-animation: color-change-3x 5s linear infinite alternate both;
-	    animation: color-change-3x 5s linear infinite alternate both;
-    }
-    @-webkit-keyframes color-change-3x {
-        0% {
-            background: #404258;
-        }
-        50% {
-            background: #50577A;
-        }
-        100% {
-            background: #6B728E;
-        }
-    }
-    @keyframes color-change-3x {
-        0% {
-            background: #404258;
-        }
-        50% {
-            background: #50577A;
-        }
-        100% {
-            background: #6B728E;
-        }
-    }
-    .cuadroTres{
-        width: 80%;
-        height: 28%;
-        left: 10%;
-        top: 65%;
-        border-radius: 30px;
-        -webkit-animation: color-change-3x 5s linear infinite alternate both;
-	    animation: color-change-3x 5s linear infinite alternate both;
-    }
-    @-webkit-keyframes color-change-3x {
-        0% {
-            background: #404258;
-        }
-        50% {
-            background: #50577A;
-        }
-        100% {
-            background: #6B728E;
-        }
-    }
-    @keyframes color-change-3x {
-        0% {
-            background: #404258;
-        }
-        50% {
-            background: #50577A;
-        }
-        100% {
-            background: #6B728E;
-        }
-    }
-    .envIns{
-        height: 2.5%;
-        top: 95%;
-        font-size: 15px;
-    }
-    .secNosu{
-        top: 60px;
-        height: 400px;
-    }
-    .secNosu h1{
-        font-size: 150%;
-    }
-    .secNosu p{
-        width: 60%;
-        height: 55%;
-        left: 20%;
-        font-size: 75%;
-    }
-    .secNosd{
-        top: 460px;
-        height: 750px;
-    }
-    .secNosd h2{
-        font-size: 150%;
-        top: 4%;
-        height: 4%;
-    }
-    .formNos{
-        top: 12%;
-        width: 75%;
-        height: 40%;
-        left: 12.5%;
-    }
-    .envNos{
-        top: 55%;
-        left: 45.5%;
-        height: 3%;
-        -webkit-animation: none;
-	    animation: none;
-        font-size: 100%;
-    }
-    .youtNos{
-        width: 60%;
-        height: 30%;
-        top: 60%;
-        left: 20.5%;
-    }
-    .parUno{
-        text-align: center;
-        width: 100%;
-        top: 92%;
-        left: 0%;
-        height: 2%;
-        font-size: 100%;
-    }
-    .parDos{
-        text-align: center;
-        width: 100%;
-        left: 0%;
-        top: 96%;
-        height: 2%;
-        font-size: 100%;
-    }
-}
+        animation: color-change-3x 5s linear infinite alternate both; }
+  @-webkit-keyframes color-change-3x {
+    0% {
+      background: #404258; }
+    50% {
+      background: #50577A; }
+    100% {
+      background: #6B728E; } }
+  @keyframes color-change-3x {
+    0% {
+      background: #404258; }
+    50% {
+      background: #50577A; }
+    100% {
+      background: #6B728E; } }
+        .secIns .card-container .card h2 {
+          font-size: 120%; }
+        .secIns .card-container .card h3 {
+          top: 32%;
+          font-size: 100%; }
+        .secIns .card-container .card .precio {
+          top: 17%;
+          font-size: 200%; }
+        .secIns .card-container .card .listIns {
+          top: 43%;
+          font-size: 84%; }
+          .secIns .card-container .card .listIns p button {
+            padding: 2.5px;
+            font-size: 15px; }
+    .secIns div form .cuadroDos {
+      position: absolute;
+      width: 80%;
+      height: 28%;
+      left: 10%;
+      top: 33%;
+      border-radius: 30px;
+      -webkit-animation: color-change-3x 5s linear infinite alternate both;
+      animation: color-change-3x 5s linear infinite alternate both; }
+  @-webkit-keyframes color-change-3x {
+    0% {
+      background: #404258; }
+    50% {
+      background: #50577A; }
+    100% {
+      background: #6B728E; } }
+  @keyframes color-change-3x {
+    0% {
+      background: #404258; }
+    50% {
+      background: #50577A; }
+    100% {
+      background: #6B728E; } }
+    .secIns div form .cuadroTres {
+      position: absolute;
+      width: 80%;
+      height: 28%;
+      left: 10%;
+      top: 65%;
+      border-radius: 30px;
+      -webkit-animation: color-change-3x 5s linear infinite alternate both;
+      animation: color-change-3x 5s linear infinite alternate both; }
+  @-webkit-keyframes color-change-3x {
+    0% {
+      background: #404258; }
+    50% {
+      background: #50577A; }
+    100% {
+      background: #6B728E; } }
+  @keyframes color-change-3x {
+    0% {
+      background: #404258; }
+    50% {
+      background: #50577A; }
+    100% {
+      background: #6B728E; } }
+    .secIns div form .envIns {
+      height: 2.5%;
+      top: 95%;
+      font-size: 15px; }
+  main .secNosu {
+    top: 60px;
+    height: 400px; }
+    main .secNosu h1 {
+      font-size: 150%; }
+    main .secNosu p {
+      position: absolute;
+      width: 60%;
+      height: 55%;
+      left: 20%;
+      top: 30%;
+      font-size: 75%; }
+  main .secNosd {
+    top: 460px;
+    height: 750px; }
+    main .secNosd h2 {
+      font-size: 150%;
+      top: 4%;
+      height: 4%; }
+    main .secNosd form .formNos {
+      position: absolute;
+      width: 75%;
+      height: 40%;
+      left: 12.5%;
+      top: 12%; }
+    main .secNosd form .envNos {
+      position: absolute;
+      width: 9%;
+      height: 3%;
+      left: 45.5%;
+      top: 55%;
+      -webkit-animation: none;
+      animation: none;
+      font-size: 100%; }
+    main .secNosd .youtNos {
+      position: absolute;
+      width: 60%;
+      height: 30%;
+      left: 20.5%;
+      top: 60%; }
+    main .secNosd .parUno {
+      text-align: center;
+      font-size: 100%;
+      position: absolute;
+      width: 100%;
+      height: 2%;
+      left: 0%;
+      top: 92%; }
+    main .secNosd .parDos {
+      text-align: center;
+      font-size: 100%;
+      position: absolute;
+      width: 100%;
+      height: 2%;
+      left: 0%;
+      top: 96%; } }
 
-@media (max-width:650px){
-    .navegador{
-        gap: 5%;
-    }
-    .secUno .secImguno a img{
-        height: 26%;
-        }
-    .secUno .secTit h1{
-        font-size: 110%;
-    }
-    .secDos .clasDos a .titc{
-        left: 14.5%;
-    }
-    .tabHor{
-        left: 7%;
-    }
-    .card{
-        height: 165px;
-    }
-    .card h2{
-        font-size: 100%;
-    }
-    .card .precio{
-        top: 17%;
-        font-size: 180%;
-    }
-    .card h3{
-        top: 35%;
-        font-size: 80%;
-    }
-    .card .listIns{
-        top: 43%;
-        font-size: 64%;
-    }
-    .listIns p button{
+@media (max-width: 650px) {
+  .headerr nav .navegador {
+    gap: 5%; }
+  #mainUno .secUno .secImguno a img {
+    height: 26%; }
+  #mainUno .secUno .secTit h1 {
+    font-size: 110%; }
+  #mainUno .secDos .clasDos a .titc {
+    left: 14.5%; }
+  .secHor .tabHor {
+    left: 7%; }
+  .secIns .card-container .card {
+    height: 165px; }
+    .secIns .card-container .card h2 {
+      font-size: 100%; }
+    .secIns .card-container .card h3 {
+      top: 35%;
+      font-size: 80%; }
+    .secIns .card-container .card .precio {
+      top: 17%;
+      font-size: 180%; }
+    .secIns .card-container .card .listIns {
+      top: 43%;
+      font-size: 64%; }
+      .secIns .card-container .card .listIns p button {
         padding: 2px;
         font-size: 12px;
-        width: 40%;
-    }
-    .envIns{
-        font-size: 15px;
-    }
-    .secNosu p{
-        font-size: 65%;
-    }
-}
+        width: 40%; }
+  .secIns div form .envIns {
+    font-size: 15px; }
+  main .secNosu p {
+    font-size: 65%; } }
 
-@media (max-width:600px){
-    .navegador{
-        gap: 4%;
-    }
-    nav .navegador #inscribite{
-        width: 22%;
-    }
-    .carousel-item h1{
-        font-size: 150%;
-    }
-    .carousel-item h2{
-        font-size: 150%;
-    }
-    .carousel-item h3{
-        font-size: 150%;
-    }
-    .tabHor{
-        left: 6.5%;
-    }
-    .envNos{
-        font-size: 80%;
-    }
-    .parUno{
-        font-size: 80%;
-    }
-    .parDos{
-        font-size: 80%;
-    }
-}
+@media (max-width: 600px) {
+  .headerr nav .navegador {
+    gap: 4%; }
+    .headerr nav .navegador #inscribite {
+      width: 22%; }
+  main .secClas .musc #carouselExampleIndicators1 .carousel-inner .carousel-item h1 {
+    font-size: 148%; }
+  main .secClas .fit #carouselExampleIndicators2 .carousel-inner .carousel-item h2 {
+    font-size: 148%; }
+  main .secClas .boxe #carouselExampleIndicators3 .carousel-inner .carousel-item h3 {
+    font-size: 148%; }
+  .secHor .tabHor {
+    left: 6.5%; }
+  main .secNosd form .envNos {
+    font-size: 80%; }
+  main .secNosd .parUno {
+    font-size: 80%; }
+  main .secNosd .parDos {
+    font-size: 80%; } }
 
-@media (max-width:560px){
-    .navegador{
-        gap: 3%;
-        width: 60%;
-    }
-    nav .navegador #inscribite{
-        width: 22%;
-    }
-    .secUno .secTit h1{
-        font-size: 105%;
-    }
-    .secDos .clasDos a .titc{
-        left: 10%;
-    }
-    .tabHor{
-        left: 6%;
-    }
-    .secNosu p{
-        font-size: 60%;
-    }
-}
+@media (max-width: 560px) {
+  .headerr nav .navegador {
+    gap: 3%;
+    width: 60%; }
+    .headerr nav .navegador #inscribite {
+      width: 22%; }
+  #mainUno .secUno .secTit h1 {
+    font-size: 105%; }
+  #mainUno .secDos .clasDos a .titc {
+    left: 10%; }
+  .secHor .tabHor {
+    left: 6%; }
+  main .secNosu p {
+    font-size: 60%; } }
 
-@media (max-width:510px){
-    .navegador{
-        gap: 2.5%;
-        width: 75%;
-    }
-    .secDos .clasDos a .titc{
-        top: 40%;
-        left: 7.5%;
-        font-size: 175%;
-        line-height: 150%;
-    }
-    .secTres .horaDos a .tith{
-        width: 45%;
-        left: 26.5%;
-    }
-    .secUno .secImguno a img{
-        height: 25%;
-    }
-    .secUno .secTit h1{
-        top: 80%;
-        font-size: 90%;
-        width: 40%;
-        }
-    .secCuatro a .nosUno{
-        width: 45%;
-        left: 26.5%;
-    }
-    footer .copy p{
-        left: 78%;
-    }
-    .tabHor{
-        left: 8%;
-        font-size: 60%;
-    }
-    .card-container{
-        top: 13%;
-    }
-    .card{
-        height: 140px;
-    }
-    .card h2{
-        font-size: 80%;
-    }
-    .card .precio{
-        top: 17%;
-        font-size: 170%;
-    }
-    .card h3{
+@media (max-width: 510px) {
+  .headerr nav .navegador {
+    gap: 2.5%;
+    width: 75%; }
+  #mainUno .secUno .secImguno a img {
+    height: 25%; }
+  #mainUno .secUno .secTit h1 {
+    top: 80%;
+    font-size: 90%;
+    width: 40%; }
+  #mainUno .secDos .clasDos a .titc {
+    top: 40%;
+    left: 7.5%;
+    font-size: 175%;
+    line-height: 150%; }
+  #mainUno .secTres .horaDos a .tith {
+    width: 45%;
+    left: 26.5%; }
+  #mainUno .secCuatro a .nosUno {
+    width: 45%;
+    left: 26.5%; }
+  footer .copy p {
+    left: 78%; }
+  .secHor .tabHor {
+    left: 8%;
+    font-size: 60%; }
+  .secIns .card-container {
+    top: 13%; }
+    .secIns .card-container .card {
+      height: 140px; }
+      .secIns .card-container .card h2 {
+        font-size: 80%; }
+      .secIns .card-container .card h3 {
         top: 35%;
-        font-size: 70%;
-    }
-    .card .listIns{
+        font-size: 70%; }
+      .secIns .card-container .card .precio {
+        top: 17%;
+        font-size: 170%; }
+      .secIns .card-container .card .listIns {
         top: 43%;
-        font-size: 54%;
-    }
-    .listIns p button{
-        padding: 2px;
-        font-size: 10px;
-        width: 40%;
-    }
-    .envIns{
-        font-size: 12px;
-        line-height: 15px;
-        height: 2%;
-    }
-}
+        font-size: 54%; }
+        .secIns .card-container .card .listIns p button {
+          padding: 2px;
+          font-size: 10px;
+          width: 40%; }
+  .secIns div form .envIns {
+    font-size: 12px;
+    line-height: 15px;
+    height: 2%; } }
 
-@media (max-width:425px){
-    .headerr{
-        height: 60px;
-    }
-    .navegador{
-        width: 65%;
-        height: 60px;
-        left: 1%;
-        gap: 3%;
-    }
-    .navegador li a{
-        display: list-item;
-        font-size: 70%;
-        line-height: 100%;
-    }
-    nav .navegador #inscribite{
-        height: 15px;
-        width: 20%;
-    }
-    #inscribite{
-        border: 1.5px solid #000000;
-        border-radius: 10px;
-    }
-    .logo a img{
-        width: 35%;
-        height: 28px;
-        left: 65%;
-        top: 15px;
-    }
-    #mainUno{
-        height: 1350px;
-        left: 0px;
-        top: 60px;
-    }
-    .secUno{
-        width: 100%;
-        height: 300px;
-        left: 0px;
-        top: 0px;
-    }
-    .secUno .secImguno a img{
+@media (max-width: 425px) {
+  .headerr {
+    height: 60px; }
+  .headerr nav .navegador {
+    position: absolute;
+    width: 65%;
+    height: 60px;
+    left: 1%;
+    top: 0px;
+    gap: 3%; }
+    .headerr nav .navegador li a {
+      display: list-item;
+      font-size: 70%;
+      line-height: 100%; }
+    .headerr nav .navegador #inscribite {
+      height: 13px;
+      width: 20%;
+      border: 1.5px solid #000000;
+      border-radius: 10px;
+      font-size: 94%; }
+  .headerr .logo a img {
+    position: absolute;
+    width: 35%;
+    height: 28px;
+    left: 65%;
+    top: 15px; }
+  #mainUno {
+    position: absolute;
+    width: 100%;
+    height: 1350px;
+    left: 0px;
+    top: 60px; }
+    #mainUno .secUno {
+      position: absolute;
+      width: 100%;
+      height: 300px;
+      left: 0px;
+      top: 0px; }
+      #mainUno .secUno .secImguno a img {
+        position: absolute;
         width: 95%;
         height: 25%;
         left: 2.5%;
-        top: 32%;
-        }
-    .secUno .secTit h1{
+        top: 32%; }
+      #mainUno .secUno .secTit h1 {
         font-size: 120%;
         line-height: 100%;
+        position: absolute;
         width: 60%;
         height: 15%;
-        top: 80%;
         left: 20%;
-    }
-    .secDos{
+        top: 80%; }
+    #mainUno .secDos {
+      position: absolute;
+      width: 100%;
+      height: 350px;
+      left: 0px;
+      top: 300px; }
+      #mainUno .secDos .clasUno {
+        display: none; }
+      #mainUno .secDos .clasDos {
+        position: absolute;
         width: 100%;
         height: 350px;
         left: 0px;
-        top: 300px;
-    }
-    .secDos .clasUno{
-        display: none;
-    }
-    .secDos .clasDos{
-        height: 350px;
+        top: 0px; }
+        #mainUno .secDos .clasDos a .titc {
+          position: absolute;
+          width: 100%;
+          height: 50%;
+          left: 0%;
+          top: 42%;
+          font-size: 300%;
+          line-height: 100%; }
+      #mainUno .secDos .clasTres {
+        display: none; }
+    #mainUno .secTres {
+      position: absolute;
+      width: 100%;
+      height: 350px;
+      left: 0px;
+      top: 650px; }
+      #mainUno .secTres .horaUno {
+        display: none; }
+      #mainUno .secTres .horaDos {
+        position: absolute;
         width: 100%;
-        top: 0px;
-        left: 0px;
-    }
-    .secDos .clasDos a .titc{
+        height: 350px;
+        left: 0%;
+        top: 0%; }
+        #mainUno .secTres .horaDos a .tith {
+          position: absolute;
+          width: 100%;
+          height: 50%;
+          left: 0%;
+          top: 42%;
+          font-size: 300%;
+          line-height: 100%; }
+      #mainUno .secTres .horaTres {
+        display: none; }
+    #mainUno .secCuatro {
+      position: absolute;
+      width: 100%;
+      height: 350px;
+      left: 0%;
+      top: 1000px; }
+      #mainUno .secCuatro a .nosUno {
+        position: absolute;
         width: 100%;
         height: 50%;
         left: 0%;
         top: 42%;
         font-size: 300%;
-        line-height: 100%;
-    }
-    .secDos .clasTres{
-        display: none;
-    }
-    .secTres{
-        width: 100%;
-        height: 350px;
-        left: 0px;
-        top: 650px;
-    }
-    .secTres .horaUno{
-        display: none;
-    }
-    .secTres .horaDos{
-        width: 100%;
-        height: 350px;
-        left: 0%;
-        top: 0%;
-    }
-    .secTres .horaDos a .tith{
-        width: 100%;
-        height: 50%;
-        left: 0%;
-        top: 42%;
-        font-size: 300%;
-        line-height: 100%;
-    }
-    .secTres .horaTres{
-        display: none;
-    }
-    .secCuatro{
-        width: 100%;
-        height: 350px;
-        left: 0%;
-        top: 1000px;
-    }
-    .secCuatro a .nosUno{
-        width: 100%;
-        height: 50%;
-        left: 0%;
-        top: 42%;
-        font-size: 300%;
-        line-height: 100%;
-    }
-    #footUno{
-        height: 20px;
-        top: 1410px;
-    }
-    footer div .redesSociales{
-        gap: 100px;
-        top: 20%;
-        left: 25.5%;
-    }
-    .redesSociales li a img{
-        width: 10px;
-        height: 10px;
-    }
-    footer .copy p{
-        top: 20%;
-        left: 85%;
-        width: 15%;
-        height: 35%;
-    }
-    .copy{
-        font-size: 5px;
-        line-height: 10px;
-    }
-    .footerr{
-        top: 1260px;
-        height: 20px;
-    }
-    .secClas{
-        height: 1200px;
-        top: 60px;
-    }
-    .musc{
-        width: 100%;
-        top: 0%;
-        left: 0%;
-        height: 400px;
-    }
-    .carousel-item h1{
+        line-height: 100%; }
+  #footUno {
+    height: 20px;
+    top: 1410px; }
+  .footerr {
+    top: 1260px;
+    height: 20px; }
+  footer div .redesSociales {
+    gap: 100px;
+    top: 20%;
+    left: 25.5%; }
+    footer div .redesSociales li a img {
+      width: 10px;
+      height: 10px; }
+  footer .copy {
+    font-size: 5px;
+    line-height: 10px; }
+    footer .copy p {
+      position: absolute;
+      width: 15%;
+      height: 35%;
+      left: 85%;
+      top: 20%; }
+  main .secClas {
+    height: 1200px;
+    top: 60px; }
+    main .secClas .musc {
+      position: absolute;
+      width: 100%;
+      height: 400px;
+      left: 0%;
+      top: 0%; }
+      main .secClas .musc #carouselExampleIndicators1 .carousel-inner .carousel-item img {
+        height: 400px; }
+      main .secClas .musc #carouselExampleIndicators1 .carousel-inner .carousel-item h1 {
+        position: absolute;
         width: 100%;
         height: 20%;
-        font-size: 150%;
         left: 0%;
         top: 180px;
-    }
-    .fit{
+        font-size: 150%; }
+    main .secClas .fit {
+      position: absolute;
+      width: 100%;
+      height: 400px;
+      left: 0%;
+      top: 400px; }
+      main .secClas .fit #carouselExampleIndicators2 .carousel-inner .carousel-item img {
+        height: 400px; }
+      main .secClas .fit #carouselExampleIndicators2 .carousel-inner .carousel-item h2 {
+        position: absolute;
         width: 100%;
+        height: 20%;
         left: 0%;
-        top:400px;
-        height: 400px;
-    }
-    .carousel-item h2{
-        width: 100%;
-        left: 0%;
-        font-size: 150%;
         top: 180px;
-    }
-    .boxe{
+        font-size: 150%; }
+    main .secClas .boxe {
+      position: absolute;
+      width: 100%;
+      height: 400px;
+      left: 0%;
+      top: 800px; }
+      main .secClas .boxe #carouselExampleIndicators3 .carousel-inner .carousel-item img {
+        height: 400px; }
+      main .secClas .boxe #carouselExampleIndicators3 .carousel-inner .carousel-item h3 {
+        position: absolute;
         width: 100%;
+        height: 20%;
         left: 0%;
-        top: 800px;
-        height: 400px;
-    }
-    .carousel-item h3{
-        width: 100%;
-        left: 0%;
-        font-size: 150%;
         top: 180px;
-    }
-    .carousel-item img{
-        height: 400px;
-    }
-    .secHor{
-        height: 1200px;
-        top: 60px;
-        background-image: none;
-        top: 60px;
-        -webkit-animation: none;
-	    animation: none;
-        background-image: url(../assets/img/14.jpg);
-        left: 0px;
-        background-position: 50% 50%;
-        background-size: cover;
-    }
-    #titHor{
-        color: white;
-        width: 100%;
-        left: 0%;
-        font-size: 180%;
-    }
-    .tabHor{
-        width: 90%;
-        left: 5%;
-        font-size: 50%;
-        line-height: 100%;
-        letter-spacing: none;
-        color: black;
-        -webkit-animation: color-change-5x 5s linear infinite alternate both;
-	    animation: color-change-5x 5s linear infinite alternate both;
-    }
-    @-webkit-keyframes color-change-5x {
-        0% {
-            background: #404258;
-        }
-        25% {
-            background: #474E68;
-        }
-        50% {
-            background: #50577A;
-        }
-        75% {
-            background: #6B728E;
-        }
-        100% {
-            background-color: white;
-        }
-    }
-    @keyframes color-change-5x {
-        0% {
-            background: #404258;
-        }
-        25% {
-            background: #474E68;
-        }
-        50% {
-            background: #50577A;
-        }
-        75% {
-            background: #6B728E;
-        }
-        100% {
-            background-color: white;
-        }
-    }
-    .secIns{
-        height: 1200px;
-    }
-    div .titIns{
-        font-size: 130%;
-        letter-spacing: 0.25em;
-        color: white;
-        top: 3.5%;
-    }
-    .card-container{
-        display: inline;
-        width: 100%;
-        height: 630px;
-        top: 6.2%;
-        left: 0%;
-    }
-    .card{
+        font-size: 150%; }
+  .secHor {
+    position: absolute;
+    width: 100%;
+    height: 1200px;
+    left: 0px;
+    top: 60px;
+    background-image: none;
+    -webkit-animation: none;
+    animation: none;
+    background-image: url(../assets/img/14.jpg);
+    background-position: 50% 50%;
+    background-size: cover; }
+    .secHor #titHor {
+      color: white;
+      width: 100%;
+      left: 0%;
+      font-size: 180%; }
+    .secHor .tabHor {
+      width: 90%;
+      left: 5%;
+      font-size: 50%;
+      line-height: 100%;
+      letter-spacing: none;
+      color: black;
+      -webkit-animation: color-change-5x 5s linear infinite alternate both;
+      animation: color-change-5x 5s linear infinite alternate both; }
+  @-webkit-keyframes color-change-5x {
+    0% {
+      background: #404258; }
+    25% {
+      background: #474E68; }
+    50% {
+      background: #50577A; }
+    75% {
+      background: #6B728E; }
+    100% {
+      background-color: white; } }
+  @keyframes color-change-5x {
+    0% {
+      background: #404258; }
+    25% {
+      background: #474E68; }
+    50% {
+      background: #50577A; }
+    75% {
+      background: #6B728E; }
+    100% {
+      background-color: white; } }
+  .secIns {
+    height: 1200px; }
+    .secIns div .titIns {
+      font-size: 130%;
+      letter-spacing: 0.25em;
+      color: white;
+      top: 3.5%; }
+    .secIns .card-container {
+      display: inline;
+      width: 100%;
+      height: 630px;
+      top: 6.2%;
+      left: 0%; }
+      .secIns .card-container .card {
         margin: 7px;
         left: 18%;
         width: 60%;
         height: 200px;
         -webkit-animation: heartbeat 2s ease-in-out infinite both;
-	    animation: heartbeat 2s ease-in-out infinite both;
-    }
-    @-webkit-keyframes heartbeat {
-        from {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        -webkit-transform-origin: center center;
-        transform-origin: center center;
-        -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
-        }
-        10% {
-        -webkit-transform: scale(0.91);
-        transform: scale(0.91);
-        -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
-        }
-        17% {
-        -webkit-transform: scale(0.98);
-        transform: scale(0.98);
-        -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
-        }
-        33% {
-        -webkit-transform: scale(0.87);
-        transform: scale(0.87);
-        -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
-        }
-        45% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
-        }
-    }
-    @keyframes heartbeat {
-        from {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        -webkit-transform-origin: center center;
-        transform-origin: center center;
-        -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
-        }
-        10% {
-        -webkit-transform: scale(0.91);
-        transform: scale(0.91);
-        -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
-        }
-        17% {
-        -webkit-transform: scale(0.98);
-        transform: scale(0.98);
-        -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
-        }
-        33% {
-        -webkit-transform: scale(0.87);
-        transform: scale(0.87);
-        -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
-        }
-        45% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
-        }
-    }
-    .card h2{
-        font-size: 120%;
-        top: 8%;
-    }
-    .card .precio{
-        top: 19%;
-        font-size: 200%;
-    }
-    .card h3{
-        top: 34%;
-        font-size: 100%;
-    }
-    .card .listIns{
-        top: 42%;
-        font-size: 84%;
-    }
-    .listIns p button{
-        padding: 2.5px;
-        font-size: 15px;
-    }
-    .cuadroDos{
-        width: 90%;
-        height: 18%;
-        left: 5%;
-        top: 59%;
-        border-radius: 30px;
-    }
-    .cuadroTres{
-        width: 90%;
-        height: 18%;
-        left: 5%;
-        top: 78%;
-    }
-    .envIns{
-        width: 12%;
-        height: 1.5%;
-        top: 96.8%;
-        font-size: 65%;
-    }
-    .secNosu{
-        height: 400px;
-    }
-    .secNosu h1{
-        font-size: 120%;
-    }
-    .secNosu p{
-        top: 26%;
-        font-size: 65%;
-    }
-    .secNosd{
-        top: 460px;
-        height: 800px;
-    }
-    .secNosd h2{
-        font-size: 120%;
-        top: 6%;
-        height: 4%;
-    }
-    .youtNos{
-        width: 90%;
-        height: 40%;
-        top: 15%;
-        left: 5%;
-    }
-    .formNos{
-        top: 58%;
-        width: 90%;
-        height: 30%;
-        left: 5%;
-    }
-    .envNos{
-        top: 90%;
-        left: 45.5%;
-        height: 2%;
-        font-size: 60%;
-        line-height: 50%;
-        -webkit-animation: shake-bottom 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-	    animation: shake-bottom 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-    }
-    @-webkit-keyframes shake-bottom {
-        0%,
-        100% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-        -webkit-transform-origin: 50% 100%;
-        transform-origin: 50% 100%;
-        }
-        10% {
-        -webkit-transform: rotate(2deg);
-        transform: rotate(2deg);
-        }
-        20%,
-        40%,
-        60% {
-        -webkit-transform: rotate(-4deg);
-        transform: rotate(-4deg);
-        }
-        30%,
-        50%,
-        70% {
-        -webkit-transform: rotate(4deg);
-        transform: rotate(4deg);
-        }
-        80% {
-        -webkit-transform: rotate(-2deg);
-        transform: rotate(-2deg);
-        }
-        90% {
-        -webkit-transform: rotate(2deg);
-        transform: rotate(2deg);
-        }
-    }
-    @keyframes shake-bottom {
-        0%,
-        100% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-        -webkit-transform-origin: 50% 100%;
-        transform-origin: 50% 100%;
-        }
-        10% {
-        -webkit-transform: rotate(2deg);
-        transform: rotate(2deg);
-        }
-        20%,
-        40%,
-        60% {
-        -webkit-transform: rotate(-4deg);
-        transform: rotate(-4deg);
-        }
-        30%,
-        50%,
-        70% {
-        -webkit-transform: rotate(4deg);
-        transform: rotate(4deg);
-        }
-        80% {
-        -webkit-transform: rotate(-2deg);
-        transform: rotate(-2deg);
-        }
-        90% {
-        -webkit-transform: rotate(2deg);
-        transform: rotate(2deg);
-        }
-    }
-    .parUno{
-        top: 94%;
-        font-size: 70%;
-    }
-    .parDos{
-        top: 96%;
-        font-size: 70%;
-    }
-}
+        animation: heartbeat 2s ease-in-out infinite both; }
+  @-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transform-origin: center center;
+      transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out; }
+    10% {
+      -webkit-transform: scale(0.91);
+      transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in; }
+    17% {
+      -webkit-transform: scale(0.98);
+      transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out; }
+    33% {
+      -webkit-transform: scale(0.87);
+      transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in; }
+    45% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out; } }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transform-origin: center center;
+      transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out; }
+    10% {
+      -webkit-transform: scale(0.91);
+      transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in; }
+    17% {
+      -webkit-transform: scale(0.98);
+      transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out; }
+    33% {
+      -webkit-transform: scale(0.87);
+      transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in; }
+    45% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out; } }
+        .secIns .card-container .card h2 {
+          font-size: 120%;
+          top: 8%; }
+        .secIns .card-container .card h3 {
+          top: 34%;
+          font-size: 100%; }
+        .secIns .card-container .card .precio {
+          top: 19%;
+          font-size: 200%; }
+        .secIns .card-container .card .listIns {
+          top: 42%;
+          font-size: 84%; }
+          .secIns .card-container .card .listIns p button {
+            padding: 2.5px;
+            font-size: 15px; }
+    .secIns div form .cuadroDos {
+      position: absolute;
+      width: 90%;
+      height: 18%;
+      left: 5%;
+      top: 59%;
+      border-radius: 30px; }
+    .secIns div form .cuadroTres {
+      position: absolute;
+      width: 90%;
+      height: 18%;
+      left: 5%;
+      top: 78%; }
+    .secIns div form .envIns {
+      width: 12%;
+      height: 1.5%;
+      top: 96.8%;
+      font-size: 65%; }
+  main .secNosu {
+    height: 400px; }
+    main .secNosu h1 {
+      font-size: 120%; }
+    main .secNosu p {
+      top: 26%;
+      font-size: 65%; }
+  main .secNosd {
+    top: 460px;
+    height: 800px; }
+    main .secNosd h2 {
+      font-size: 120%;
+      top: 6%;
+      height: 4%; }
+    main .secNosd form .formNos {
+      position: absolute;
+      width: 90%;
+      height: 30%;
+      left: 5%;
+      top: 58%; }
+    main .secNosd form .envNos {
+      position: absolute;
+      width: 9%;
+      height: 2%;
+      left: 45.5%;
+      top: 90%;
+      font-size: 60%;
+      line-height: 50%;
+      -webkit-animation: shake-bottom 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
+      animation: shake-bottom 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both; }
+  @-webkit-keyframes shake-bottom {
+    0%,
+    100% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%; }
+    10% {
+      -webkit-transform: rotate(2deg);
+      transform: rotate(2deg); }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: rotate(-4deg);
+      transform: rotate(-4deg); }
+    30%,
+    50%,
+    70% {
+      -webkit-transform: rotate(4deg);
+      transform: rotate(4deg); }
+    80% {
+      -webkit-transform: rotate(-2deg);
+      transform: rotate(-2deg); }
+    90% {
+      -webkit-transform: rotate(2deg);
+      transform: rotate(2deg); } }
+  @keyframes shake-bottom {
+    0%,
+    100% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%; }
+    10% {
+      -webkit-transform: rotate(2deg);
+      transform: rotate(2deg); }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: rotate(-4deg);
+      transform: rotate(-4deg); }
+    30%,
+    50%,
+    70% {
+      -webkit-transform: rotate(4deg);
+      transform: rotate(4deg); }
+    80% {
+      -webkit-transform: rotate(-2deg);
+      transform: rotate(-2deg); }
+    90% {
+      -webkit-transform: rotate(2deg);
+      transform: rotate(2deg); } }
+    main .secNosd .youtNos {
+      position: absolute;
+      width: 90%;
+      height: 40%;
+      left: 5%;
+      top: 15%; }
+    main .secNosd .parUno {
+      top: 94%;
+      font-size: 70%; }
+    main .secNosd .parDos {
+      top: 96%;
+      font-size: 70%; } }
 
-@media (max-width:410px){
-    .secUno .secImguno a img{
-        width: 90%;
-        height: 18%;
-        left: 4.5%;
-        top: 40%;
-        }
-    .secUno .secTit h1{
-        font-size: 100%;
-        top: 75%;
-    }
-    .parUno{
-        font-size: 65%;
-    }
-    .parDos{
-        font-size: 65%;
-    }
-}
+@media (max-width: 410px) {
+  #mainUno .secUno .secImguno a img {
+    position: absolute;
+    width: 90%;
+    height: 18%;
+    left: 4.5%;
+    top: 40%; }
+  #mainUno .secUno .secTit h1 {
+    font-size: 100%;
+    top: 75%; }
+  main .secNosd .parUno {
+    font-size: 65%; }
+  main .secNosd .parDos {
+    font-size: 65%; } }
 
-@media (max-width:375px){
-    .navegador{
-        gap: 2%;
-        width: 75%;
-    }
-    .navegador li a{
-        font-size: 60%;
-        line-height: 100%;
-    }
-    .secDos .clasDos a .titc{
-        font-size: 250%;
-        top: 44%;
-    }
-    .secTres .horaDos a .tith{
-        font-size: 250%;
-        top: 44%;
-    }
-    .secCuatro a .nosUno{
-        font-size: 250%;
-        top: 44%;
-    }
-    .secNosu p{
-        font-size: 60%;
-    }
-    .envNos{
-        font-size: 45%;
-    }
-    .parUno{
-        font-size: 60%;
-    }
-    .parDos{
-        font-size: 60%;
-    }
-}
+@media (max-width: 375px) {
+  .headerr nav .navegador {
+    gap: 2%;
+    width: 75%; }
+    .headerr nav .navegador li a {
+      font-size: 60%;
+      line-height: 100%; }
+    .headerr nav .navegador #inscribite {
+      height: 13px;
+      width: 18%; }
+  #mainUno .secDos .clasDos a .titc {
+    font-size: 250%;
+    top: 44%; }
+  #mainUno .secTres .horaDos a .tith {
+    font-size: 250%;
+    top: 44%; }
+  #mainUno .secCuatro a .nosUno {
+    font-size: 250%;
+    top: 44%; }
+  main .secNosu p {
+    font-size: 60%; }
+  main .secNosd form .envNos {
+    font-size: 45%; }
+  main .secNosd .parUno {
+    font-size: 60%; }
+  main .secNosd .parDos {
+    font-size: 60%; } }
 
-@media (max-width:350px){
-    footer div .redesSociales{
-        gap: 85px;
-        top: 20%;
-        left: 25.5%;
-    }
-    .redesSociales li a img{
-        width: 10px;
-        height: 10px;
-    }
-    .tabHor{
-        width: 40%;
-        left: 1%;
-    }
-    .envIns{
-        font-size: 10px;
-        height: 1.5%;
-    }
-    .parUno{
-        font-size: 50%;
-    }
-    .parDos{
-        font-size: 50%;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 350px) {
+  .headerr nav .navegador #inscribite {
+    font-size: 85%;
+    height: 12px; }
+  footer div .redesSociales {
+    gap: 85px;
+    top: 20%;
+    left: 25.5%; }
+    footer div .redesSociales li a img {
+      width: 10px;
+      height: 10px; }
+  .secHor .tabHor {
+    width: 40%;
+    left: 1%; }
+  .secIns div form .envIns {
+    font-size: 10px;
+    height: 1.5%; }
+  main .secNosd .parUno {
+    font-size: 50%; }
+  main .secNosd .parDos {
+    font-size: 50%; } }

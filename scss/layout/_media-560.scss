@@ -1,0 +1,43 @@
+@media (max-width:560px){
+    .headerr{
+        nav{
+            .navegador{
+                gap: 3%;
+                width: 60%;
+                #inscribite{
+                    width: 22%;
+                }
+            }
+        }
+    }
+    #mainUno{
+        .secUno{
+            .secTit{
+                h1{
+                    font-size: 105%;
+                }
+            }
+        }
+        .secDos{
+            .clasDos{
+                a{
+                    .titc{
+                        left: 10%;
+                    }
+                }
+            }
+        }
+    }
+    .secHor{
+        .tabHor{
+            left: 6%;
+        }
+    }
+    main{
+        .secNosu{
+            p{
+                font-size: 60%;
+            }
+        }
+    }
+}

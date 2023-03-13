@@ -1,0 +1,29 @@
+@media (max-width:410px){
+    #mainUno{
+        .secUno{
+            .secImguno{
+                a{
+                    img{
+                        @include positionl(90%,18%,4.5%,40%);
+                    }
+                }
+            }
+            .secTit{
+                h1{
+                    font-size: 100%;
+                    top: 75%;
+                }
+            }
+        }
+    }
+    main{
+        .secNosd{
+            .parUno{
+                font-size: 65%;
+            }
+            .parDos{
+                font-size: 65%;
+            }
+        }
+    }
+}

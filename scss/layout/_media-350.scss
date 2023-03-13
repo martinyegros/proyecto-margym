@@ -1,0 +1,55 @@
+@media (max-width:350px){
+    .headerr{
+        nav{
+            .navegador{
+                #inscribite{
+                    font-size: 85%;
+                    height: 12px;
+                }
+            }
+        }
+    }
+    footer{
+        div{
+            .redesSociales{
+                gap: 85px;
+                top: 20%;
+                left: 25.5%;
+                li{
+                    a{
+                        img{
+                            width: 10px;
+                            height: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .secHor{
+        .tabHor{
+            width: 40%;
+            left: 1%;
+        }
+    }
+    .secIns{
+        div{
+            form{
+                .envIns{
+                    font-size: 10px;
+                    height: 1.5%;
+                }
+            }
+        }
+    }
+    main{
+        .secNosd{
+            .parUno{
+                font-size: 50%;
+            }
+            .parDos{
+                font-size: 50%;
+            }
+        }
+    }
+}

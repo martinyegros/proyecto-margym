@@ -1,0 +1,70 @@
+@media (max-width:375px){
+    .headerr{
+        nav{
+            .navegador{
+                gap: 2%;
+                width: 75%;
+                li{
+                    a{
+                        font-size: 60%;
+                        line-height: 100%;
+                    }
+                }
+                #inscribite{
+                    height: 13px;
+                    width: 18%;
+                }
+            }
+        }
+    }
+    #mainUno{
+        .secDos{
+            .clasDos{
+                a{
+                    .titc{
+                        font-size: 250%;
+                        top: 44%;
+                    }
+                }
+            }
+        }
+        .secTres{
+            .horaDos{
+                a{
+                    .tith{
+                        font-size: 250%;
+                        top: 44%;
+                    }
+                }
+            }
+        }
+        .secCuatro{
+            a{
+                .nosUno{
+                    font-size: 250%;
+                    top: 44%;
+                }
+            }
+        }
+    }
+    main{
+        .secNosu{
+            p{
+                font-size: 60%;
+            }
+        }
+        .secNosd{
+            form{
+                .envNos{
+                    font-size: 45%;
+                }
+            }
+            .parUno{
+                font-size: 60%;
+            }
+            .parDos{
+                font-size: 60%;
+            }
+        }
+    }
+}

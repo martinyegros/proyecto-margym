@@ -1,0 +1,48 @@
+@media (max-width:1070px){
+    .headerr{
+        nav{
+            .navegador{
+                left: 50%;
+                width: 45%;
+            }
+        }
+    }
+    #mainUno{
+        .secDos{
+            .clasDos{
+                a{
+                    .titc{
+                        left: 15%;
+                        width: 65%;
+                    }
+                }
+            }
+        }
+        .secTres{
+            .horaUno{
+                @include positionl(18%,60%,3%,18%);
+                .tithn{
+                    top: 40%;
+                    height: 30%;
+                }
+            }
+            .horaTres{
+                @include positionr(16%,60%,4%,18%);
+                .tithd{
+                    top: 40%;
+                    height: 30%;
+                }
+            }
+        }
+    }
+    main{
+        .secNosu{
+            p{
+                font-size: 90%;
+                top: 35%;
+                width:65%;
+                left: 17.5%;
+            }
+        }
+    }
+}

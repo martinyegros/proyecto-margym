@@ -1,0 +1,39 @@
+.footerr{
+    @include positionl(100%,46.16px,0%,1234.22px);
+    display: flex;
+    background: $background-foot;
+    justify-content: space-between;
+}
+
+footer{
+    div{
+        .redesSociales{
+            @include gap(50px,none);
+            flex-direction: row;
+            justify-content: center;
+            top: 30%;
+            left: 45.2%;
+            position: absolute;
+            padding: 0%;
+            margin: 0%;
+            li{
+                a{
+                    img{
+                        display: flex;
+                        width: 20px;
+                        height: 20px;
+                        position: absolute;
+                    }
+                }
+            }
+        }
+    }
+    .copy{
+        @include textst(normal,400,12px,18px,center,black);
+        font-family: $style-popp;
+        p{
+            @include positionr(104px,18px,36px,17px);
+            margin: 0%;
+        }
+    }
+}

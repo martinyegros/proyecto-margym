@@ -1,0 +1,72 @@
+@media (max-width:1253px){
+    .headerr{
+        nav{
+            .navegador{
+                #inscribite{
+                    font-size: 87%;
+                }
+            }
+        }
+    }
+    #mainUno{
+        .secUno{
+            .secTit{
+                h1{
+                    font-size: 115%;
+                    line-height: 100%;
+                    @include positionl(25%,15%,38%,85%);
+                }
+            }
+        }
+        .secTres{
+            .horaUno{
+                @include positionl(19%,80%,1%,10%);
+                .tithn{
+                    font-size: 120%;
+                    line-height: 100%;
+                }
+            }
+            .horaTres{
+                @include positionr(18%,80%,1%,10%);
+                .tithd{
+                    font-size: 120%;
+                    line-height: 100%;
+                }
+            }
+        }
+    }
+    
+    main{
+        .secClas{
+            .fit{
+                #carouselExampleIndicators2{
+                    .carousel-inner{
+                        .carousel-item{
+                            div{
+                                h2{
+                                    width: 75%;
+                                    left: 12%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main{
+        .secNosd{
+            .parUno{
+                font-size: 100%;
+            }
+            .parDos{
+                font-size: 100%;
+            }
+        }
+        .secNosu{
+            p{
+                font-size: 110%;
+            }
+        }
+    }
+}

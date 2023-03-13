@@ -1,0 +1,282 @@
+main{
+    .secNosu{
+        background-image: url(../assets/img/15.jpg);
+        @include box(2px solid black,none);
+        @include positionl(100%,500px,0px,84.22px);
+        @include back(50% 50%,cover);
+        h1{
+            @include positionl(100%,10%,0%,12%);
+            @include textst(normal,900,200%,150%,center,white);
+            font-family: $style-rob;
+            letter-spacing: 0.2em;
+            -webkit-animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            @-webkit-keyframes tracking-in-contract {
+                0% {
+                letter-spacing: 1em;
+                opacity: 0;
+                }
+                40% {
+                opacity: 0.6;
+                }
+                100% {
+                letter-spacing: 0.2em;
+                opacity: 1;
+                }
+            }
+            @keyframes tracking-in-contract {
+                0% {
+                letter-spacing: 1em;
+                opacity: 0;
+                }
+                40% {
+                opacity: 0.6;
+                }
+                100% {
+                letter-spacing: 0.2em;
+                opacity: 1;
+                }
+            }
+        }
+        p{
+            @include positionl(70%,50%,15%,30%);
+            @include textst(normal,700,120%,200%,center,white);
+            font-family: $style-popp;
+            letter-spacing: 0.2em;
+            -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+            @-webkit-keyframes text-focus-in {
+                0% {
+                -webkit-filter: blur(12px);
+                filter: blur(12px);
+                opacity: 0;
+                }
+                100% {
+                -webkit-filter: blur(0px);
+                filter: blur(0px);
+                opacity: 1;
+                }
+            }
+            @keyframes text-focus-in {
+                0% {
+                -webkit-filter: blur(12px);
+                filter: blur(12px);
+                opacity: 0;
+                }
+                100% {
+                -webkit-filter: blur(0px);
+                filter: blur(0px);
+                opacity: 1;
+                }
+            }
+        }
+    }
+    .secNosd{
+        background-image: url(../assets/img/16.jpg);
+        @include box(2px solid black,none);
+        @include positionl(100%,650px,0%,584.22px);
+        @include back(50% 50%,cover);
+        h2{
+            @include positionl(100%,7%,0%,5%);
+            @include textst(normal,900,200%,150%,center,white);
+            font-family: $style-rob;
+            letter-spacing: 0.2em;
+            -webkit-animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            @-webkit-keyframes tracking-in-contract {
+                0% {
+                letter-spacing: 1em;
+                opacity: 0;
+                }
+                40% {
+                opacity: 0.6;
+                }
+                100% {
+                letter-spacing: 0.2em;
+                opacity: 1;
+                }
+            }
+            @keyframes tracking-in-contract {
+                0% {
+                letter-spacing: 1em;
+                opacity: 0;
+                }
+                40% {
+                opacity: 0.6;
+                }
+                100% {
+                letter-spacing: 0.2em;
+                opacity: 1;
+                }
+            }
+        }
+        form{
+            .formNos{
+                @include positionl(54%,66.5%,1%,18%);
+                background: $background-form;
+                opacity: 0.5;
+                border-radius: 30px;
+                .nosUnos{
+                    @include positionl(43%,15%,5%,11%);
+                    background: white;
+                    border-radius: 10px;
+                    text-align: center;
+                }
+                .nosDos{
+                    @include positionr(43%,15%,5%,11%);
+                    background: white;
+                    border-radius: 10px;
+                    text-align: center;
+                }
+                .nosTres{
+                    @include positionl(43%,15%,5%,35.5%);
+                    background: white;
+                    border-radius: 10px;
+                    text-align: center;
+                }
+                .nosCuatro{
+                    @include positionr(43%,15%,5%,35.5%);
+                    background: white;
+                    border-radius: 10px;
+                    text-align: center;
+                }
+                .nosCinco{
+                    @include positionl(90%,31%,5%,60%);
+                    background: white;
+                    border-radius: 10px;
+                    text-align: center;
+                }
+            }
+            .envNos{
+                @include box(2px solid black,30px);
+                @include positionl(9%,8%,24%,88.5%);
+                background: #6B728E;
+                @include textst(normal,600,130%,10%,center,black);
+                font-family: $style-rob;
+                -webkit-animation: bounce-left 6s infinite both;
+	            animation: bounce-left 6s infinite both;
+                @-webkit-keyframes bounce-left {
+                    0% {
+                    -webkit-transform: translateX(-48px);
+                    transform: translateX(-48px);
+                    -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+                    opacity: 1;
+                    }
+                    24% {
+                    opacity: 1;
+                    }
+                    40% {
+                    -webkit-transform: translateX(-26px);
+                    transform: translateX(-26px);
+                    -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+                    }
+                    65% {
+                    -webkit-transform: translateX(-13px);
+                    transform: translateX(-13px);
+                    -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+                    }
+                    82% {
+                    -webkit-transform: translateX(-6.5px);
+                    transform: translateX(-6.5px);
+                    -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+                    }
+                    93% {
+                    -webkit-transform: translateX(-4px);
+                    transform: translateX(-4px);
+                    -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+                    }
+                    25%,
+                    55%,
+                    75%,
+                    87%,
+                    98% {
+                    -webkit-transform: translateX(0px);
+                    transform: translateX(0px);
+                    -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+                    }
+                    100% {
+                    -webkit-transform: translateX(0px);
+                    transform: translateX(0px);
+                    -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+                    opacity: 1;
+                    }
+                }
+                @keyframes bounce-left {
+                    0% {
+                    -webkit-transform: translateX(-48px);
+                    transform: translateX(-48px);
+                    -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+                    opacity: 1;
+                    }
+                    24% {
+                    opacity: 1;
+                    }
+                    40% {
+                    -webkit-transform: translateX(-26px);
+                    transform: translateX(-26px);
+                    -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+                    }
+                    65% {
+                    -webkit-transform: translateX(-13px);
+                    transform: translateX(-13px);
+                    -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+                    }
+                    82% {
+                    -webkit-transform: translateX(-6.5px);
+                    transform: translateX(-6.5px);
+                    -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+                    }
+                    93% {
+                    -webkit-transform: translateX(-4px);
+                    transform: translateX(-4px);
+                    -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+                    }
+                    25%,
+                    55%,
+                    75%,
+                    87%,
+                    98% {
+                    -webkit-transform: translateX(0px);
+                    transform: translateX(0px);
+                    -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+                    }
+                    100% {
+                    -webkit-transform: translateX(0px);
+                    transform: translateX(0px);
+                    -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+                    opacity: 1;
+                    }
+                }
+            }
+        }
+        .youtNos{
+            @include positionr(42%,66.5%,1%,18%);
+            background: #D9D9D9;
+            border-radius: 30px;
+        }
+        .parUno{
+            @include positionl(15%,5%,80%,92%);
+            @include textst(normal,600,120%,100%,center,black);
+            font-family: $style-rob;
+        }
+        .parDos{
+            @include positionl(23%,5%,76%,96%);
+            @include textst(normal,600,120%,100%,center,black);
+            font-family: $style-rob;
+        }
+    }
+}

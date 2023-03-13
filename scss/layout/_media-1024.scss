@@ -1,0 +1,25 @@
+@media (max-width:1024px){
+    .headerr{
+        nav{
+            .navegador{
+                left: 50%;
+                width: 48%;
+            }
+        }
+    }
+    main{
+        .secNosd{
+            h2{
+                top: 12%;
+            }
+            form{
+                .formNos{
+                    @include positionl(50%,55%,4%,30%);
+                }
+            }
+            .youtNos{
+                @include positionr(38%,55%,4%,30%);
+            }
+        }
+    }
+}

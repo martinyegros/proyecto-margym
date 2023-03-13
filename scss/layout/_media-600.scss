@@ -1,0 +1,69 @@
+@media (max-width:600px){
+    .headerr{
+        nav{
+            .navegador{
+                gap: 4%;
+                #inscribite{
+                    width: 22%;
+                }
+            }
+        }
+    }
+    main{
+        .secClas{
+            .musc{
+                #carouselExampleIndicators1{
+                    .carousel-inner{
+                        .carousel-item{
+                            h1{
+                                font-size: 148%;
+                            }
+                        }
+                    }
+                }
+            }
+            .fit{
+                #carouselExampleIndicators2{
+                    .carousel-inner{
+                        .carousel-item{
+                            h2{
+                                font-size: 148%;
+                            }
+                        }
+                    }
+                }
+            }
+            .boxe{
+                #carouselExampleIndicators3{
+                    .carousel-inner{
+                        .carousel-item{
+                            h3{
+                                font-size: 148%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .secHor{
+        .tabHor{
+            left: 6.5%;
+        }
+    }
+    main{
+        .secNosd{
+            form{
+                .envNos{
+                    font-size: 80%;
+                }
+            }
+            .parUno{
+                font-size: 80%;
+            }
+            .parDos{
+                font-size: 80%;
+            }
+        }
+    }
+}

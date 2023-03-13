@@ -1,0 +1,44 @@
+.headerr{
+    background-image: url(../assets/img/01.jpg);
+    @include back(50% 50%,cover);
+    display: flex;
+    @include positionl(100%,84.22px,0%,0%);
+    flex-flow: row wrap;
+    justify-content: space-between;
+    .logo{
+        a{
+            img{
+                @include positionl(13.195%,37.19px,5%,25%);
+            }
+        }
+    }
+    nav{
+        .navegador{
+            @include gap(5%,none);
+            @include positionl(35%,79.8px,58.35%,0%);
+            align-items: center;
+            padding: 0%;
+            margin: 0%;
+            li{
+                a{
+                    @include textst(normal,500,139%,100%,center,white);
+                    font-family: $style-rob;
+                    text-decoration: none;
+                }
+            }
+            #inscribite{
+                width: 25%;
+                height: 32.96px;
+                @include box(5px solid black,20px);
+                background: $backgroud-principal;
+                text-align: center;
+                font-family: $style-popp;
+                font-style: normal;
+                :hover{
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
