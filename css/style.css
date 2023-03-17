@@ -1426,207 +1426,524 @@ main .secNosd {
     color: black;
     font-family: "Roboto", sans-serif; }
 
-main .secClas {
+.clas {
   position: absolute;
   width: 100%;
   height: 1150px;
   left: 0px;
   top: 84.22px;
   background: #50577A; }
-  main .secClas .musc {
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: none;
+  .clas .musc1 {
     position: absolute;
-    width: 95%;
-    height: 350px;
-    left: 1%;
-    top: 16px; }
-  main .secClas .fit {
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: none;
+    width: 60%;
+    height: 380px;
+    left: 0px;
+    top: 0px; }
+    .clas .musc1 .mu {
+      position: absolute;
+      border: 2px solid black;
+      left: 7%;
+      top: 10px;
+      display: flex;
+      max-width: 90%;
+      height: 360px;
+      overflow: auto;
+      overflow: overlay;
+      scroll-snap-type: x mandatory; }
+      .clas .musc1 .mu img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        scroll-snap-align: center; }
+  .clas .musc2 {
     position: absolute;
-    width: 95%;
-    height: 350px;
-    left: 2.5%;
-    top: 400px; }
-  main .secClas .boxe {
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: none;
-    position: absolute;
-    width: 95%;
-    height: 350px;
-    left: 3.5%;
-    top: 785px; }
+    width: 40%;
+    height: 380px;
+    left: 60%;
+    top: 0px; }
+    .clas .musc2 .titm h1 {
+      position: absolute;
+      width: 100%;
+      height: 15%;
+      left: 0%;
+      top: 25px;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 150%;
+      line-height: 100%;
+      text-align: center;
+      color: black;
+      font-family: "Roboto", sans-serif;
+      letter-spacing: 0.2em;
+      -webkit-animation: focus-in-contract 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      animation: focus-in-contract 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
-#carouselExampleIndicators1 {
-  position: absolute;
-  object-fit: cover;
-  width: 100%;
-  height: 100%; }
-
-#carouselExampleIndicators2 {
-  position: absolute;
-  object-fit: cover;
-  width: 100%;
-  height: 100%; }
-
-#carouselExampleIndicators3 {
-  position: absolute;
-  object-fit: cover;
-  width: 100%;
-  height: 100%; }
-
-.carousel-inner {
-  position: absolute;
-  object-fit: cover;
-  width: 100%;
-  height: 100%; }
-  .carousel-inner .carousel-item img {
-    position: absolute;
-    object-fit: cover;
-    width: 100%;
-    height: 350px; }
-  .carousel-inner .carousel-item h1 {
-    position: absolute;
-    width: 45%;
-    height: 20%;
-    left: 25%;
-    top: 150px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 300%;
-    line-height: 100%;
-    text-align: center;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 0.2em;
-    -webkit-animation: focus-in-expand-fwd 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    animation: focus-in-expand-fwd 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
-
-@-webkit-keyframes focus-in-expand-fwd {
+@-webkit-keyframes focus-in-contract {
   0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-800px);
-    transform: translateZ(-800px);
+    letter-spacing: 1em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0; }
   100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-filter: blur(0);
-    filter: blur(0);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
     opacity: 1; } }
 
-@keyframes focus-in-expand-fwd {
+@keyframes focus-in-contract {
   0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-800px);
-    transform: translateZ(-800px);
+    letter-spacing: 1em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0; }
   100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-filter: blur(0);
-    filter: blur(0);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
     opacity: 1; } }
-  .carousel-inner .carousel-item h2 {
+    .clas .musc2 div p {
+      position: absolute;
+      width: 100%;
+      height: 15%;
+      left: 0%;
+      top: 60px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 100%;
+      line-height: 100%;
+      text-align: center;
+      color: black;
+      font-family: "Poppins", sans-serif;
+      letter-spacing: 0.2em; }
+    .clas .musc2 .card-prof1 {
+      display: flex;
+      position: absolute;
+      width: 85%;
+      top: 25%;
+      left: 8%;
+      gap: 70px; }
+      .clas .musc2 .card-prof1 .cardp1 {
+        box-sizing: border-box;
+        border: 2px solid black;
+        border-radius: 30px;
+        width: 40%;
+        height: 280px;
+        background: #404258;
+        position: relative; }
+        .clas .musc2 .card-prof1 .cardp1 img {
+          position: absolute;
+          width: 80%;
+          height: 65%;
+          left: 10%;
+          top: 5%;
+          object-fit: cover;
+          border-radius: 10px;
+          border: 1px solid black; }
+        .clas .musc2 .card-prof1 .cardp1 div h2 {
+          position: absolute;
+          width: 90%;
+          height: 10%;
+          left: 5%;
+          top: 75%;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 200%;
+          line-height: 50%;
+          text-align: center;
+          color: black;
+          font-family: "Roboto", sans-serif; }
+        .clas .musc2 .card-prof1 .cardp1 div p {
+          position: absolute;
+          width: 100%;
+          height: 10%;
+          left: 0%;
+          top: 85%;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 80%;
+          line-height: 100%;
+          text-align: center;
+          color: black;
+          font-family: "Poppins", sans-serif; }
+  .clas .musc3 {
     position: absolute;
-    width: 45%;
-    height: 20%;
-    left: 28%;
-    top: 150px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 300%;
-    line-height: 100%;
-    text-align: center;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 0.2em;
-    -webkit-animation: focus-in-expand-fwd 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    animation: focus-in-expand-fwd 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+    width: 30%;
+    height: 390px;
+    left: 0px;
+    top: 380px; }
+    .clas .musc3 .titf h3 {
+      position: absolute;
+      width: 100%;
+      height: 15%;
+      left: 0%;
+      top: 25px;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 150%;
+      line-height: 100%;
+      text-align: center;
+      color: black;
+      font-family: "Roboto", sans-serif;
+      letter-spacing: 0.2em;
+      -webkit-animation: focus-in-contract 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      animation: focus-in-contract 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
-@-webkit-keyframes focus-in-expand-fwd {
+@-webkit-keyframes focus-in-contract {
   0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-800px);
-    transform: translateZ(-800px);
+    letter-spacing: 1em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0; }
   100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-filter: blur(0);
-    filter: blur(0);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
     opacity: 1; } }
 
-@keyframes focus-in-expand-fwd {
+@keyframes focus-in-contract {
   0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-800px);
-    transform: translateZ(-800px);
+    letter-spacing: 1em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0; }
   100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-filter: blur(0);
-    filter: blur(0);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
     opacity: 1; } }
-  .carousel-inner .carousel-item h3 {
+    .clas .musc3 div p {
+      position: absolute;
+      width: 100%;
+      height: 15%;
+      left: 0%;
+      top: 60px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 100%;
+      line-height: 100%;
+      text-align: center;
+      color: black;
+      font-family: "Poppins", sans-serif;
+      letter-spacing: 0.2em; }
+    .clas .musc3 .card-prof2 {
+      display: flex;
+      position: absolute;
+      width: 90%;
+      top: 28%;
+      left: 6%;
+      gap: 25px; }
+      .clas .musc3 .card-prof2 .cardp2 {
+        box-sizing: border-box;
+        border: 2px solid black;
+        border-radius: 30px;
+        width: 50%;
+        height: 260px;
+        background: #404258;
+        position: relative; }
+        .clas .musc3 .card-prof2 .cardp2 img {
+          position: absolute;
+          width: 80%;
+          height: 62%;
+          left: 10%;
+          top: 7%;
+          object-fit: cover;
+          border-radius: 10px;
+          border: 1px solid black; }
+        .clas .musc3 .card-prof2 .cardp2 div h4 {
+          position: absolute;
+          width: 90%;
+          height: 10%;
+          left: 5%;
+          top: 75%;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 200%;
+          line-height: 50%;
+          text-align: center;
+          color: black;
+          font-family: "Roboto", sans-serif; }
+        .clas .musc3 .card-prof2 .cardp2 div p {
+          position: absolute;
+          width: 100%;
+          height: 10%;
+          left: 0%;
+          top: 85%;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 80%;
+          line-height: 100%;
+          text-align: center;
+          color: black;
+          font-family: "Poppins", sans-serif; }
+  .clas .musc4 {
     position: absolute;
-    width: 35%;
-    height: 20%;
-    left: 33%;
-    top: 150px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 300%;
-    line-height: 100%;
-    text-align: center;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 0.2em;
-    -webkit-animation: focus-in-expand-fwd 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    animation: focus-in-expand-fwd 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+    width: 40%;
+    height: 390px;
+    left: 30%;
+    top: 380px; }
+    .clas .musc4 .mu {
+      position: absolute;
+      border: 2px solid black;
+      left: 2.5%;
+      top: 15px;
+      display: flex;
+      max-width: 95%;
+      height: 360px;
+      overflow: auto;
+      overflow: overlay;
+      scroll-snap-type: x mandatory; }
+      .clas .musc4 .mu img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        scroll-snap-align: center; }
+  .clas .musc5 {
+    position: absolute;
+    width: 30%;
+    height: 390px;
+    left: 70%;
+    top: 380px; }
+    .clas .musc5 .titf h3 {
+      position: absolute;
+      width: 100%;
+      height: 15%;
+      left: 0%;
+      top: 25px;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 150%;
+      line-height: 100%;
+      text-align: center;
+      color: black;
+      font-family: "Roboto", sans-serif;
+      letter-spacing: 0.2em;
+      -webkit-animation: focus-in-contract 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      animation: focus-in-contract 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
-@-webkit-keyframes focus-in-expand-fwd {
+@-webkit-keyframes focus-in-contract {
   0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-800px);
-    transform: translateZ(-800px);
+    letter-spacing: 1em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0; }
   100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-filter: blur(0);
-    filter: blur(0);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
     opacity: 1; } }
 
-@keyframes focus-in-expand-fwd {
+@keyframes focus-in-contract {
   0% {
-    letter-spacing: -0.5em;
-    -webkit-transform: translateZ(-800px);
-    transform: translateZ(-800px);
+    letter-spacing: 1em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0; }
   100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-filter: blur(0);
-    filter: blur(0);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
     opacity: 1; } }
+    .clas .musc5 div p {
+      position: absolute;
+      width: 100%;
+      height: 15%;
+      left: 0%;
+      top: 60px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 100%;
+      line-height: 100%;
+      text-align: center;
+      color: black;
+      font-family: "Poppins", sans-serif;
+      letter-spacing: 0.2em; }
+    .clas .musc5 .card-prof3 {
+      display: flex;
+      position: absolute;
+      width: 90%;
+      top: 28%;
+      right: 6%;
+      gap: 25px; }
+      .clas .musc5 .card-prof3 .cardp3 {
+        width: 50%;
+        height: 260px;
+        background: #404258;
+        box-sizing: border-box;
+        border: 2px solid black;
+        border-radius: none;
+        position: relative;
+        border-radius: 30px; }
+        .clas .musc5 .card-prof3 .cardp3 img {
+          position: absolute;
+          width: 80%;
+          height: 62%;
+          left: 10%;
+          top: 7%;
+          object-fit: cover;
+          border-radius: 10px;
+          border: 1px solid black; }
+        .clas .musc5 .card-prof3 .cardp3 div h4 {
+          position: absolute;
+          width: 90%;
+          height: 10%;
+          left: 5%;
+          top: 75%;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 200%;
+          line-height: 50%;
+          text-align: center;
+          color: black;
+          font-family: "Roboto", sans-serif; }
+        .clas .musc5 .card-prof3 .cardp3 div p {
+          position: absolute;
+          width: 100%;
+          height: 10%;
+          left: 0%;
+          top: 85%;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 80%;
+          line-height: 100%;
+          text-align: center;
+          color: black;
+          font-family: "Poppins", sans-serif; }
+  .clas .musc6 {
+    position: absolute;
+    width: 40%;
+    height: 380px;
+    left: 0%;
+    top: 770px; }
+    .clas .musc6 .titb h3 {
+      position: absolute;
+      width: 100%;
+      height: 15%;
+      left: 0%;
+      top: 10px;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 150%;
+      line-height: 100%;
+      text-align: center;
+      color: black;
+      font-family: "Roboto", sans-serif;
+      letter-spacing: 0.2em;
+      -webkit-animation: focus-in-contract 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      animation: focus-in-contract 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
+@-webkit-keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1; } }
+
+@keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1; } }
+    .clas .musc6 div p {
+      position: absolute;
+      width: 100%;
+      height: 15%;
+      left: 0%;
+      top: 45px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 100%;
+      line-height: 100%;
+      text-align: center;
+      color: black;
+      font-family: "Poppins", sans-serif;
+      letter-spacing: 0.2em; }
+    .clas .musc6 .card-prof4 {
+      display: flex;
+      position: absolute;
+      width: 85%;
+      top: 20%;
+      right: 8%;
+      gap: 70px; }
+      .clas .musc6 .card-prof4 .cardp4 {
+        box-sizing: border-box;
+        border: 2px solid black;
+        border-radius: 30px;
+        width: 40%;
+        height: 280px;
+        background: #404258;
+        position: relative; }
+        .clas .musc6 .card-prof4 .cardp4 img {
+          position: absolute;
+          width: 80%;
+          height: 65%;
+          left: 10%;
+          top: 5%;
+          object-fit: cover;
+          border-radius: 10px;
+          border: 1px solid black; }
+        .clas .musc6 .card-prof4 .cardp4 div h4 {
+          position: absolute;
+          width: 90%;
+          height: 10%;
+          left: 5%;
+          top: 75%;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 200%;
+          line-height: 50%;
+          text-align: center;
+          color: black;
+          font-family: "Roboto", sans-serif; }
+        .clas .musc6 .card-prof4 .cardp4 div p {
+          position: absolute;
+          width: 100%;
+          height: 10%;
+          left: 0%;
+          top: 85%;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 80%;
+          line-height: 100%;
+          text-align: center;
+          color: black;
+          font-family: "Poppins", sans-serif; }
+  .clas .musc7 {
+    position: absolute;
+    width: 60%;
+    height: 380px;
+    left: 40%;
+    top: 770px; }
+    .clas .musc7 .mu {
+      position: absolute;
+      border: 2px solid black;
+      right: 7%;
+      top: 10px;
+      display: flex;
+      max-width: 90%;
+      height: 360px;
+      overflow: auto;
+      overflow: overlay;
+      scroll-snap-type: x mandatory; }
+      .clas .musc7 .mu img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        scroll-snap-align: center; }
+
+.mu::-webkit-scrollbar {
+  display: none;
+  width: 10px;
+  height: 10px;
+  background-color: #6B728E; }
+
+.mu:hover::-webkit-scrollbar {
+  display: initial; }
+
+.mu::-webkit-scrollbar-thumb {
+  background-color: #50577A; }
 
 @media (max-width: 1253px) {
   .headerr nav .navegador #inscribite {
@@ -1657,9 +1974,6 @@ main .secClas {
     #mainUno .secTres .horaTres .tithd {
       font-size: 120%;
       line-height: 100%; }
-  main .secClas .fit #carouselExampleIndicators2 .carousel-inner .carousel-item div h2 {
-    width: 75%;
-    left: 12%; }
   main .secNosd .parUno {
     font-size: 100%; }
   main .secNosd .parDos {
@@ -1773,9 +2087,6 @@ main .secClas {
   .headerr nav .navegador {
     left: 46%;
     width: 50%; }
-  main .secClas .musc #carouselExampleIndicators1 .carousel-inner .carousel-item h1 {
-    width: 70%;
-    left: 15%; }
   .secHor .tabHor {
     font-size: 95%; }
   .secIns .card-container .card h2 {
@@ -1995,34 +2306,6 @@ main .secClas {
       height: 18px;
       left: 83.3%;
       top: 15%; }
-  main .secClas {
-    position: absolute;
-    width: 100%;
-    height: 1150px;
-    left: 0px;
-    top: 60px; }
-    main .secClas .musc {
-      width: 80%;
-      left: 10%; }
-      main .secClas .musc #carouselExampleIndicators1 .carousel-inner .carousel-item h1 {
-        width: 70%;
-        height: 20%;
-        left: 15%;
-        font-size: 200%; }
-    main .secClas .fit {
-      width: 80%;
-      left: 10%; }
-      main .secClas .fit #carouselExampleIndicators2 .carousel-inner .carousel-item h2 {
-        width: 75%;
-        left: 12%;
-        font-size: 200%; }
-    main .secClas .boxe {
-      width: 80%;
-      left: 10%; }
-      main .secClas .boxe #carouselExampleIndicators3 .carousel-inner .carousel-item h3 {
-        width: 50%;
-        left: 25%;
-        font-size: 200%; }
   .secHor {
     background-image: none;
     top: 60px;
@@ -2261,12 +2544,6 @@ main .secClas {
     gap: 4%; }
     .headerr nav .navegador #inscribite {
       width: 22%; }
-  main .secClas .musc #carouselExampleIndicators1 .carousel-inner .carousel-item h1 {
-    font-size: 148%; }
-  main .secClas .fit #carouselExampleIndicators2 .carousel-inner .carousel-item h2 {
-    font-size: 148%; }
-  main .secClas .boxe #carouselExampleIndicators3 .carousel-inner .carousel-item h3 {
-    font-size: 148%; }
   .secHor .tabHor {
     left: 6.5%; }
   main .secNosd form .envNos {
@@ -2477,54 +2754,6 @@ main .secClas {
       height: 35%;
       left: 85%;
       top: 20%; }
-  main .secClas {
-    height: 1200px;
-    top: 60px; }
-    main .secClas .musc {
-      position: absolute;
-      width: 100%;
-      height: 400px;
-      left: 0%;
-      top: 0%; }
-      main .secClas .musc #carouselExampleIndicators1 .carousel-inner .carousel-item img {
-        height: 400px; }
-      main .secClas .musc #carouselExampleIndicators1 .carousel-inner .carousel-item h1 {
-        position: absolute;
-        width: 100%;
-        height: 20%;
-        left: 0%;
-        top: 190px;
-        font-size: 130%; }
-    main .secClas .fit {
-      position: absolute;
-      width: 100%;
-      height: 400px;
-      left: 0%;
-      top: 400px; }
-      main .secClas .fit #carouselExampleIndicators2 .carousel-inner .carousel-item img {
-        height: 400px; }
-      main .secClas .fit #carouselExampleIndicators2 .carousel-inner .carousel-item h2 {
-        position: absolute;
-        width: 100%;
-        height: 20%;
-        left: 0%;
-        top: 190px;
-        font-size: 130%; }
-    main .secClas .boxe {
-      position: absolute;
-      width: 100%;
-      height: 400px;
-      left: 0%;
-      top: 800px; }
-      main .secClas .boxe #carouselExampleIndicators3 .carousel-inner .carousel-item img {
-        height: 400px; }
-      main .secClas .boxe #carouselExampleIndicators3 .carousel-inner .carousel-item h3 {
-        position: absolute;
-        width: 100%;
-        height: 20%;
-        left: 0%;
-        top: 190px;
-        font-size: 130%; }
   .secHor {
     position: absolute;
     width: 100%;

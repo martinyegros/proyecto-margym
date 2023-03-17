@@ -1,18 +1,403 @@
-main{
-    .secClas{
-        @include positionl(100%,1150px,0px,84.22px);
-        background: $backgroud-principal;
-        .musc{
-            @include box(2px solid black,none);
-            @include positionl(95%,350px,1%,16px);
-        }
-        .fit{
-            @include box(2px solid black,none);
-            @include positionl(95%,350px,2.5%,400px);
-        }
-        .boxe{
-            @include box(2px solid black,none);
-            @include positionl(95%,350px,3.5%,785px);
+.clas{
+    @include positionl(100%,1150px,0px,84.22px);
+    background: $backgroud-principal;
+    .musc1{
+        @include positionl(60%,380px,0px,0px);
+        .mu{
+            position: absolute;
+            border: 2px solid black;
+            left: 7%;
+            top: 10px;
+            display: flex;
+            max-width: 90%;
+            height: 360px;
+            overflow: auto;
+            overflow: overlay;
+            scroll-snap-type: x mandatory;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                scroll-snap-align: center;
+            }
         }
     }
+    .musc2{
+        @include positionl(40%,380px,60%,0px);
+        .titm{
+            h1{
+                @include positionl(100%,15%,0%,25px);
+                @include textst(normal,900,150%,100%,center,black);
+                font-family: $style-rob;
+                letter-spacing: 0.2em;
+                -webkit-animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	            animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                @-webkit-keyframes focus-in-contract {
+                    0% {
+                    letter-spacing: 1em;
+                    -webkit-filter: blur(12px);
+                    filter: blur(12px);
+                    opacity: 0;
+                    }
+                    100% {
+                    -webkit-filter: blur(0px);
+                    filter: blur(0px);
+                    opacity: 1;
+                    }
+                }
+                @keyframes focus-in-contract {
+                    0% {
+                    letter-spacing: 1em;
+                    -webkit-filter: blur(12px);
+                    filter: blur(12px);
+                    opacity: 0;
+                    }
+                    100% {
+                    -webkit-filter: blur(0px);
+                    filter: blur(0px);
+                    opacity: 1;
+                    }
+                }
+            }
+        }
+        div{
+            p{
+                @include positionl(100%,15%,0%,60px);
+                @include textst(normal,700,100%,100%,center,black);
+                font-family: $style-popp;
+                letter-spacing: 0.2em;
+            }
+        }
+        .card-prof1{
+            display: flex;
+            position: absolute;
+            width: 85%;
+            top: 25%;
+            left: 8%;
+            gap: 70px;
+            .cardp1{
+                @include box(2px solid black,30px);
+                width: 40%;
+                height: 280px;
+                background: #404258;
+                position: relative;
+                img{
+                    @include positionl(80%,65%,10%,5%);
+                    object-fit: cover;
+                    border-radius: 10px;
+                    border: 1px solid black;
+                }
+                div{
+                    h2{
+                        @include positionl(90%,10%,5%,75%);
+                        @include textst(normal,900,200%,50%,center,black);
+                        font-family: $style-rob;
+                    }
+                    p{
+                        @include positionl(100%,10%,0%,85%);
+                        @include textst(normal,700,80%,100%,center,black);
+                        font-family: $style-popp;
+                    }
+                }
+            }
+        }
+    }
+    .musc3{
+        @include positionl(30%,390px,0px,380px);
+        .titf{
+            h3{
+                @include positionl(100%,15%,0%,25px);
+                @include textst(normal,900,150%,100%,center,black);
+                font-family: $style-rob;
+                letter-spacing: 0.2em;
+                -webkit-animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	            animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                @-webkit-keyframes focus-in-contract {
+                    0% {
+                    letter-spacing: 1em;
+                    -webkit-filter: blur(12px);
+                    filter: blur(12px);
+                    opacity: 0;
+                    }
+                    100% {
+                    -webkit-filter: blur(0px);
+                    filter: blur(0px);
+                    opacity: 1;
+                    }
+                }
+                @keyframes focus-in-contract {
+                    0% {
+                    letter-spacing: 1em;
+                    -webkit-filter: blur(12px);
+                    filter: blur(12px);
+                    opacity: 0;
+                    }
+                    100% {
+                    -webkit-filter: blur(0px);
+                    filter: blur(0px);
+                    opacity: 1;
+                    }
+                }
+            }
+        }
+        div{
+            p{
+                @include positionl(100%,15%,0%,60px);
+                @include textst(normal,700,100%,100%,center,black);
+                font-family: $style-popp;
+                letter-spacing: 0.2em;
+            }
+        }
+        .card-prof2{
+            display: flex;
+            position: absolute;
+            width: 90%;
+            top: 28%;
+            left: 6%;
+            gap: 25px;
+            .cardp2{
+                @include box(2px solid black,30px);
+                width: 50%;
+                height: 260px;
+                background: #404258;
+                position: relative;
+                img{
+                    @include positionl(80%,62%,10%,7%);
+                    object-fit: cover;
+                    border-radius: 10px;
+                    border: 1px solid black;
+                }
+                div{
+                    h4{
+                        @include positionl(90%,10%,5%,75%);
+                        @include textst(normal,900,200%,50%,center,black);
+                        font-family: $style-rob;
+                    }
+                    p{
+                        @include positionl(100%,10%,0%,85%);
+                        @include textst(normal,700,80%,100%,center,black);
+                        font-family: $style-popp;
+                    }
+                }
+            }
+        }
+    }
+    .musc4{
+        @include positionl(40%,390px,30%,380px);
+        .mu{
+            position: absolute;
+            border: 2px solid black;
+            left: 2.5%;
+            top: 15px;
+            display: flex;
+            max-width: 95%;
+            height: 360px;
+            overflow: auto;
+            overflow: overlay;
+            scroll-snap-type: x mandatory;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                scroll-snap-align: center;
+            }
+        }
+    }
+    .musc5{
+        @include positionl(30%,390px,70%,380px);
+        .titf{
+            h3{
+                @include positionl(100%,15%,0%,25px);
+                @include textst(normal,900,150%,100%,center,black);
+                font-family: $style-rob;
+                letter-spacing: 0.2em;
+                -webkit-animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	            animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                @-webkit-keyframes focus-in-contract {
+                    0% {
+                    letter-spacing: 1em;
+                    -webkit-filter: blur(12px);
+                    filter: blur(12px);
+                    opacity: 0;
+                    }
+                    100% {
+                    -webkit-filter: blur(0px);
+                    filter: blur(0px);
+                    opacity: 1;
+                    }
+                }
+                @keyframes focus-in-contract {
+                    0% {
+                    letter-spacing: 1em;
+                    -webkit-filter: blur(12px);
+                    filter: blur(12px);
+                    opacity: 0;
+                    }
+                    100% {
+                    -webkit-filter: blur(0px);
+                    filter: blur(0px);
+                    opacity: 1;
+                    }
+                }
+            }
+        }
+        div{
+            p{
+                @include positionl(100%,15%,0%,60px);
+                @include textst(normal,700,100%,100%,center,black);
+                font-family: $style-popp;
+                letter-spacing: 0.2em;
+            }
+        }
+        .card-prof3{
+            display: flex;
+            position: absolute;
+            width: 90%;
+            top: 28%;
+            right: 6%;
+            gap: 25px;
+            .cardp3{
+                width: 50%;
+                height: 260px;
+                background: #404258;
+                box-sizing: border-box;
+                border: 2px solid black;
+                border-radius: none;
+                position: relative;
+                border-radius: 30px;
+                img{
+                    @include positionl(80%,62%,10%,7%);
+                    object-fit: cover;
+                    border-radius: 10px;
+                    border: 1px solid black;
+                }
+                div{
+                    h4{
+                        @include positionl(90%,10%,5%,75%);
+                        @include textst(normal,900,200%,50%,center,black);
+                        font-family: $style-rob;
+                    }
+                    p{
+                        @include positionl(100%,10%,0%,85%);
+                        @include textst(normal,700,80%,100%,center,black);
+                        font-family: $style-popp;
+                    }
+                }
+            }
+        }
+    }
+    .musc6{
+        @include positionl(40%,380px,0%,770px);
+        .titb{
+            h3{
+                @include positionl(100%,15%,0%,10px);
+                @include textst(normal,900,150%,100%,center,black);
+                font-family: $style-rob;
+                letter-spacing: 0.2em;
+                -webkit-animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	            animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                @-webkit-keyframes focus-in-contract {
+                    0% {
+                    letter-spacing: 1em;
+                    -webkit-filter: blur(12px);
+                    filter: blur(12px);
+                    opacity: 0;
+                    }
+                    100% {
+                    -webkit-filter: blur(0px);
+                    filter: blur(0px);
+                    opacity: 1;
+                    }
+                }
+                @keyframes focus-in-contract {
+                    0% {
+                    letter-spacing: 1em;
+                    -webkit-filter: blur(12px);
+                    filter: blur(12px);
+                    opacity: 0;
+                    }
+                    100% {
+                    -webkit-filter: blur(0px);
+                    filter: blur(0px);
+                    opacity: 1;
+                    }
+                }
+            }
+        }
+        div{
+            p{
+                @include positionl(100%,15%,0%,45px);
+                @include textst(normal,700,100%,100%,center,black);
+                font-family: $style-popp;
+                letter-spacing: 0.2em;
+            }
+        }
+        .card-prof4{
+            display: flex;
+            position: absolute;
+            width: 85%;
+            top: 20%;
+            right: 8%;
+            gap: 70px;
+            .cardp4{
+                @include box(2px solid black,30px);
+                width: 40%;
+                height: 280px;
+                background: #404258;
+                position: relative;
+                img{
+                    @include positionl(80%,65%,10%,5%);
+                    object-fit: cover;
+                    border-radius: 10px;
+                    border: 1px solid black;
+                }
+                div{
+                    h4{
+                        @include positionl(90%,10%,5%,75%);
+                        @include textst(normal,900,200%,50%,center,black);
+                        font-family: $style-rob;
+                    }
+                    p{
+                        @include positionl(100%,10%,0%,85%);
+                        @include textst(normal,700,80%,100%,center,black);
+                        font-family: $style-popp;
+                    }
+                }
+            }
+        }
+    }
+    .musc7{
+        @include positionl(60%,380px,40%,770px);
+        .mu{
+            position: absolute;
+            border: 2px solid black;
+            right: 7%;
+            top: 10px;
+            display: flex;
+            max-width: 90%;
+            height: 360px;
+            overflow: auto;
+            overflow: overlay;
+            scroll-snap-type: x mandatory;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                scroll-snap-align: center;
+            }
+        }
+    }
+}
+
+.mu::-webkit-scrollbar {
+    display: none;
+    width: 10px;
+    height: 10px;
+    background-color: #6B728E;
+}
+.mu:hover::-webkit-scrollbar {
+    display: initial;  
+}
+.mu::-webkit-scrollbar-thumb {
+    background-color: #50577A;
 }

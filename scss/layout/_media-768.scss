@@ -119,57 +119,6 @@
             }
         }
     }
-    main{
-        .secClas{
-            @include positionl(100%,1150px,0px,60px);
-            .musc{
-                width: 80%;
-                left: 10%;
-                #carouselExampleIndicators1{
-                    .carousel-inner{
-                        .carousel-item{
-                            h1{
-                                width: 70%;
-                                height: 20%;
-                                left: 15%;
-                                font-size: 200%;
-                            }
-                        }
-                    }
-                }
-            }
-            .fit{
-                width: 80%;
-                left: 10%;
-                #carouselExampleIndicators2{
-                    .carousel-inner{
-                        .carousel-item{
-                            h2{
-                                width: 75%;
-                                left: 12%;
-                                font-size: 200%;
-                            }
-                        }
-                    }
-                }
-            }
-            .boxe{
-                width: 80%;
-                left: 10%;
-                #carouselExampleIndicators3{
-                    .carousel-inner{
-                        .carousel-item{
-                            h3{
-                                width: 50%;
-                                left: 25%;
-                                font-size: 200%;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
     .secHor{
         background-image: none;
         top: 60px;

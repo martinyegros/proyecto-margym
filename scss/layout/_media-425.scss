@@ -131,60 +131,6 @@
             }
         }
     }
-    main{
-        .secClas{
-            height: 1200px;
-            top: 60px;
-            .musc{
-                @include positionl(100%,400px,0%,0%);
-                #carouselExampleIndicators1{
-                    .carousel-inner{
-                        .carousel-item{
-                            img{
-                                height: 400px;
-                            }
-                            h1{
-                                @include positionl(100%,20%,0%,190px);
-                                font-size: 130%;
-                            }
-                        }
-                    }
-                }
-            }
-            .fit{
-                @include positionl(100%,400px,0%,400px);
-                #carouselExampleIndicators2{
-                    .carousel-inner{
-                        .carousel-item{
-                            img{
-                                height: 400px;
-                            }
-                            h2{
-                                @include positionl(100%,20%,0%,190px);
-                                font-size: 130%;
-                            }
-                        }
-                    }
-                }
-            }
-            .boxe{
-                @include positionl(100%,400px,0%,800px);
-                #carouselExampleIndicators3{
-                    .carousel-inner{
-                        .carousel-item{
-                            img{
-                                height: 400px;
-                            }
-                            h3{
-                                @include positionl(100%,20%,0%,190px);
-                                font-size: 130%;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
     .secHor{
         @include positionl(100%,1200px,0px,60px);
         background-image: none;
