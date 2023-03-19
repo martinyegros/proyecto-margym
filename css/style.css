@@ -1523,26 +1523,24 @@ main .secNosd {
       .clas .musc2 .card-prof1 .cardp1 {
         box-sizing: border-box;
         border: 2px solid black;
-        border-radius: 30px;
+        border-radius: 15px;
         width: 40%;
         height: 280px;
-        background: #404258;
-        position: relative; }
+        position: relative;
+        overflow: hidden; }
         .clas .musc2 .card-prof1 .cardp1 img {
-          position: absolute;
-          width: 80%;
-          height: 65%;
-          left: 10%;
-          top: 5%;
+          width: 100%;
+          height: 100%;
           object-fit: cover;
           border-radius: 10px;
-          border: 1px solid black; }
-        .clas .musc2 .card-prof1 .cardp1 div h2 {
+          border: 1px solid black;
+          transition: 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+        .clas .musc2 .card-prof1 .cardp1 .content-card1 h2 {
           position: absolute;
           width: 90%;
           height: 10%;
           left: 5%;
-          top: 75%;
+          top: 20%;
           font-style: normal;
           font-weight: 900;
           font-size: 200%;
@@ -1550,12 +1548,12 @@ main .secNosd {
           text-align: center;
           color: black;
           font-family: "Roboto", sans-serif; }
-        .clas .musc2 .card-prof1 .cardp1 div p {
+        .clas .musc2 .card-prof1 .cardp1 .content-card1 p {
           position: absolute;
           width: 100%;
           height: 10%;
           left: 0%;
-          top: 85%;
+          top: 50%;
           font-style: normal;
           font-weight: 700;
           font-size: 80%;
@@ -1582,31 +1580,7 @@ main .secNosd {
       text-align: center;
       color: black;
       font-family: "Roboto", sans-serif;
-      letter-spacing: 0.2em;
-      -webkit-animation: focus-in-contract 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-      animation: focus-in-contract 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
-
-@-webkit-keyframes focus-in-contract {
-  0% {
-    letter-spacing: 1em;
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0; }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1; } }
-
-@keyframes focus-in-contract {
-  0% {
-    letter-spacing: 1em;
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0; }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1; } }
+      letter-spacing: 0.2em; }
     .clas .musc3 div p {
       position: absolute;
       width: 100%;
@@ -1631,26 +1605,24 @@ main .secNosd {
       .clas .musc3 .card-prof2 .cardp2 {
         box-sizing: border-box;
         border: 2px solid black;
-        border-radius: 30px;
+        border-radius: 15px;
         width: 50%;
         height: 260px;
-        background: #404258;
-        position: relative; }
+        position: relative;
+        overflow: hidden; }
         .clas .musc3 .card-prof2 .cardp2 img {
-          position: absolute;
-          width: 80%;
-          height: 62%;
-          left: 10%;
-          top: 7%;
+          width: 100%;
+          height: 100%;
           object-fit: cover;
           border-radius: 10px;
-          border: 1px solid black; }
-        .clas .musc3 .card-prof2 .cardp2 div h4 {
+          border: 1px solid black;
+          transition: 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+        .clas .musc3 .card-prof2 .cardp2 .content-card2 h4 {
           position: absolute;
           width: 90%;
           height: 10%;
           left: 5%;
-          top: 75%;
+          top: 20%;
           font-style: normal;
           font-weight: 900;
           font-size: 200%;
@@ -1658,12 +1630,12 @@ main .secNosd {
           text-align: center;
           color: black;
           font-family: "Roboto", sans-serif; }
-        .clas .musc3 .card-prof2 .cardp2 div p {
+        .clas .musc3 .card-prof2 .cardp2 .content-card2 p {
           position: absolute;
           width: 100%;
           height: 10%;
           left: 0%;
-          top: 85%;
+          top: 50%;
           font-style: normal;
           font-weight: 700;
           font-size: 80%;
@@ -1712,31 +1684,7 @@ main .secNosd {
       text-align: center;
       color: black;
       font-family: "Roboto", sans-serif;
-      letter-spacing: 0.2em;
-      -webkit-animation: focus-in-contract 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-      animation: focus-in-contract 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
-
-@-webkit-keyframes focus-in-contract {
-  0% {
-    letter-spacing: 1em;
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0; }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1; } }
-
-@keyframes focus-in-contract {
-  0% {
-    letter-spacing: 1em;
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0; }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1; } }
+      letter-spacing: 0.2em; }
     .clas .musc5 div p {
       position: absolute;
       width: 100%;
@@ -1759,29 +1707,26 @@ main .secNosd {
       right: 6%;
       gap: 25px; }
       .clas .musc5 .card-prof3 .cardp3 {
-        width: 50%;
-        height: 260px;
-        background: #404258;
         box-sizing: border-box;
         border: 2px solid black;
-        border-radius: none;
+        border-radius: 15px;
+        width: 50%;
+        height: 260px;
         position: relative;
-        border-radius: 30px; }
+        overflow: hidden; }
         .clas .musc5 .card-prof3 .cardp3 img {
-          position: absolute;
-          width: 80%;
-          height: 62%;
-          left: 10%;
-          top: 7%;
+          width: 100%;
+          height: 100%;
           object-fit: cover;
           border-radius: 10px;
-          border: 1px solid black; }
-        .clas .musc5 .card-prof3 .cardp3 div h4 {
+          border: 1px solid black;
+          transition: 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+        .clas .musc5 .card-prof3 .cardp3 .content-card3 h4 {
           position: absolute;
           width: 90%;
           height: 10%;
           left: 5%;
-          top: 75%;
+          top: 20%;
           font-style: normal;
           font-weight: 900;
           font-size: 200%;
@@ -1789,12 +1734,12 @@ main .secNosd {
           text-align: center;
           color: black;
           font-family: "Roboto", sans-serif; }
-        .clas .musc5 .card-prof3 .cardp3 div p {
+        .clas .musc5 .card-prof3 .cardp3 .content-card3 p {
           position: absolute;
           width: 100%;
           height: 10%;
           left: 0%;
-          top: 85%;
+          top: 50%;
           font-style: normal;
           font-weight: 700;
           font-size: 80%;
@@ -1870,26 +1815,24 @@ main .secNosd {
       .clas .musc6 .card-prof4 .cardp4 {
         box-sizing: border-box;
         border: 2px solid black;
-        border-radius: 30px;
+        border-radius: 15px;
         width: 40%;
         height: 280px;
-        background: #404258;
-        position: relative; }
+        position: relative;
+        overflow: hidden; }
         .clas .musc6 .card-prof4 .cardp4 img {
-          position: absolute;
-          width: 80%;
-          height: 65%;
-          left: 10%;
-          top: 5%;
+          width: 100%;
+          height: 100%;
           object-fit: cover;
           border-radius: 10px;
-          border: 1px solid black; }
-        .clas .musc6 .card-prof4 .cardp4 div h4 {
+          border: 1px solid black;
+          transition: 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+        .clas .musc6 .card-prof4 .cardp4 .content-card4 h4 {
           position: absolute;
           width: 90%;
           height: 10%;
           left: 5%;
-          top: 75%;
+          top: 20%;
           font-style: normal;
           font-weight: 900;
           font-size: 200%;
@@ -1897,12 +1840,12 @@ main .secNosd {
           text-align: center;
           color: black;
           font-family: "Roboto", sans-serif; }
-        .clas .musc6 .card-prof4 .cardp4 div p {
+        .clas .musc6 .card-prof4 .cardp4 .content-card4 p {
           position: absolute;
           width: 100%;
           height: 10%;
           left: 0%;
-          top: 85%;
+          top: 50%;
           font-style: normal;
           font-weight: 700;
           font-size: 80%;
@@ -1944,6 +1887,98 @@ main .secNosd {
 
 .mu::-webkit-scrollbar-thumb {
   background-color: #50577A; }
+
+.cardp1 > .content-card1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background-color: #6B728E;
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: translate(0, 100%);
+  transition: 0.5s ease, transform 0.3s ease; }
+
+.cardp1:hover img {
+  scale: 1.1; }
+
+.cardp1:hover > .content-card1 {
+  opacity: 1;
+  transform: translate(0, 0); }
+
+.cardp2 > .content-card2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background-color: #6B728E;
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: translate(0, 100%);
+  transition: 0.5s ease, transform 0.3s ease; }
+
+.cardp2:hover img {
+  scale: 1.1; }
+
+.cardp2:hover > .content-card2 {
+  opacity: 1;
+  transform: translate(0, 0); }
+
+.cardp3 > .content-card3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background-color: #6B728E;
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: translate(0, 100%);
+  transition: 0.5s ease, transform 0.3s ease; }
+
+.cardp3:hover img {
+  scale: 1.1; }
+
+.cardp3:hover > .content-card3 {
+  opacity: 1;
+  transform: translate(0, 0); }
+
+.cardp4 > .content-card4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background-color: #6B728E;
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: translate(0, 100%);
+  transition: 0.5s ease, transform 0.3s ease; }
+
+.cardp4:hover img {
+  scale: 1.1; }
+
+.cardp4:hover > .content-card4 {
+  opacity: 1;
+  transform: translate(0, 0); }
 
 @media (max-width: 1253px) {
   .headerr nav .navegador #inscribite {

@@ -76,25 +76,27 @@
             left: 8%;
             gap: 70px;
             .cardp1{
-                @include box(2px solid black,30px);
+                @include box(2px solid black,15px);
                 width: 40%;
                 height: 280px;
-                background: #404258;
                 position: relative;
+                overflow: hidden;
                 img{
-                    @include positionl(80%,65%,10%,5%);
+                    width: 100%;
+                    height: 100%;
                     object-fit: cover;
                     border-radius: 10px;
                     border: 1px solid black;
+                    transition: 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
                 }
-                div{
+                .content-card1{
                     h2{
-                        @include positionl(90%,10%,5%,75%);
+                        @include positionl(90%,10%,5%,20%);
                         @include textst(normal,900,200%,50%,center,black);
                         font-family: $style-rob;
                     }
                     p{
-                        @include positionl(100%,10%,0%,85%);
+                        @include positionl(100%,10%,0%,50%);
                         @include textst(normal,700,80%,100%,center,black);
                         font-family: $style-popp;
                     }
@@ -110,34 +112,6 @@
                 @include textst(normal,900,150%,100%,center,black);
                 font-family: $style-rob;
                 letter-spacing: 0.2em;
-                -webkit-animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	            animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-                @-webkit-keyframes focus-in-contract {
-                    0% {
-                    letter-spacing: 1em;
-                    -webkit-filter: blur(12px);
-                    filter: blur(12px);
-                    opacity: 0;
-                    }
-                    100% {
-                    -webkit-filter: blur(0px);
-                    filter: blur(0px);
-                    opacity: 1;
-                    }
-                }
-                @keyframes focus-in-contract {
-                    0% {
-                    letter-spacing: 1em;
-                    -webkit-filter: blur(12px);
-                    filter: blur(12px);
-                    opacity: 0;
-                    }
-                    100% {
-                    -webkit-filter: blur(0px);
-                    filter: blur(0px);
-                    opacity: 1;
-                    }
-                }
             }
         }
         div{
@@ -156,25 +130,27 @@
             left: 6%;
             gap: 25px;
             .cardp2{
-                @include box(2px solid black,30px);
+                @include box(2px solid black,15px);
                 width: 50%;
                 height: 260px;
-                background: #404258;
                 position: relative;
+                overflow: hidden;
                 img{
-                    @include positionl(80%,62%,10%,7%);
+                    width: 100%;
+                    height: 100%;
                     object-fit: cover;
                     border-radius: 10px;
                     border: 1px solid black;
+                    transition: 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
                 }
-                div{
+                .content-card2{
                     h4{
-                        @include positionl(90%,10%,5%,75%);
+                        @include positionl(90%,10%,5%,20%);
                         @include textst(normal,900,200%,50%,center,black);
                         font-family: $style-rob;
                     }
                     p{
-                        @include positionl(100%,10%,0%,85%);
+                        @include positionl(100%,10%,0%,50%);
                         @include textst(normal,700,80%,100%,center,black);
                         font-family: $style-popp;
                     }
@@ -211,34 +187,6 @@
                 @include textst(normal,900,150%,100%,center,black);
                 font-family: $style-rob;
                 letter-spacing: 0.2em;
-                -webkit-animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	            animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-                @-webkit-keyframes focus-in-contract {
-                    0% {
-                    letter-spacing: 1em;
-                    -webkit-filter: blur(12px);
-                    filter: blur(12px);
-                    opacity: 0;
-                    }
-                    100% {
-                    -webkit-filter: blur(0px);
-                    filter: blur(0px);
-                    opacity: 1;
-                    }
-                }
-                @keyframes focus-in-contract {
-                    0% {
-                    letter-spacing: 1em;
-                    -webkit-filter: blur(12px);
-                    filter: blur(12px);
-                    opacity: 0;
-                    }
-                    100% {
-                    -webkit-filter: blur(0px);
-                    filter: blur(0px);
-                    opacity: 1;
-                    }
-                }
             }
         }
         div{
@@ -257,28 +205,27 @@
             right: 6%;
             gap: 25px;
             .cardp3{
+                @include box(2px solid black,15px);
                 width: 50%;
                 height: 260px;
-                background: #404258;
-                box-sizing: border-box;
-                border: 2px solid black;
-                border-radius: none;
                 position: relative;
-                border-radius: 30px;
+                overflow: hidden;
                 img{
-                    @include positionl(80%,62%,10%,7%);
+                    width: 100%;
+                    height: 100%;
                     object-fit: cover;
                     border-radius: 10px;
                     border: 1px solid black;
+                    transition: 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
                 }
-                div{
+                .content-card3{
                     h4{
-                        @include positionl(90%,10%,5%,75%);
+                        @include positionl(90%,10%,5%,20%);
                         @include textst(normal,900,200%,50%,center,black);
                         font-family: $style-rob;
                     }
                     p{
-                        @include positionl(100%,10%,0%,85%);
+                        @include positionl(100%,10%,0%,50%);
                         @include textst(normal,700,80%,100%,center,black);
                         font-family: $style-popp;
                     }
@@ -340,25 +287,27 @@
             right: 8%;
             gap: 70px;
             .cardp4{
-                @include box(2px solid black,30px);
+                @include box(2px solid black,15px);
                 width: 40%;
                 height: 280px;
-                background: #404258;
                 position: relative;
+                overflow: hidden;
                 img{
-                    @include positionl(80%,65%,10%,5%);
+                    width: 100%;
+                    height: 100%;
                     object-fit: cover;
                     border-radius: 10px;
                     border: 1px solid black;
+                    transition: 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
                 }
-                div{
+                .content-card4{
                     h4{
-                        @include positionl(90%,10%,5%,75%);
+                        @include positionl(90%,10%,5%,20%);
                         @include textst(normal,900,200%,50%,center,black);
                         font-family: $style-rob;
                     }
                     p{
-                        @include positionl(100%,10%,0%,85%);
+                        @include positionl(100%,10%,0%,50%);
                         @include textst(normal,700,80%,100%,center,black);
                         font-family: $style-popp;
                     }
@@ -400,4 +349,108 @@
 }
 .mu::-webkit-scrollbar-thumb {
     background-color: #50577A;
+}
+
+.cardp1 > .content-card1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-color: #6B728E;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translate(0, 100%);
+    transition: 0.5s ease, transform 0.3s ease;
+}
+
+.cardp1:hover img{
+    scale: 1.1;
+}
+
+.cardp1:hover > .content-card1{
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.cardp2 > .content-card2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-color: #6B728E;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translate(0, 100%);
+    transition: 0.5s ease, transform 0.3s ease;
+}
+
+.cardp2:hover img{
+    scale: 1.1;
+}
+
+.cardp2:hover > .content-card2{
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.cardp3 > .content-card3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-color: #6B728E;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translate(0, 100%);
+    transition: 0.5s ease, transform 0.3s ease;
+}
+
+.cardp3:hover img{
+    scale: 1.1;
+}
+
+.cardp3:hover > .content-card3{
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.cardp4 > .content-card4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-color: #6B728E;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translate(0, 100%);
+    transition: 0.5s ease, transform 0.3s ease;
+}
+
+.cardp4:hover img{
+    scale: 1.1;
+}
+
+.cardp4:hover > .content-card4{
+    opacity: 1;
+    transform: translate(0,0);
 }
