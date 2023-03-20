@@ -95,9 +95,7 @@ footer div .redesSociales {
   justify-content: center;
   top: 30%;
   left: 45.2%;
-  position: absolute;
-  padding: 0%;
-  margin: 0%; }
+  position: absolute; }
   footer div .redesSociales li a img {
     display: flex;
     width: 20px;
@@ -1522,7 +1520,7 @@ main .secNosd {
       gap: 70px; }
       .clas .musc2 .card-prof1 .cardp1 {
         box-sizing: border-box;
-        border: 2px solid black;
+        border: 1px solid black;
         border-radius: 15px;
         width: 40%;
         height: 280px;
@@ -1604,7 +1602,7 @@ main .secNosd {
       gap: 25px; }
       .clas .musc3 .card-prof2 .cardp2 {
         box-sizing: border-box;
-        border: 2px solid black;
+        border: 1px solid black;
         border-radius: 15px;
         width: 50%;
         height: 260px;
@@ -1708,7 +1706,7 @@ main .secNosd {
       gap: 25px; }
       .clas .musc5 .card-prof3 .cardp3 {
         box-sizing: border-box;
-        border: 2px solid black;
+        border: 1px solid black;
         border-radius: 15px;
         width: 50%;
         height: 260px;
@@ -1814,7 +1812,7 @@ main .secNosd {
       gap: 70px; }
       .clas .musc6 .card-prof4 .cardp4 {
         box-sizing: border-box;
-        border: 2px solid black;
+        border: 1px solid black;
         border-radius: 15px;
         width: 40%;
         height: 280px;
@@ -2063,7 +2061,28 @@ main .secNosd {
     font-size: 90%;
     top: 35%;
     width: 65%;
-    left: 17.5%; } }
+    left: 17.5%; }
+  .clas .musc2 .card-prof1 {
+    gap: 60px; }
+    .clas .musc2 .card-prof1 .cardp1 {
+      height: 260px; }
+      .clas .musc2 .card-prof1 .cardp1 .content-card1 p {
+        font-size: 75%; }
+  .clas .musc3 .card-prof2 .cardp2 {
+    height: 240px; }
+    .clas .musc3 .card-prof2 .cardp2 .content-card2 p {
+      font-size: 75%; }
+  .clas .musc5 .card-prof3 .cardp3 {
+    height: 240px; }
+    .clas .musc5 .card-prof3 .cardp3 .content-card3 p {
+      font-size: 75%; }
+  .clas .musc6 .card-prof4 {
+    gap: 60px;
+    right: 5%; }
+    .clas .musc6 .card-prof4 .cardp4 {
+      height: 260px; }
+      .clas .musc6 .card-prof4 .cardp4 .content-card4 p {
+        font-size: 75%; } }
 
 @media (max-width: 1024px) {
   .headerr nav .navegador {
@@ -2116,7 +2135,29 @@ main .secNosd {
   main .secNosd .parUno {
     font-size: 85%; }
   main .secNosd .parDos {
-    font-size: 85%; } }
+    font-size: 85%; }
+  .clas .musc2 .card-prof1 .cardp1 {
+    height: 240px; }
+    .clas .musc2 .card-prof1 .cardp1 .content-card1 p {
+      font-size: 70%; }
+  .clas .musc3 .card-prof2 {
+    top: 32%; }
+    .clas .musc3 .card-prof2 .cardp2 {
+      height: 220px; }
+      .clas .musc3 .card-prof2 .cardp2 .content-card2 p {
+        font-size: 70%; }
+  .clas .musc5 .card-prof3 {
+    top: 32%; }
+    .clas .musc5 .card-prof3 .cardp3 {
+      height: 220px; }
+      .clas .musc5 .card-prof3 .cardp3 .content-card3 p {
+        font-size: 70%; }
+  .clas .musc6 .card-prof4 {
+    top: 24%; }
+    .clas .musc6 .card-prof4 .cardp4 {
+      height: 240px; }
+      .clas .musc6 .card-prof4 .cardp4 .content-card4 p {
+        font-size: 70%; } }
 
 @media (max-width: 950px) {
   .headerr nav .navegador {
@@ -2176,7 +2217,47 @@ main .secNosd {
   main .secNosd .parUno {
     font-size: 75%; }
   main .secNosd .parDos {
-    font-size: 75%; } }
+    font-size: 75%; }
+  .clas .musc2 .titm h1 {
+    top: 28px;
+    font-size: 120%; }
+  .clas .musc2 div p {
+    top: 63px; }
+  .clas .musc2 .card-prof1 {
+    top: 30%; }
+    .clas .musc2 .card-prof1 .cardp1 {
+      height: 220px; }
+      .clas .musc2 .card-prof1 .cardp1 .content-card1 h2 {
+        font-size: 150%; }
+      .clas .musc2 .card-prof1 .cardp1 .content-card1 p {
+        top: 44%; }
+  .clas .musc3 .titf h3 {
+    font-size: 120%; }
+  .clas .musc3 .card-prof2 {
+    top: 35%; }
+    .clas .musc3 .card-prof2 .cardp2 {
+      height: 200px; }
+      .clas .musc3 .card-prof2 .cardp2 .content-card2 h4 {
+        font-size: 150%; }
+  .clas .musc5 .titf h3 {
+    font-size: 120%; }
+  .clas .musc5 .card-prof3 {
+    top: 35%; }
+    .clas .musc5 .card-prof3 .cardp3 {
+      height: 200px; }
+      .clas .musc5 .card-prof3 .cardp3 .content-card3 h4 {
+        font-size: 150%; }
+  .clas .musc6 .titb h3 {
+    top: 13px;
+    font-size: 120%; }
+  .clas .musc6 div p {
+    top: 48px; }
+  .clas .musc6 .card-prof4 {
+    top: 30%; }
+    .clas .musc6 .card-prof4 .cardp4 {
+      height: 220px; }
+      .clas .musc6 .card-prof4 .cardp4 .content-card4 h4 {
+        font-size: 150%; } }
 
 @media (max-width: 810px) {
   .headerr nav .navegador {
@@ -2212,7 +2293,23 @@ main .secNosd {
   .secIns .card-container .card .listIns {
     font-size: 90%; }
   .secIns div form .envIns {
-    height: 3%; } }
+    height: 3%; }
+  .clas .musc2 .card-prof1 .cardp1 {
+    height: 200px; }
+    .clas .musc2 .card-prof1 .cardp1 .content-card1 p {
+      font-size: 60%; }
+  .clas .musc3 .card-prof2 .cardp2 {
+    height: 180px; }
+    .clas .musc3 .card-prof2 .cardp2 .content-card2 p {
+      font-size: 60%; }
+  .clas .musc5 .card-prof3 .cardp3 {
+    height: 180px; }
+    .clas .musc5 .card-prof3 .cardp3 .content-card3 p {
+      font-size: 60%; }
+  .clas .musc6 .card-prof4 .cardp4 {
+    height: 200px; }
+    .clas .musc6 .card-prof4 .cardp4 .content-card4 p {
+      font-size: 60%; } }
 
 @media (max-width: 768px) {
   .headerr {
@@ -2539,7 +2636,121 @@ main .secNosd {
       width: 100%;
       height: 2%;
       left: 0%;
-      top: 96%; } }
+      top: 96%; }
+  .clas {
+    top: 60px; }
+    .clas .musc1 {
+      width: 70%;
+      left: 30%; }
+      .clas .musc1 .mu {
+        max-width: 100%;
+        left: 2%;
+        right: 2%; }
+    .clas .musc2 {
+      width: 30%;
+      left: 0%; }
+      .clas .musc2 .titm h1 {
+        top: 10px;
+        font-size: 110%; }
+      .clas .musc2 div p {
+        top: 30px;
+        font-size: 75%; }
+      .clas .musc2 .card-prof1 {
+        top: 50px;
+        width: 100%;
+        height: 80%;
+        left: 2%;
+        display: inline; }
+        .clas .musc2 .card-prof1 .cardp1 {
+          left: 15%;
+          width: 60%;
+          height: 50%;
+          margin: 2.5px; }
+          .clas .musc2 .card-prof1 .cardp1 .content-card1 h2 {
+            top: 15%; }
+          .clas .musc2 .card-prof1 .cardp1 .content-card1 p {
+            top: 50%;
+            font-size: 50%; }
+    .clas .musc3 {
+      left: 70%; }
+      .clas .musc3 .titf h3 {
+        font-size: 110%;
+        top: 10px; }
+      .clas .musc3 div p {
+        font-size: 75%;
+        top: 30px; }
+      .clas .musc3 .card-prof2 {
+        width: 100%;
+        height: 80%;
+        left: 0%;
+        top: 75px;
+        display: inline; }
+        .clas .musc3 .card-prof2 .cardp2 {
+          width: 55%;
+          left: 22.5%;
+          height: 48%;
+          margin: 2px; }
+          .clas .musc3 .card-prof2 .cardp2 .content-card2 h4 {
+            top: 15%; }
+          .clas .musc3 .card-prof2 .cardp2 .content-card2 p {
+            top: 55%;
+            font-size: 50%; }
+    .clas .musc5 {
+      left: 0%; }
+      .clas .musc5 .titf h3 {
+        font-size: 110%;
+        top: 10px; }
+      .clas .musc5 div p {
+        font-size: 75%;
+        top: 33px; }
+      .clas .musc5 .card-prof3 {
+        width: 100%;
+        height: 80%;
+        left: 3%;
+        top: 75px;
+        display: inline; }
+        .clas .musc5 .card-prof3 .cardp3 {
+          width: 55%;
+          left: 22.5%;
+          height: 48%;
+          margin: 2px; }
+          .clas .musc5 .card-prof3 .cardp3 .content-card3 h4 {
+            top: 15%; }
+          .clas .musc5 .card-prof3 .cardp3 .content-card3 p {
+            top: 55%;
+            font-size: 50%; }
+    .clas .musc6 {
+      width: 30%;
+      left: 70%; }
+      .clas .musc6 .titb h3 {
+        font-size: 110%;
+        top: 1px; }
+      .clas .musc6 div p {
+        font-size: 75%;
+        top: 20px; }
+      .clas .musc6 .card-prof4 {
+        width: 100%;
+        height: 80%;
+        left: 0%;
+        top: 50px;
+        display: inline; }
+        .clas .musc6 .card-prof4 .cardp4 {
+          left: 15%;
+          width: 60%;
+          height: 50%;
+          margin: 2.5px; }
+          .clas .musc6 .card-prof4 .cardp4 .content-card4 h4 {
+            top: 15%; }
+          .clas .musc6 .card-prof4 .cardp4 .content-card4 p {
+            top: 55%;
+            font-size: 50%; }
+    .clas .musc7 {
+      width: 70%;
+      left: 0%; }
+      .clas .musc7 .mu {
+        max-width: 100%;
+        left: 2%;
+        right: 2%; } }
 
 @media (max-width: 650px) {
   .headerr nav .navegador {
@@ -2572,6 +2783,26 @@ main .secNosd {
   .secIns div form .envIns {
     font-size: 15px; }
   main .secNosu p {
+    font-size: 65%; }
+  .clas .musc2 .titm h1 {
+    font-size: 100%; }
+  .clas .musc2 div p {
+    font-size: 65%; }
+  .clas .musc3 .titf h3 {
+    font-size: 100%; }
+  .clas .musc3 div p {
+    font-size: 65%; }
+  .clas .musc3 .card-prof2 .cardp2 {
+    height: 45%; }
+  .clas .musc5 .titf h3 {
+    font-size: 100%; }
+  .clas .musc5 div p {
+    font-size: 65%; }
+  .clas .musc5 .card-prof3 .cardp3 {
+    height: 45%; }
+  .clas .musc6 .titb h3 {
+    font-size: 100%; }
+  .clas .musc6 div p {
     font-size: 65%; } }
 
 @media (max-width: 600px) {
@@ -2586,7 +2817,15 @@ main .secNosd {
   main .secNosd .parUno {
     font-size: 80%; }
   main .secNosd .parDos {
-    font-size: 80%; } }
+    font-size: 80%; }
+  .clas .musc2 .titm h1 {
+    font-size: 85%; }
+  .clas .musc3 .titf h3 {
+    font-size: 85%; }
+  .clas .musc5 .titf h3 {
+    font-size: 85%; }
+  .clas .musc2 .titb h3 {
+    font-size: 85%; } }
 
 @media (max-width: 560px) {
   .headerr nav .navegador {
@@ -2601,7 +2840,23 @@ main .secNosd {
   .secHor .tabHor {
     left: 6%; }
   main .secNosu p {
-    font-size: 60%; } }
+    font-size: 60%; }
+  .clas .musc2 .card-prof1 .cardp1 .content-card1 h2 {
+    font-size: 120%; }
+  .clas .musc2 .card-prof1 .cardp1 .content-card1 p {
+    font-size: 40%; }
+  .clas .musc3 .card-prof2 .cardp2 .content-card2 h4 {
+    font-size: 120%; }
+  .clas .musc3 .card-prof2 .cardp2 .content-card2 p {
+    font-size: 40%; }
+  .clas .musc5 .card-prof3 .cardp3 .content-card3 h4 {
+    font-size: 120%; }
+  .clas .musc5 .card-prof3 .cardp3 .content-card3 p {
+    font-size: 40%; }
+  .clas .musc6 .card-prof4 .cardp4 .content-card4 h4 {
+    font-size: 120%; }
+  .clas .musc6 .card-prof4 .cardp4 .content-card4 p {
+    font-size: 40%; } }
 
 @media (max-width: 510px) {
   .headerr nav .navegador {
@@ -2651,7 +2906,23 @@ main .secNosd {
   .secIns div form .envIns {
     font-size: 12px;
     line-height: 15px;
-    height: 2%; } }
+    height: 2%; }
+  .clas .musc2 .titm h1 {
+    font-size: 75%; }
+  .clas .musc2 div p {
+    font-size: 55%; }
+  .clas .musc3 .titf h3 {
+    font-size: 75%; }
+  .clas .musc3 div p {
+    font-size: 55%; }
+  .clas .musc5 .titf h3 {
+    font-size: 75%; }
+  .clas .musc5 div p {
+    font-size: 55%; }
+  .clas .musc2 .titb h3 {
+    font-size: 75%; }
+  .clas .musc2 div p {
+    font-size: 55%; } }
 
 @media (max-width: 425px) {
   .headerr {
@@ -3039,7 +3310,186 @@ main .secNosd {
       font-size: 70%; }
     main .secNosd .parDos {
       top: 96%;
-      font-size: 70%; } }
+      font-size: 70%; }
+  .clas {
+    top: 60px;
+    height: 1200px; }
+    .clas .musc1 {
+      width: 100%;
+      left: 0%;
+      height: 265px; }
+      .clas .musc1 .mu {
+        max-width: 100%;
+        left: 2%;
+        right: 2%;
+        height: 265px;
+        top: 0; }
+    .clas .musc2 {
+      width: 100%;
+      height: 100px;
+      left: 0%;
+      top: 265px; }
+      .clas .musc2 .titm h1 {
+        top: 20px;
+        font-size: 75%;
+        width: 40%;
+        height: 20px;
+        left: 0; }
+      .clas .musc2 div p {
+        top: 50px;
+        font-size: 75%;
+        width: 40%;
+        height: 30px;
+        left: 0; }
+      .clas .musc2 .card-prof1 {
+        top: 0px;
+        width: 60%;
+        height: 100px;
+        left: 40%;
+        display: flex;
+        gap: 30px; }
+        .clas .musc2 .card-prof1 .cardp1 {
+          top: 2px;
+          left: 5%;
+          width: 90px;
+          height: 96px;
+          margin: 0%;
+          justify-self: center; }
+          .clas .musc2 .card-prof1 .cardp1 .content-card1 h2 {
+            font-size: 100%; }
+          .clas .musc2 .card-prof1 .cardp1 .content-card1 p {
+            top: 45%;
+            font-size: 40%; }
+    .clas .musc3 {
+      width: 100%;
+      height: 100px;
+      left: 0%;
+      top: 635px; }
+      .clas .musc3 .titf h3 {
+        top: 5px;
+        font-size: 75%;
+        width: 40%;
+        height: 20px;
+        left: 60%; }
+      .clas .musc3 div p {
+        top: 30px;
+        font-size: 75%;
+        width: 40%;
+        height: 30px;
+        left: 60%; }
+      .clas .musc3 .card-prof2 {
+        top: 0px;
+        width: 60%;
+        height: 100px;
+        left: 0%;
+        display: flex;
+        gap: 30px; }
+        .clas .musc3 .card-prof2 .cardp2 {
+          top: 2px;
+          left: 5%;
+          width: 90px;
+          height: 96px;
+          margin: 0%;
+          justify-self: center; }
+          .clas .musc3 .card-prof2 .cardp2 .content-card2 h4 {
+            font-size: 100%; }
+          .clas .musc3 .card-prof2 .cardp2 .content-card2 p {
+            top: 50%;
+            font-size: 40%; }
+    .clas .musc4 {
+      width: 100%;
+      left: 0%;
+      height: 270px;
+      top: 365px; }
+      .clas .musc4 .mu {
+        max-width: 100%;
+        left: 2%;
+        right: 2%;
+        height: 270px;
+        top: 0; }
+    .clas .musc5 {
+      width: 100%;
+      height: 100px;
+      left: 0%;
+      top: 735px; }
+      .clas .musc5 .titf h3 {
+        top: 5px;
+        font-size: 75%;
+        width: 40%;
+        height: 20px;
+        left: 0; }
+      .clas .musc5 div p {
+        top: 30px;
+        font-size: 75%;
+        width: 40%;
+        height: 30px;
+        left: 0; }
+      .clas .musc5 .card-prof3 {
+        top: 0px;
+        width: 60%;
+        height: 100px;
+        left: 40%;
+        display: flex;
+        gap: 30px; }
+        .clas .musc5 .card-prof3 .cardp3 {
+          top: 2px;
+          left: 5%;
+          width: 90px;
+          height: 96px;
+          margin: 0%;
+          justify-self: center; }
+          .clas .musc5 .card-prof3 .cardp3 .content-card3 h4 {
+            font-size: 100%; }
+          .clas .musc5 .card-prof3 .cardp3 .content-card3 p {
+            top: 50%;
+            font-size: 40%; }
+    .clas .musc6 {
+      width: 100%;
+      height: 100px;
+      left: 0%;
+      top: 1100px; }
+      .clas .musc6 .titb h3 {
+        top: 20px;
+        font-size: 75%;
+        width: 40%;
+        height: 20px;
+        left: 60%; }
+      .clas .musc6 div p {
+        top: 40px;
+        font-size: 75%;
+        width: 40%;
+        height: 30px;
+        left: 60%; }
+      .clas .musc6 .card-prof4 {
+        top: 0px;
+        width: 60%;
+        height: 100px;
+        left: 0%;
+        display: flex;
+        gap: 30px; }
+        .clas .musc6 .card-prof4 .cardp4 {
+          top: 2px;
+          left: 5%;
+          width: 90px;
+          height: 96px;
+          margin: 0%;
+          justify-self: center; }
+          .clas .musc6 .card-prof4 .cardp4 .content-card4 h4 {
+            font-size: 100%; }
+          .clas .musc6 .card-prof4 .cardp4 .content-card4 p {
+            top: 50%;
+            font-size: 40%; }
+    .clas .musc7 {
+      width: 100%;
+      left: 0%;
+      height: 265px;
+      top: 835px; }
+      .clas .musc7 .mu {
+        max-width: 100%;
+        left: 2%;
+        right: 2%;
+        height: 265px;
+        top: 0px; } }
 
 @media (max-width: 410px) {
   #mainUno .secUno .secImguno a img {
@@ -3082,7 +3532,59 @@ main .secNosd {
   main .secNosd .parUno {
     font-size: 60%; }
   main .secNosd .parDos {
-    font-size: 60%; } }
+    font-size: 60%; }
+  .clas .musc2 .titm h1 {
+    font-size: 60%; }
+  .clas .musc2 div p {
+    font-size: 70%; }
+  .clas .musc2 .card-prof1 {
+    gap: 10px; }
+    .clas .musc2 .card-prof1 .cardp1 .content-card1 h2 {
+      font-size: 90%; }
+    .clas .musc2 .card-prof1 .cardp1 .content-card1 p {
+      top: 42%;
+      font-size: 30%; }
+  .clas .musc3 .titf h3 {
+    top: 15px;
+    font-size: 60%; }
+  .clas .musc3 div p {
+    top: 35px;
+    font-size: 70%; }
+  .clas .musc3 .card-prof2 {
+    gap: 10px; }
+    .clas .musc3 .card-prof2 .cardp2 .content-card2 h4 {
+      font-size: 90%; }
+    .clas .musc3 .card-prof2 .cardp2 .content-card2 p {
+      top: 55%;
+      font-size: 30%; }
+  .clas .musc5 .titf h3 {
+    top: 15px;
+    font-size: 60%; }
+  .clas .musc5 div p {
+    top: 35px;
+    font-size: 70%; }
+  .clas .musc5 .card-prof3 {
+    gap: 10px; }
+    .clas .musc5 .card-prof3 .cardp3 .content-card3 h4 {
+      font-size: 90%; }
+    .clas .musc5 .card-prof3 .cardp3 .content-card3 p {
+      top: 55%;
+      font-size: 30%; }
+  .clas .musc6 .titb h3 {
+    top: 25px;
+    font-size: 60%; }
+  .clas .musc6 div p {
+    top: 45px;
+    font-size: 70%; }
+  .clas .musc6 .card-prof4 {
+    gap: 10px; }
+    .clas .musc6 .card-prof4 .cardp4 {
+      left: 10%; }
+      .clas .musc6 .card-prof4 .cardp4 .content-card4 h4 {
+        font-size: 90%; }
+      .clas .musc6 .card-prof4 .cardp4 .content-card4 p {
+        top: 55%;
+        font-size: 30%; } }
 
 @media (max-width: 350px) {
   .headerr nav .navegador #inscribite {
@@ -3104,4 +3606,37 @@ main .secNosd {
   main .secNosd .parUno {
     font-size: 50%; }
   main .secNosd .parDos {
-    font-size: 50%; } }
+    font-size: 50%; }
+  .clas .musc2 .titm h1 {
+    top: 25px; }
+  .clas .musc2 div p {
+    font-size: 55%; }
+  .clas .musc2 .card-prof1 {
+    gap: 2px; }
+    .clas .musc2 .card-prof1 .cardp1 {
+      left: 1%; }
+  .clas .musc3 .titf h3 {
+    top: 20px; }
+  .clas .musc3 div p {
+    top: 40px;
+    font-size: 55%; }
+  .clas .musc3 .card-prof2 {
+    gap: 2px; }
+    .clas .musc3 .card-prof2 .cardp2 {
+      left: 3%; }
+  .clas .musc5 .titf h3 {
+    top: 20px; }
+  .clas .musc5 div p {
+    top: 40px;
+    font-size: 55%; }
+  .clas .musc5 .card-prof3 {
+    gap: 2px; }
+    .clas .musc5 .card-prof3 .cardp3 {
+      left: 1%; }
+  .clas .musc6 div p {
+    top: 45px;
+    font-size: 55%; }
+  .clas .musc6 .card-prof4 {
+    gap: 2px; }
+    .clas .musc6 .card-prof4 .cardp4 {
+      left: 5%; } }

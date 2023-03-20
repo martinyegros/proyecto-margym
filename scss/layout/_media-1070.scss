@@ -45,4 +45,57 @@
             }
         }
     }
+    .clas{
+        .musc2{
+            .card-prof1{
+                gap: 60px;
+                .cardp1{
+                    height: 260px;
+                    .content-card1{
+                        p{
+                            font-size: 75%;
+                        }
+                    }
+                }
+            }
+        }
+        .musc3{
+            .card-prof2{
+                .cardp2{
+                    height: 240px;
+                    .content-card2{
+                        p{
+                            font-size: 75%;
+                        }
+                    }
+                }
+            }
+        }
+        .musc5{
+            .card-prof3{
+                .cardp3{
+                    height: 240px;
+                    .content-card3{
+                        p{
+                            font-size: 75%;
+                        }
+                    }
+                }
+            }
+        }
+        .musc6{
+            .card-prof4{
+                gap: 60px;
+                right: 5%;
+                .cardp4{
+                    height: 260px;
+                    .content-card4{
+                        p{
+                            font-size: 75%;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

@@ -76,7 +76,7 @@
             left: 8%;
             gap: 70px;
             .cardp1{
-                @include box(2px solid black,15px);
+                @include box(1px solid black,15px);
                 width: 40%;
                 height: 280px;
                 position: relative;
@@ -130,7 +130,7 @@
             left: 6%;
             gap: 25px;
             .cardp2{
-                @include box(2px solid black,15px);
+                @include box(1px solid black,15px);
                 width: 50%;
                 height: 260px;
                 position: relative;
@@ -205,7 +205,7 @@
             right: 6%;
             gap: 25px;
             .cardp3{
-                @include box(2px solid black,15px);
+                @include box(1px solid black,15px);
                 width: 50%;
                 height: 260px;
                 position: relative;
@@ -287,7 +287,7 @@
             right: 8%;
             gap: 70px;
             .cardp4{
-                @include box(2px solid black,15px);
+                @include box(1px solid black,15px);
                 width: 40%;
                 height: 280px;
                 position: relative;
