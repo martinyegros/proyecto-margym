@@ -1,6 +1,29 @@
 .clas{
     @include positionl(100%,1150px,0px,84.22px);
-    background: $backgroud-principal;
+    -webkit-animation: color-change-3x 5s linear infinite alternate both;
+    animation: color-change-3x 5s linear infinite alternate both;
+    @-webkit-keyframes color-change-3x {
+        0% {
+            background: #474E68;
+        }
+        50% {
+            background: #50577A;
+        }
+        100% {
+            background: #6B728E;
+        }
+    }
+    @keyframes color-change-3x {
+        0% {
+            background: #474E68;
+        }
+        50% {
+            background: #50577A;
+        }
+        100% {
+            background: #6B728E;
+        }
+    }
     .musc1{
         @include positionl(60%,380px,0px,0px);
         .mu{
