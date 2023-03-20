@@ -15,11 +15,13 @@
                     }
                 }
                 #inscribite{
-                    height: 13px;
+                    height: 22px;
                     width: 20%;
                     border: 1.5px solid #000000;
                     border-radius: 10px;
-                    font-size: 94%;
+                    a{
+                        font-size: 50%;
+                    }
                 }
             }
         }

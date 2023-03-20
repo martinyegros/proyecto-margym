@@ -15,7 +15,7 @@
     nav{
         .navegador{
             @include gap(5%,none);
-            @include positionl(35%,79.8px,58.35%,0%);
+            @include positionl(40%,79.8px,58.35%,0%);
             align-items: center;
             padding: 0%;
             margin: 0%;
@@ -27,13 +27,18 @@
                 }
             }
             #inscribite{
-                width: 25%;
-                height: 32.96px;
+                width: 125px;
+                height: 40px;
                 @include box(5px solid black,20px);
                 background: $backgroud-principal;
-                text-align: center;
-                font-family: $style-popp;
-                font-style: normal;
+                align-content: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a{
+                    font-family: $style-popp;
+                    font-size: 90%;
+                }
                 :hover{
                     color: black;
                 }

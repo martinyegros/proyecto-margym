@@ -38,7 +38,7 @@ body {
     gap: 5%;
     list-style: none;
     position: absolute;
-    width: 35%;
+    width: 40%;
     height: 79.8px;
     left: 58.35%;
     top: 0%;
@@ -55,15 +55,19 @@ body {
       font-family: "Roboto", sans-serif;
       text-decoration: none; }
     .headerr nav .navegador #inscribite {
-      width: 25%;
-      height: 32.96px;
+      width: 125px;
+      height: 40px;
       box-sizing: border-box;
       border: 5px solid black;
       border-radius: 20px;
       background: #50577A;
-      text-align: center;
-      font-family: "Poppins", sans-serif;
-      font-style: normal; }
+      align-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .headerr nav .navegador #inscribite a {
+        font-family: "Poppins", sans-serif;
+        font-size: 90%; }
       .headerr nav .navegador #inscribite :hover {
         color: black; }
 
@@ -1980,7 +1984,9 @@ main .secNosd {
 
 @media (max-width: 1253px) {
   .headerr nav .navegador #inscribite {
-    font-size: 87%; }
+    width: 120px; }
+    .headerr nav .navegador #inscribite a {
+      font-size: 80%; }
   #mainUno .secUno .secTit h1 {
     font-size: 115%;
     line-height: 100%;
@@ -2018,6 +2024,8 @@ main .secNosd {
   .headerr nav .navegador {
     left: 53%;
     width: 45%; }
+    .headerr nav .navegador #inscribite a {
+      font-size: 90%; }
   #mainUno .secTres .horaDos a .tith {
     width: 70%;
     left: 15%; }
@@ -2035,7 +2043,7 @@ main .secNosd {
 @media (max-width: 1070px) {
   .headerr nav .navegador {
     left: 50%;
-    width: 45%; }
+    width: 48%; }
   #mainUno .secDos .clasDos a .titc {
     left: 15%;
     width: 65%; }
@@ -2086,8 +2094,8 @@ main .secNosd {
 
 @media (max-width: 1024px) {
   .headerr nav .navegador {
-    left: 50%;
-    width: 48%; }
+    left: 47%;
+    width: 50%; }
   main .secNosd h2 {
     top: 12%; }
   main .secNosd form .formNos {
@@ -2161,8 +2169,8 @@ main .secNosd {
 
 @media (max-width: 950px) {
   .headerr nav .navegador {
-    left: 46%;
-    width: 50%; }
+    left: 44%;
+    width: 53%; }
   .secHor .tabHor {
     font-size: 95%; }
   .secIns .card-container .card h2 {
@@ -2184,8 +2192,8 @@ main .secNosd {
 
 @media (max-width: 885px) {
   .headerr nav .navegador {
-    left: 41%;
-    width: 45%; }
+    left: 40%;
+    width: 58%; }
   #mainUno .secTres .horaUno {
     position: absolute;
     width: 15%;
@@ -2261,8 +2269,8 @@ main .secNosd {
 
 @media (max-width: 810px) {
   .headerr nav .navegador {
-    left: 38%;
-    width: 50%; }
+    left: 36%;
+    width: 60%; }
   #mainUno .secUno .secTit h1 {
     font-size: 82%;
     line-height: 100%;
@@ -2328,6 +2336,8 @@ main .secNosd {
         height: 30px;
         width: 20%;
         border: 2.5px solid #000000; }
+        .headerr nav .navegador #inscribite a {
+          font-size: 70%; }
     .headerr .logo a img {
       position: absolute;
       width: 18%;
@@ -2939,11 +2949,12 @@ main .secNosd {
       font-size: 70%;
       line-height: 100%; }
     .headerr nav .navegador #inscribite {
-      height: 13px;
+      height: 22px;
       width: 20%;
       border: 1.5px solid #000000;
-      border-radius: 10px;
-      font-size: 94%; }
+      border-radius: 10px; }
+      .headerr nav .navegador #inscribite a {
+        font-size: 50%; }
   .headerr .logo a img {
     position: absolute;
     width: 35%;
@@ -3514,7 +3525,7 @@ main .secNosd {
       font-size: 60%;
       line-height: 100%; }
     .headerr nav .navegador #inscribite {
-      height: 13px;
+      height: 20px;
       width: 18%; }
   #mainUno .secDos .clasDos a .titc {
     font-size: 250%;
@@ -3587,9 +3598,8 @@ main .secNosd {
         font-size: 30%; } }
 
 @media (max-width: 350px) {
-  .headerr nav .navegador #inscribite {
-    font-size: 85%;
-    height: 12px; }
+  .headerr nav .navegador #inscribite a {
+    font-size: 45%; }
   footer div .redesSociales {
     gap: 85px;
     top: 20%;
