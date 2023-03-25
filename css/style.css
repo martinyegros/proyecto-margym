@@ -3616,7 +3616,11 @@ main .secNosd {
         font-size: 90%; }
       .clas .musc6 .card-prof4 .cardp4 .content-card4 p {
         top: 55%;
-        font-size: 30%; } }
+        font-size: 30%; }
+  .secIns div form .cuadroDos .titInfo {
+    font-size: 150%; }
+  .secIns div form .cuadroTres .titPago {
+    font-size: 150%; } }
 
 @media (max-width: 350px) {
   .headerr nav .navegador #inscribite a {
